@@ -371,45 +371,57 @@
       <p>GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。
 Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配置性进行了优化，快速灵活。</p>
 <h2 id="error大集合">error大集合</h2>
-<p><em>error: 源引用规格 master 没有匹配</em>
-<em>error: 推送一些引用到 &lsquo;github.com:‘</em>
-解决：
-git commit -m &quot;&quot;</p>
-<p><em>You&rsquo;ve added another git repository inside your current repository.</em>
-解决：
-git rm -r &ndash;cached log  //删除对log的track
+<p><em>error: 源引用规格 master 没有匹配</em></p>
+<p><em>error: 推送一些引用到 &lsquo;github.com:‘</em></p>
+<p>解决：</p>
+<pre><code>git commit -m &quot;&quot;
+</code></pre>
+<p><em>You&rsquo;ve added another git repository inside your current repository.</em></p>
+<p>解决：</p>
+<pre><code>git rm -r --cached log  //删除对log的track
+
 git submodule add url //添加log到子目录
-我这里是 git submodule add &ndash;depth=1 <a href="https://github.com/xianmin/hugo-theme-jane.git">https://github.com/xianmin/hugo-theme-jane.git</a> themes/jane   &ndash;depth</p>
-<p><em>error: build and deploy all jobs have failed</em>
-解决：生成编译文件
-hugo -d docs
-再在仓库的setting中选择docs
-该方式的优点是将源文件与编译文件分开</p>
-<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em>
-解决：用SSH方式连接，不要用HTTP。
-同时注意SSH是否已经与另一个账号连接，若有则需要删除。</p>
+</code></pre>
+<p>我这里是 git submodule add &ndash;depth=1 <a href="https://github.com/xianmin/hugo-theme-jane.git">https://github.com/xianmin/hugo-theme-jane.git</a> themes/jane   &ndash;depth</p>
+<p><em>error: build and deploy all jobs have failed</em></p>
+<p>解决：生成编译文件</p>
+<pre><code>hugo -d docs
+</code></pre>
+<p>再在仓库的setting中选择docs</p>
+<p>该方式的优点是将源文件与编译文件分开</p>
+<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
+<p>解决：用SSH方式连接，不要用HTTP。</p>
+<p>同时注意SSH是否已经与另一个账号连接，若有则需要删除。</p>
 <h1 id="其他命令">其他命令</h1>
-<p>git command
-git remote -v //查看远程仓库
+<p>git command</p>
+<pre><code>git remote -v //查看远程仓库
+
 git init //初始化仓库
+
 git clean
+
 git add .
-git commit -m &ldquo;doc&rdquo;
-git push origin master</p>
-<p>hugo command
-hugo new site site_name
-可得到如下目录结构
-personal-site
-├── archetypes
-├── config.toml   //Hugo的配置文档
-├── content       //存放所有Markdown格式的文章
-├── data
-├── layouts
-├── static
-└── themes        //存放下载的主题
-编译网站
-hugo -d
-会在/public中生成网页文件</p>
+
+git commit -m &quot;doc&quot;
+
+git push origin master
+</code></pre>
+<p>hugo command</p>
+<pre><code>hugo new site site_name
+</code></pre>
+<p>可得到如下目录结构</p>
+<p>personal-site</p>
+<p>├── archetypes</p>
+<p>├── config.toml   //Hugo的配置文档</p>
+<p>├── content       //存放所有Markdown格式的文章</p>
+<p>├── data</p>
+<p>├── layouts</p>
+<p>├── static</p>
+<p>└── themes        //存放下载的主题</p>
+<p>编译网站</p>
+<pre><code>hugo -d
+</code></pre>
+<p>会在/public中生成网页文件</p>
 
     </div>
 
@@ -445,6 +457,19 @@ hugo -d
       <nav class="post-nav">
         
         
+          <a class="next" href="/post/-gis1.1/">
+            <span class="next-text nav-default">qgis2.14.11的编译 ----WIN10&#43;QT4&#43;VS2010</span>
+            <span class="prev-text nav-mobile">Next</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
       </nav>
     </footer>
   </article>
