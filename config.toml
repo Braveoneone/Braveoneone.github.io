@@ -24,7 +24,7 @@ defaultContentLanguage = "en"           # Default language to use
   languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "xianmin"
+  name = "Yiyi"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -41,20 +41,20 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 20
   identifier = "archives"
   url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+# [[menu.main]]
+#   name = "Tags"
+#   weight = 30
+#   identifier = "tags"
+#   url = "/tags/"
 [[menu.main]]
   name = "Categories"
   weight = 40
   identifier = "categories"
   url = "/categories/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  url = "https://gohugo.io"
+# [[menu.main]]
+#   name = "external-link"
+#   weight = 50
+#   url = "https://gohugo.io"
 
 
 [params]
