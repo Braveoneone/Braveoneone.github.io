@@ -97,11 +97,93 @@ git push origin master
     </item>
     
     <item>
+      <title>MacOS判断终端是否走代理</title>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
+      
+        <description>&lt;p&gt;curl cip.cc&lt;/p&gt;
+&lt;p&gt;MAC下载homebrew失败卡在了head ……..，&lt;/p&gt;
+&lt;p&gt;首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。&lt;/p&gt;
+&lt;p&gt;设置终端全局代理命令：&lt;/p&gt;
+&lt;p&gt;export http_proxy=http://127.0.0.1:1087;&lt;/p&gt;
+&lt;p&gt;export https_proxy=http://127.0.0.1:1087;&lt;/p&gt;
+&lt;p&gt;取消代理访问命令：&lt;/p&gt;
+&lt;p&gt;unset http_proxy&lt;/p&gt;
+&lt;p&gt;unset https_proxy&lt;/p&gt;
+&lt;p&gt;单独为git设置全局代理：&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global http.proxy 127.0.0.1:1088&lt;/p&gt;
+&lt;p&gt;查看代理：&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;get http.proxy&lt;/p&gt;
+&lt;p&gt;git代理清除&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset http.proxy&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/p&gt;
+&lt;p&gt;安装完成后有警告Warning: /usr/local/bin is not in your PATH.&lt;/p&gt;
+&lt;p&gt;修改环境变量配置文件&lt;/p&gt;
+&lt;p&gt;open ~/.bash_profile&lt;/p&gt;
+&lt;p&gt;文件中写： export PATH=/usr/local/bin:$PATH&lt;/p&gt;
+&lt;p&gt;source ~/.bash_profile #更新配置后的环境变量&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>K-means in Spark realization task plan </title>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
+      
+        <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;
+&lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;
+&lt;p&gt;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&lt;/p&gt;
+&lt;p&gt;DRAM: 192GB (12x 16GB DDR4 2666)&lt;/p&gt;
+&lt;p&gt;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Optane configuration:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(1)	AppDirect Mode&lt;/p&gt;
+&lt;p&gt;Optane configuration:&lt;/p&gt;
+&lt;p&gt;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&lt;/p&gt;
+&lt;p&gt;Expose persistent memory to application:&lt;/p&gt;
+&lt;p&gt;ipmctl create -namesapce (Fsdax mode)&lt;/p&gt;
+&lt;p&gt;mkdir /mnt/pmemdir&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkfs.ext4 /dev/pmem{X.Y}
+
+mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(2)	DRAM-Only&lt;/p&gt;
+&lt;p&gt;Optane configuration: ipmctl create -goal MemoryMode=100&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Spark configuration&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Workload:&lt;/p&gt;
+&lt;p&gt;Data Size:&lt;/p&gt;
+&lt;p&gt;K-means(Iteration times):&lt;/p&gt;
+&lt;p&gt;K-means(K value):&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>qgis2.14.11的编译 ----WIN10&#43;QT4&#43;VS2010</title>
       <link>http://Braveoneone.github.io/post/-gis1.1/</link>
-      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
+      
+        <description>&lt;!-- raw HTML omitted --&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>基于QGIS的GIS原型系统</title>
+      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       
         <description>&lt;!-- raw HTML omitted --&gt;
 </description>

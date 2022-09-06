@@ -370,12 +370,12 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/-gis1.1/">qgis2.14.11的编译 ----WIN10&#43;QT4&#43;VS2010</a>
+      <a class="post-link" href="/post/post20200922/">MacOS判断终端是否走代理</a>
     </h1>
     
     <div class="post-meta">
-      <time datetime="2022-09-06" class="post-time">
-        2022-09-06
+      <time datetime="2020-09-22" class="post-time">
+        2020-09-22
       </time>
       
       
@@ -387,10 +387,55 @@
   <div class="post-content">
     
     <div class="post-summary">
-      
+      curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将
     </div>
     <div class="read-more">
-      <a href="/post/-gis1.1/" class="read-more-link">Read more</a>
+      <a href="/post/post20200922/" class="read-more-link">Read more</a>
+    </div>
+    
+  </div>
+</article>
+
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/post20200619/">K-means in Spark realization task plan </a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2020-06-19" class="post-time">
+        2020-06-19
+      </time>
+      
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      K-means in Spark realization task plan
+K-means algorithm is provided by Spark
+(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
+DRAM: 192GB (12x 16GB DDR4 2666)
+Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)
+Optane configuration: (1)	AppDirect Mode
+Optane configuration:
+ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved
+Expose persistent memory to application:
+ipmctl create -namesapce (Fsdax mode)
+mkdir /mnt/pmemdir
+mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)	DRAM-Only
+Optane configuration: ipmctl create -goal MemoryMode=100
+Spark configuration Workload:
+Data Size:
+    </div>
+    <div class="read-more">
+      <a href="/post/post20200619/" class="read-more-link">Read more</a>
     </div>
     
   </div>
@@ -416,6 +461,22 @@
 
   
   
+
+  
+  
+  <nav class="pagination">
+    <ul>
+      
+      <li  class="active" >
+        <a href="/">1</a>
+      </li>
+      
+      <li >
+        <a href="/page/2/">2</a>
+      </li>
+      
+    </ul>
+  </nav>
 
   
   
