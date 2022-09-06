@@ -97,6 +97,108 @@ git push origin master
     </item>
     
     <item>
+      <title>NUMA</title>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
+      
+        <description>&lt;p&gt;numastat to collect the memory consumption&lt;/p&gt;
+&lt;p&gt;显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息
+$ numastat
+node0
+numa_hit                 2419687
+numa_miss                      0
+numa_foreign                   0
+interleave_hit             17197
+local_node               2419687
+other_node                     0
+输出项
+numa_hit:    预期的内存在这个节点上成功分配
+numa_miss:    在这个节点上分配内存，但进程使用了不同的节点。每个numa_miss在另一个节点上有一个numa_foreign
+numa_foreign: 为改节点准备的内存实际被分配到了别的节点上，每个numa_foreign在另一个节点上有一个numa_miss
+interleave_hit: 预期的这个节点上成功交错分配的内存
+local_node: 当一个进程在节点上运行的时候，在这个节点上分配的内存
+other_node: 当一个进程运行在其它节点上，在这个节点分配的内存
+参数项
+o	-c： 基于数据内容当台收缩列的宽度，内存被四舍五入为MB，对更密集显示多个NUMA节点的系统有帮助
+o	$ numastat -c
+o	    Per-node numastat info (in MBs):
+o	                    Node 0 Total
+o	                    &amp;mdash;&amp;mdash; &amp;mdash;&amp;ndash;
+o	    Numa_Hit          1462  1462
+o	    Numa_Miss            0     0
+o	    Numa_Foreign         0     0
+o	    Interleave_Hit      67    67
+o	    Local_Node        1462  1462
+o	    Other_Node           0     0
+o	-m： 生成每个节点的内存使用信息
+o	$ numastat -m
+o	    Per-node system memory usage (in MBs):
+o	                              Node 0           Total
+o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    MemTotal                 1992.20         1992.20
+o	    MemFree                  1503.52         1503.52
+o	    MemUsed                   488.67          488.67
+o	    Active                    201.73          201.73
+o	    Inactive                  193.01          193.01
+o	    Active(anon)              111.65          111.65
+o	    Inactive(anon)              5.83            5.83
+o	    Active(file)               90.08           90.08
+o	    Inactive(file)            187.18          187.18
+o	    Unevictable                 0.00            0.00
+o	    &amp;hellip;
+o	-n：显示原始数据统计信息
+o	$ numastat -n
+o	    Per-node numastat info (in MBs):
+o	                              Node 0           Total
+o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    Numa_Hit                 1492.13         1492.13
+o	    Numa_Miss                   0.00            0.00
+o	    Numa_Foreign                0.00            0.00
+o	    Interleave_Hit             67.20           67.20
+o	    Local_Node               1492.13         1492.13
+o	    Other_Node                  0.00            0.00
+o	-p：为指定进程显示每个节点的内存分配信息
+o	$ sudo numastat -p 1264
+o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)
+o	                               Node 0           Total
+o	                      &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    Huge                         0.00            0.00
+o	    Heap                         0.00            0.00
+o	    Stack                        2.14            2.14
+o	    Private                      9.62            9.62
+o	    &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    Total                       11.77           11.77
+o	-s：以降序排序，列出最大内存消费者
+o	$ numastat -s
+o	    Per-node numastat info (in MBs):
+o	                              Node 0           Total
+o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    Numa_Hit                 1514.71         1514.71
+o	    Local_Node               1514.71         1514.71
+o	    Interleave_Hit             67.20           67.20
+o	    Numa_Foreign                0.00            0.00
+o	    Numa_Miss                   0.00            0.00
+o	    Other_Node                  0.00            0.00
+o	-v：显示详细信息
+o	-s：忽略值为0的项
+o	$ numastat -z         &lt;br&gt;
+o	    Per-node numastat info (in MBs):
+o	                              Node 0           Total
+o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;
+o	    Numa_Hit                 1535.98         1535.98
+o	    Interleave_Hit             67.20           67.20
+o	    Local_Node               1535.98         1535.98&lt;/p&gt;
+&lt;p&gt;pcm-memory command to collect the bandwidth from hardware counters.&lt;/p&gt;
+&lt;p&gt;Numa
+NUMA（Non Uniform Memory Access Architecture）技术可以使众多服务器像单一系统那样运转，同时保留小系统便于编程和管理的优点。非统一内存访问（NUMA）是一种用于多处理器的电脑记忆体设计，内存访问时间取决于处理器的内存位置。 在NUMA下，处理器访问它自己的本地存储器的速度比非本地存储器（存储器的地方到另一个处理器之间共享的处理器或存储器）快一些。&lt;/p&gt;
+&lt;p&gt;Optane，中文名称”傲腾“，是一种超高速内存新技术，兼容NVMe存储协议。Optane兼容NVMe存储协议，苹果已经在其MacBook部分机型中使用了NVMe（非易失性存储器）存储协议。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>MacOS判断终端是否走代理</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>

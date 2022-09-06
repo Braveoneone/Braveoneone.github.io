@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>NUMA</title>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
+      <description>numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期</description>
+    </item>
+    
+    <item>
       <title>MacOS判断终端是否走代理</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
