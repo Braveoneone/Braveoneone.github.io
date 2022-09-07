@@ -9,7 +9,7 @@ categories: [
 
 ]
 ---
-
+[基于QGIS的GIS原型系统](https://braveoneone.github.io/GIS12.pdf)
 ![基于QGIS的GIS原型系统](https://braveoneone.github.io/GIS12.pdf)
 
 
