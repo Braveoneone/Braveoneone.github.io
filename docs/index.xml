@@ -285,7 +285,6 @@ mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
       
         <description>&lt;p&gt;{% include base_path %}
 &lt;img src=&#34;https://Braveoneone.github.io/static/GIS11.pdf&#34; alt=&#34;qgis2.14.11的编译 &amp;amp;mdash;-WIN10+QT4+VS2010&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
 </description>
       
     </item>
@@ -299,7 +298,6 @@ mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
       
         <description>&lt;p&gt;{% include base_path %}
 &lt;img src=&#34;https://Braveoneone.github.io/static/GIS12.pdf&#34; alt=&#34;基于QGIS的GIS原型系统&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
 </description>
       
     </item>
