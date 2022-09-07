@@ -9,5 +9,5 @@ categories: [
 
 ]
 ---
-{% include base_path %}
-![qgis2.14.11的编译 ----WIN10+QT4+VS2010](https://Braveoneone.github.io/static/GIS11.pdf)
+
+![qgis2.14.11的编译 ----WIN10+QT4+VS2010](../GIS11.pdf)
