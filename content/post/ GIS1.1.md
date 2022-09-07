@@ -10,4 +10,4 @@ categories: [
 ]
 ---
 
-![qgis2.14.11的编译 ----WIN10+QT4+VS2010](../GIS11.pdf)
+![qgis2.14.11的编译 ----WIN10+QT4+VS2010](/docs/GIS11.pdf)

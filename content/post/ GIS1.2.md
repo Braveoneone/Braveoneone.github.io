@@ -10,6 +10,6 @@ categories: [
 ]
 ---
 
-![基于QGIS的GIS原型系统](../GIS12.pdf)
+![基于QGIS的GIS原型系统](/docs/GIS12.pdf)
 
 
