@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on Yiyi&#39;s blog</title>
+    <link>http://Braveoneone.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on Yiyi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Page 搭建个人主页</title>
+      <link>http://Braveoneone.github.io/post/github-hugo/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
+      <description>GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。 Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配</description>
+    </item>
+    
+    <item>
+      <title>MacOS判断终端是否走代理</title>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
+      <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
+    </item>
+    
+  </channel>
+</rss>

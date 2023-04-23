@@ -5,7 +5,7 @@ title: "Github Page 搭建个人主页"
 tags: [
  
 ]
-categories: [
+categories: [笔记
 
 ]
 ---
