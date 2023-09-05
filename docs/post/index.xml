@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yiyi&#39;s blog</title>
-    <link>http://Braveoneone.github.io/about/post/</link>
+    <link>http://Braveoneone.github.io/post/</link>
     <description>Recent content in Posts on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/about/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Page 搭建个人主页</title>
-      <link>http://Braveoneone.github.io/about/post/github-hugo/</link>
+      <link>http://Braveoneone.github.io/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/github-hugo/</guid>
+      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       <description>GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。 Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配</description>
     </item>
     
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://Braveoneone.github.io/about/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       <description>K-means in Spark realization task plan
 K-means algorithm is provided by Spark
 (in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
@@ -41,55 +41,55 @@ Data Size:</description>
     
     <item>
       <title>NUMA</title>
-      <link>http://Braveoneone.github.io/about/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       <description>numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期</description>
     </item>
     
     <item>
       <title>MacOS判断终端是否走代理</title>
-      <link>http://Braveoneone.github.io/about/post/post20200922/</link>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/post20200922/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
     </item>
     
     <item>
       <title>qgis2.14.11的编译 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>http://Braveoneone.github.io/about/post/-gis1.1/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/-gis1.1/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
       <description>qgis2.14.11的编译 &amp;mdash;-WIN10+QT4+VS2010</description>
     </item>
     
     <item>
       <title>基于QGIS的GIS原型系统</title>
-      <link>http://Braveoneone.github.io/about/post/-gis1.2/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/-gis1.2/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       <description>基于QGIS的GIS原型系统</description>
     </item>
     
     <item>
       <title>C语⾔⼦集编译器</title>
-      <link>http://Braveoneone.github.io/about/post/javacc/</link>
+      <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/javacc/</guid>
+      <guid>http://Braveoneone.github.io/post/javacc/</guid>
       <description>C语⾔⼦集编译器</description>
     </item>
     
     <item>
       <title>多周期CPU流⽔线设计</title>
-      <link>http://Braveoneone.github.io/about/post/mutilcpu/</link>
+      <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/mutilcpu/</guid>
+      <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       <description>多周期CPU流⽔线设计</description>
     </item>
     
