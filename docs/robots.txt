@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://Braveoneone.github.io/sitemap.xml
+Sitemap: http://Braveoneone.github.io/about/sitemap.xml
