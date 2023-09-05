@@ -297,10 +297,61 @@
   <div class="post-content">
     
     <div class="post-summary">
-      GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。 Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配
-    </div>
-    <div class="read-more">
-      <a href="/post/github-hugo/" class="read-more-link">Read more</a>
+      <p>GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。
+Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配置性进行了优化，快速灵活。</p>
+<h2 id="error大集合">error大集合</h2>
+<p><em>error: 源引用规格 master 没有匹配</em></p>
+<p><em>error: 推送一些引用到 &lsquo;github.com:‘</em></p>
+<p>解决：</p>
+<pre><code>git commit -m &quot;&quot;
+</code></pre>
+<p><em>You&rsquo;ve added another git repository inside your current repository.</em></p>
+<p>解决：</p>
+<pre><code>git rm -r --cached log  //删除对log的track
+
+git submodule add url //添加log到子目录
+</code></pre>
+<p>我这里是 git submodule add &ndash;depth=1 <a href="https://github.com/xianmin/hugo-theme-jane.git">https://github.com/xianmin/hugo-theme-jane.git</a> themes/jane   &ndash;depth</p>
+<p><em>error: build and deploy all jobs have failed</em></p>
+<p>解决：生成编译文件</p>
+<pre><code>hugo -d docs
+</code></pre>
+<p>再在仓库的setting中选择docs</p>
+<p>该方式的优点是将源文件与编译文件分开</p>
+<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
+<p>解决：用SSH方式连接，不要用HTTP。</p>
+<p>同时注意SSH是否已经与另一个账号连接，若有则需要删除。</p>
+<h1 id="其他命令">其他命令</h1>
+<p>git command</p>
+<pre><code>git remote -v //查看远程仓库
+
+git init //初始化仓库
+
+git clean
+
+git add .
+
+git commit -m &quot;doc&quot;
+
+git push origin master
+</code></pre>
+<p>hugo command</p>
+<pre><code>hugo new site site_name
+</code></pre>
+<p>可得到如下目录结构</p>
+<p>personal-site</p>
+<p>├── archetypes</p>
+<p>├── config.toml   //Hugo的配置文档</p>
+<p>├── content       //存放所有Markdown格式的文章</p>
+<p>├── data</p>
+<p>├── layouts</p>
+<p>├── static</p>
+<p>└── themes        //存放下载的主题</p>
+<p>编译网站</p>
+<pre><code>hugo -d
+</code></pre>
+<p>会在/public中生成网页文件</p>
+
     </div>
     
   </div>
@@ -331,24 +382,34 @@
   <div class="post-content">
     
     <div class="post-summary">
-      K-means in Spark realization task plan
-K-means algorithm is provided by Spark
-(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
-DRAM: 192GB (12x 16GB DDR4 2666)
-Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)
-Optane configuration: (1)	AppDirect Mode
-Optane configuration:
-ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved
-Expose persistent memory to application:
-ipmctl create -namesapce (Fsdax mode)
-mkdir /mnt/pmemdir
-mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)	DRAM-Only
-Optane configuration: ipmctl create -goal MemoryMode=100
-Spark configuration Workload:
-Data Size:
-    </div>
-    <div class="read-more">
-      <a href="/post/post20200619/" class="read-more-link">Read more</a>
+      <p>K-means in Spark realization task plan</p>
+<p>K-means algorithm is provided by Spark</p>
+<p>(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)</p>
+<p>DRAM: 192GB (12x 16GB DDR4 2666)</p>
+<p>Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)</p>
+<ol>
+<li>Optane configuration:</li>
+</ol>
+<p>(1)	AppDirect Mode</p>
+<p>Optane configuration:</p>
+<p>ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved</p>
+<p>Expose persistent memory to application:</p>
+<p>ipmctl create -namesapce (Fsdax mode)</p>
+<p>mkdir /mnt/pmemdir</p>
+<pre><code>mkfs.ext4 /dev/pmem{X.Y}
+
+mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
+</code></pre>
+<p>(2)	DRAM-Only</p>
+<p>Optane configuration: ipmctl create -goal MemoryMode=100</p>
+<ol start="2">
+<li>Spark configuration</li>
+</ol>
+<p>Workload:</p>
+<p>Data Size:</p>
+<p>K-means(Iteration times):</p>
+<p>K-means(K value):</p>
+
     </div>
     
   </div>
@@ -379,10 +440,106 @@ Data Size:
   <div class="post-content">
     
     <div class="post-summary">
-      numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期
-    </div>
-    <div class="read-more">
-      <a href="/post/post20200930/" class="read-more-link">Read more</a>
+      <p>numastat to collect the memory consumption</p>
+<h1 id="显示每个numanon-uniform-memory-architecture节点的内存统计信息">显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息</h1>
+<p>$ numastat</p>
+<pre><code>                           node0
+
+numa_hit                 2419687
+
+numa_miss                      0
+
+numa_foreign                   0
+
+interleave_hit             17197
+
+local_node               2419687
+
+other_node                     0
+</code></pre>
+<p>输出项</p>
+<p>numa_hit:    预期的内存在这个节点上成功分配</p>
+<p>numa_miss:    在这个节点上分配内存，但进程使用了不同的节点。每个numa_miss在另一个节点上有一个numa_foreign</p>
+<p>numa_foreign: 为改节点准备的内存实际被分配到了别的节点上，每个numa_foreign在另一个节点上有一个numa_miss</p>
+<p>interleave_hit: 预期的这个节点上成功交错分配的内存</p>
+<p>local_node: 当一个进程在节点上运行的时候，在这个节点上分配的内存</p>
+<p>other_node: 当一个进程运行在其它节点上，在这个节点分配的内存</p>
+<p>参数项</p>
+<p>o	-c： 基于数据内容当台收缩列的宽度，内存被四舍五入为MB，对更密集显示多个NUMA节点的系统有帮助</p>
+<p>o	$ numastat -c</p>
+<p>o	    Per-node numastat info (in MBs):</p>
+<p>o	                    Node 0 Total</p>
+<p>o	                    &mdash;&mdash; &mdash;&ndash;</p>
+<p>o	    Numa_Hit          1462  1462</p>
+<p>o	    Numa_Miss            0     0</p>
+<p>o	    Numa_Foreign         0     0</p>
+<p>o	    Interleave_Hit      67    67</p>
+<p>o	    Local_Node        1462  1462</p>
+<p>o	    Other_Node           0     0</p>
+<p>o	-m： 生成每个节点的内存使用信息</p>
+<p>o	$ numastat -m</p>
+<p>o	    Per-node system memory usage (in MBs):</p>
+<p>o	                              Node 0           Total</p>
+<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    MemTotal                 1992.20         1992.20</p>
+<p>o	    MemFree                  1503.52         1503.52</p>
+<p>o	    MemUsed                   488.67          488.67</p>
+<p>o	    Active                    201.73          201.73</p>
+<p>o	    Inactive                  193.01          193.01</p>
+<p>o	    Active(anon)              111.65          111.65</p>
+<p>o	    Inactive(anon)              5.83            5.83</p>
+<p>o	    Active(file)               90.08           90.08</p>
+<p>o	    Inactive(file)            187.18          187.18</p>
+<p>o	    Unevictable                 0.00            0.00</p>
+<p>o	    &hellip;</p>
+<p>o	-n：显示原始数据统计信息</p>
+<p>o	$ numastat -n
+o	    Per-node numastat info (in MBs):</p>
+<p>o	                              Node 0           Total</p>
+<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    Numa_Hit                 1492.13         1492.13</p>
+<p>o	    Numa_Miss                   0.00            0.00</p>
+<p>o	    Numa_Foreign                0.00            0.00</p>
+<p>o	    Interleave_Hit             67.20           67.20</p>
+<p>o	    Local_Node               1492.13         1492.13</p>
+<p>o	    Other_Node                  0.00            0.00</p>
+<p>o	-p：为指定进程显示每个节点的内存分配信息</p>
+<p>o	$ sudo numastat -p 1264</p>
+<p>o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)</p>
+<p>o	                               Node 0           Total</p>
+<p>o	                      &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    Huge                         0.00            0.00</p>
+<p>o	    Heap                         0.00            0.00</p>
+<p>o	    Stack                        2.14            2.14</p>
+<p>o	    Private                      9.62            9.62</p>
+<p>o	    &mdash;&mdash;&mdash;&mdash;&mdash;-  &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    Total                       11.77           11.77</p>
+<p>o	-s：以降序排序，列出最大内存消费者</p>
+<p>o	$ numastat -s</p>
+<p>o	    Per-node numastat info (in MBs):</p>
+<p>o	                              Node 0           Total</p>
+<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    Numa_Hit                 1514.71         1514.71</p>
+<p>o	    Local_Node               1514.71         1514.71</p>
+<p>o	    Interleave_Hit             67.20           67.20</p>
+<p>o	    Numa_Foreign                0.00            0.00</p>
+<p>o	    Numa_Miss                   0.00            0.00</p>
+<p>o	    Other_Node                  0.00            0.00</p>
+<p>o	-v：显示详细信息</p>
+<p>o	-s：忽略值为0的项</p>
+<p>o	$ numastat -z</p>
+<p>o	    Per-node numastat info (in MBs):</p>
+<p>o	                              Node 0           Total</p>
+<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
+<p>o	    Numa_Hit                 1535.98         1535.98</p>
+<p>o	    Interleave_Hit             67.20           67.20</p>
+<p>o	    Local_Node               1535.98         1535.98</p>
+<p>pcm-memory command to collect the bandwidth from hardware counters.</p>
+<h1 id="numa">Numa</h1>
+<p>NUMA（Non Uniform Memory Access Architecture）技术可以使众多服务器像单一系统那样运转，同时保留小系统便于编程和管理的优点。非统一内存访问（NUMA）是一种用于多处理器的电脑记忆体设计，内存访问时间取决于处理器的内存位置。 在NUMA下，处理器访问它自己的本地存储器的速度比非本地存储器（存储器的地方到另一个处理器之间共享的处理器或存储器）快一些。</p>
+<h1 id="optane">Optane</h1>
+<p>中文名称”傲腾“，是一种超高速内存新技术，兼容NVMe存储协议。Optane兼容NVMe存储协议，苹果已经在其MacBook部分机型中使用了NVMe（非易失性存储器）存储协议。</p>
+
     </div>
     
   </div>
