@@ -5,7 +5,7 @@ title: "多周期CPU流⽔线设计"
 tags: [
  
 ]
-categories: [项目
+categories: [projects
 
 ]
 ---

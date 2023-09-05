@@ -5,8 +5,7 @@ title: "基于QGIS的GIS原型系统"
 tags: [
  
 ]
-categories: [项目
-
+categories: [projects
 ]
 ---
 [基于QGIS的GIS原型系统](https://braveoneone.github.io/GIS12.pdf)

@@ -5,7 +5,7 @@ title: "C语⾔⼦集编译器"
 tags: [
  
 ]
-categories: [项目
+categories: [projects
 
 ]
 ---

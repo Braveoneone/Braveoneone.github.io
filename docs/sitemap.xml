@@ -22,6 +22,13 @@
   </url>
   
   <url>
+    <loc>http://Braveoneone.github.io/categories/notes/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://Braveoneone.github.io/post/</loc>
     <lastmod>2022-09-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -36,13 +43,6 @@
   </url>
   
   <url>
-    <loc>http://Braveoneone.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://Braveoneone.github.io/post/post20200619/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,7 +50,7 @@
   </url>
   
   <url>
-    <loc>http://Braveoneone.github.io/categories/%E7%A7%91%E7%A0%94/</loc>
+    <loc>http://Braveoneone.github.io/categories/research/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -71,6 +71,13 @@
   </url>
   
   <url>
+    <loc>http://Braveoneone.github.io/categories/projects/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://Braveoneone.github.io/post/-gis1.1/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,13 +86,6 @@
   
   <url>
     <loc>http://Braveoneone.github.io/post/-gis1.2/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://Braveoneone.github.io/categories/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
