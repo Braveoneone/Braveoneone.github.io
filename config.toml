@@ -32,12 +32,12 @@ defaultContentLanguage = "en"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "主页"
+  name = "homepage"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "存档"
+  name = "posts"
   weight = 20
   identifier = "archives"
   url = "/post/"
@@ -47,7 +47,7 @@ defaultContentLanguage = "en"           # Default language to use
 #   identifier = "tags"
 #   url = "/tags/"
 [[menu.main]]
-  name = "分类"
+  name = "categories"
   weight = 40
   identifier = "categories"
   url = "/categories/"
