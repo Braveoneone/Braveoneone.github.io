@@ -6,7 +6,7 @@
     <description>Recent content on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,19 @@
       
         <description>&lt;p&gt;Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&lt;/p&gt;
 &lt;p&gt;Email: guswanyie [AT] student dot gu dot se&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://Braveoneone.github.io/post/aboutme/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
+      
+        <description>&lt;p&gt;Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&lt;/p&gt;
+&lt;p&gt;Email: guswanyie [AT] student [dot] gu [dot] se&lt;/p&gt;
 </description>
       
     </item>
@@ -296,27 +309,27 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
     </item>
     
     <item>
-      <title>C语⾔⼦集编译器</title>
+      <title>C compiler</title>
       <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/javacc/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C语⾔⼦集编译器&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C语⾔⼦集编译器&#34;&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C compiler&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C compiler&#34;&gt;&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
-      <title>多周期CPU流⽔线设计</title>
+      <title>Multi-cycle pipelined CPU hardware simulation</title>
       <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;多周期CPU流⽔线设计&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;多周期CPU流⽔线设计&#34;&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;Multi-cycle pipelined CPU hardware simulation&#34;&gt;&lt;/p&gt;
 </description>
       
     </item>

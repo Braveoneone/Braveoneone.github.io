@@ -1,7 +1,7 @@
 ---
 author: "Yiyi"
 date: 2018-02-01
-title: "C语⾔⼦集编译器"
+title: "C compiler"
 tags: [
  
 ]
@@ -9,6 +9,6 @@ categories: [projects
 
 ]
 ---
-[C语⾔⼦集编译器](https://braveoneone.github.io/javacc.pdf)
-![C语⾔⼦集编译器](https://braveoneone.github.io/javacc.pdf)
+[C compiler](https://braveoneone.github.io/javacc.pdf)
+![C compiler](https://braveoneone.github.io/javacc.pdf)
 

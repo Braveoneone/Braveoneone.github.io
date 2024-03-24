@@ -26,21 +26,21 @@
     </item>
     
     <item>
-      <title>C语⾔⼦集编译器</title>
+      <title>C compiler</title>
       <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/javacc/</guid>
-      <description>C语⾔⼦集编译器</description>
+      <description>C compiler </description>
     </item>
     
     <item>
-      <title>多周期CPU流⽔线设计</title>
+      <title>Multi-cycle pipelined CPU hardware simulation</title>
       <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
-      <description>多周期CPU流⽔线设计</description>
+      <description>Multi-cycle pipelined CPU hardware simulation </description>
     </item>
     
   </channel>

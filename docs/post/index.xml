@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://Braveoneone.github.io/post/aboutme/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
+      <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
+Email: guswanyie [AT] student [dot] gu [dot] se</description>
+    </item>
+    
     <item>
       <title>Github Page 搭建个人主页</title>
       <link>http://Braveoneone.github.io/post/github-hugo/</link>
@@ -76,21 +86,21 @@ Data Size:</description>
     </item>
     
     <item>
-      <title>C语⾔⼦集编译器</title>
+      <title>C compiler</title>
       <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/javacc/</guid>
-      <description>C语⾔⼦集编译器</description>
+      <description>C compiler </description>
     </item>
     
     <item>
-      <title>多周期CPU流⽔线设计</title>
+      <title>Multi-cycle pipelined CPU hardware simulation</title>
       <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
-      <description>多周期CPU流⽔线设计</description>
+      <description>Multi-cycle pipelined CPU hardware simulation </description>
     </item>
     
   </channel>

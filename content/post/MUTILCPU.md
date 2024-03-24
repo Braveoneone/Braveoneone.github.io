@@ -1,7 +1,7 @@
 ---
 author: "Yiyi"
 date: 2017-05-01
-title: "多周期CPU流⽔线设计"
+title: "Multi-cycle pipelined CPU hardware simulation"
 tags: [
  
 ]
@@ -9,6 +9,6 @@ categories: [projects
 
 ]
 ---
-[多周期CPU流⽔线设计](https://braveoneone.github.io/cpuVHDL.pdf)
-![多周期CPU流⽔线设计](https://braveoneone.github.io/cpuVHDL.pdf)
+[Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf)
+![Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf)
 
