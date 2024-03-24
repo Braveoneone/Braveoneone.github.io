@@ -1,6 +1,6 @@
 ---
 title: "About"
-#date: 
+date: 
 lastmod:  
 menu: "main"
 weight: 50
