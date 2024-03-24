@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projects on Yiyi&#39;s blog</title>
-    <link>http://Braveoneone.github.io/about/categories/projects/</link>
+    <link>http://Braveoneone.github.io/categories/projects/</link>
     <description>Recent content in projects on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/about/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>http://Braveoneone.github.io/about/post/-gis1.1/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/-gis1.1/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
       <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
     </item>
     
     <item>
       <title>GIS prototype system based on QGIS</title>
-      <link>http://Braveoneone.github.io/about/post/-gis1.2/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/-gis1.2/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       <description>GIS prototype system based on QGIS </description>
     </item>
     
     <item>
       <title>C compiler</title>
-      <link>http://Braveoneone.github.io/about/post/javacc/</link>
+      <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/javacc/</guid>
+      <guid>http://Braveoneone.github.io/post/javacc/</guid>
       <description>C compiler </description>
     </item>
     
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
-      <link>http://Braveoneone.github.io/about/post/mutilcpu/</link>
+      <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/mutilcpu/</guid>
+      <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       <description>Multi-cycle pipelined CPU hardware simulation </description>
     </item>
     

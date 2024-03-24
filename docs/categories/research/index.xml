@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research on Yiyi&#39;s blog</title>
-    <link>http://Braveoneone.github.io/about/categories/research/</link>
+    <link>http://Braveoneone.github.io/categories/research/</link>
     <description>Recent content in research on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/about/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://Braveoneone.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://Braveoneone.github.io/about/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       <description>K-means in Spark realization task plan
 K-means algorithm is provided by Spark
 (in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
@@ -32,10 +32,10 @@ Data Size:</description>
     
     <item>
       <title>NUMA documents</title>
-      <link>http://Braveoneone.github.io/about/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       <description>numastat to collect the memory consumption
 Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
 node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
