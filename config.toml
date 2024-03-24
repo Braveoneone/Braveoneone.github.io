@@ -35,7 +35,7 @@ defaultContentLanguage = "en"           # Default language to use
   name = "homepage"
   weight = 10
   identifier = "home"
-  url = "/"
+  url = "/about/"
 [[menu.main]]
   name = "posts"
   weight = 20
@@ -82,11 +82,11 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    #a-email = "mailto:your@email.com"
+    a-email = "yiyiw96@outlook.com"
     # b-stack-overflow = "http://localhost:1313"
     # c-twitter = "http://localhost:1313"
     # d-facebook = "http://localhost:1313"
-    e-linkedin = "www.linkedin.com/in/yiyi-wang-0551b7179"
+    e-linkedin = "https://www.linkedin.com/in/yiyi-wang-0551b7179/"
     # f-google = "http://localhost:1313"
     g-github = "https://github.com/Braveoneone"
     # h-weibo = "http://localhost:1313"
