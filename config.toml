@@ -51,6 +51,11 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "about"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
 # [[menu.main]]
 #   name = "external-link"
 #   weight = 50
