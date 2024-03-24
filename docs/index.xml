@@ -18,9 +18,8 @@
       
       <guid>http://Braveoneone.github.io/about/</guid>
       
-        <description>&lt;p&gt;Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&lt;/p&gt;
-&lt;p&gt;Email: guswanyie [AT] student dot gu dot se&lt;/p&gt;
-</description>
+        <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
+Email: guswanyie [AT] student dot gu dot se</description>
       
     </item>
     
@@ -31,9 +30,8 @@
       
       <guid>http://Braveoneone.github.io/post/aboutme/</guid>
       
-        <description>&lt;p&gt;Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&lt;/p&gt;
-&lt;p&gt;Email: guswanyie [AT] student [dot] gu [dot] se&lt;/p&gt;
-</description>
+        <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Techonology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
+Email: guswanyie [AT] student [dot] gu [dot] se</description>
       
     </item>
     
@@ -44,61 +42,11 @@
       
       <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       
-        <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.
-Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;
-&lt;h2 id=&#34;error-i-met&#34;&gt;error I met&lt;/h2&gt;
-&lt;p&gt;*error: Source reference spec master does not match *&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;error: Push some references to &amp;lsquo;github.com: &amp;lsquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;solution:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;You&amp;rsquo;ve added another git repository inside your current repository.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;solution:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git rm -r --cached log  //Delete the track for log
-
-git submodule add url //Add log to the subdirectory
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;git submodule add &amp;ndash;depth=1 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane.git&#34;&gt;https://github.com/xianmin/hugo-theme-jane.git&lt;/a&gt; themes/jane   &amp;ndash;depth&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;error: build and deploy all jobs have failed&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;solution:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;hugo -d docs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then select docs in the Settings section of the repository&lt;/p&gt;
-&lt;p&gt;This approach has the advantage of separating the source files from the compiled files&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;fatal: unable to access &amp;ldquo;&amp;hellip;github&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;solution: Use SSH, not HTTP.&lt;/p&gt;
-&lt;p&gt;Also note if SSH is already connected to another account.If so, remove it.&lt;/p&gt;
-&lt;h1 id=&#34;other-command&#34;&gt;Other command&lt;/h1&gt;
-&lt;p&gt;git command&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git remote -v //remote repo
-
-git init //initiate repo
-
-git clean
-
-git add .
-
-git commit -m &amp;quot;doc&amp;quot;
-
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;hugo command&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;hugo new site site_name
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;directory structure&lt;/p&gt;
-&lt;p&gt;personal-site&lt;/p&gt;
-&lt;p&gt;├── archetypes&lt;/p&gt;
-&lt;p&gt;├── config.toml   //Hugo configuration doc&lt;/p&gt;
-&lt;p&gt;├── content       //store the Markdown journals&lt;/p&gt;
-&lt;p&gt;├── data&lt;/p&gt;
-&lt;p&gt;├── layouts&lt;/p&gt;
-&lt;p&gt;├── static&lt;/p&gt;
-&lt;p&gt;└── themes        //themes downloads&lt;/p&gt;
-&lt;p&gt;compiler the website&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;hugo -d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Will generate the web file in /public&lt;/p&gt;
-</description>
+        <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
+error I met *error: Source reference spec master does not match *
+error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
+solution:
+git commit -m &amp;quot;&amp;quot; You&amp;rsquo;ve added another git repository inside your current repository.</description>
       
     </item>
     
@@ -109,34 +57,21 @@ git push origin master
       
       <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       
-        <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;
-&lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;
-&lt;p&gt;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&lt;/p&gt;
-&lt;p&gt;DRAM: 192GB (12x 16GB DDR4 2666)&lt;/p&gt;
-&lt;p&gt;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Optane configuration:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;(1)	AppDirect Mode&lt;/p&gt;
-&lt;p&gt;Optane configuration:&lt;/p&gt;
-&lt;p&gt;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&lt;/p&gt;
-&lt;p&gt;Expose persistent memory to application:&lt;/p&gt;
-&lt;p&gt;ipmctl create -namesapce (Fsdax mode)&lt;/p&gt;
-&lt;p&gt;mkdir /mnt/pmemdir&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;mkfs.ext4 /dev/pmem{X.Y}
-
-mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;(2)	DRAM-Only&lt;/p&gt;
-&lt;p&gt;Optane configuration: ipmctl create -goal MemoryMode=100&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Spark configuration&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Workload:&lt;/p&gt;
-&lt;p&gt;Data Size:&lt;/p&gt;
-&lt;p&gt;K-means(Iteration times):&lt;/p&gt;
-&lt;p&gt;K-means(K value):&lt;/p&gt;
-</description>
+        <description>K-means in Spark realization task plan
+K-means algorithm is provided by Spark
+(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
+DRAM: 192GB (12x 16GB DDR4 2666)
+Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)
+Optane configuration: (1)	AppDirect Mode
+Optane configuration:
+ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved
+Expose persistent memory to application:
+ipmctl create -namesapce (Fsdax mode)
+mkdir /mnt/pmemdir
+mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)	DRAM-Only
+Optane configuration: ipmctl create -goal MemoryMode=100
+Spark configuration Workload:
+Data Size:</description>
       
     </item>
     
@@ -147,106 +82,12 @@ mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
       
       <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       
-        <description>&lt;p&gt;numastat to collect the memory consumption&lt;/p&gt;
-&lt;h1 id=&#34;displays-memory-statistics-for-each-numanon-uniform-memory-architecture-node&#34;&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/h1&gt;
-&lt;p&gt;$ numastat&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;                           node0
-
-numa_hit                 2419687
-
-numa_miss                      0
-
-numa_foreign                   0
-
-interleave_hit             17197
-
-local_node               2419687
-
-other_node                     0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output items&lt;/p&gt;
-&lt;p&gt;numa_hit: The expected memory was successfully allocated on this node&lt;/p&gt;
-&lt;p&gt;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&lt;/p&gt;
-&lt;p&gt;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node&lt;/p&gt;
-&lt;p&gt;interleave_hit: Memory that is expected to be successfully interleaved on this node&lt;/p&gt;
-&lt;p&gt;local_node: The memory allocated on a node when a process is running on the node&lt;/p&gt;
-&lt;p&gt;other_node: The memory allocated when a process is running on another node&lt;/p&gt;
-&lt;p&gt;Parameters&lt;/p&gt;
-&lt;p&gt;o	-c： Based on the data content when the table shrinks the width of the column, the memory is rounded to megabytes, which is helpful for systems that display multiple NUMA nodes more densely&lt;/p&gt;
-&lt;p&gt;o	$ numastat -c&lt;/p&gt;
-&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
-&lt;p&gt;o	                    Node 0 Total&lt;/p&gt;
-&lt;p&gt;o	                    &amp;mdash;&amp;mdash; &amp;mdash;&amp;ndash;&lt;/p&gt;
-&lt;p&gt;o	    Numa_Hit          1462  1462&lt;/p&gt;
-&lt;p&gt;o	    Numa_Miss            0     0&lt;/p&gt;
-&lt;p&gt;o	    Numa_Foreign         0     0&lt;/p&gt;
-&lt;p&gt;o	    Interleave_Hit      67    67&lt;/p&gt;
-&lt;p&gt;o	    Local_Node        1462  1462&lt;/p&gt;
-&lt;p&gt;o	    Other_Node           0     0&lt;/p&gt;
-&lt;p&gt;o	-m： Memory usage information is generated for each node&lt;/p&gt;
-&lt;p&gt;o	$ numastat -m&lt;/p&gt;
-&lt;p&gt;o	    Per-node system memory usage (in MBs):&lt;/p&gt;
-&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
-&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    MemTotal                 1992.20         1992.20&lt;/p&gt;
-&lt;p&gt;o	    MemFree                  1503.52         1503.52&lt;/p&gt;
-&lt;p&gt;o	    MemUsed                   488.67          488.67&lt;/p&gt;
-&lt;p&gt;o	    Active                    201.73          201.73&lt;/p&gt;
-&lt;p&gt;o	    Inactive                  193.01          193.01&lt;/p&gt;
-&lt;p&gt;o	    Active(anon)              111.65          111.65&lt;/p&gt;
-&lt;p&gt;o	    Inactive(anon)              5.83            5.83&lt;/p&gt;
-&lt;p&gt;o	    Active(file)               90.08           90.08&lt;/p&gt;
-&lt;p&gt;o	    Inactive(file)            187.18          187.18&lt;/p&gt;
-&lt;p&gt;o	    Unevictable                 0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    &amp;hellip;&lt;/p&gt;
-&lt;p&gt;o	-n：Display raw data statistics&lt;/p&gt;
-&lt;p&gt;o	$ numastat -n
-o	    Per-node numastat info (in MBs):&lt;/p&gt;
-&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
-&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    Numa_Hit                 1492.13         1492.13&lt;/p&gt;
-&lt;p&gt;o	    Numa_Miss                   0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Numa_Foreign                0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
-&lt;p&gt;o	    Local_Node               1492.13         1492.13&lt;/p&gt;
-&lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	-p：Displays memory allocation information for each node for the specified process&lt;/p&gt;
-&lt;p&gt;o	$ sudo numastat -p 1264&lt;/p&gt;
-&lt;p&gt;o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)&lt;/p&gt;
-&lt;p&gt;o	                               Node 0           Total&lt;/p&gt;
-&lt;p&gt;o	                      &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    Huge                         0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Heap                         0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Stack                        2.14            2.14&lt;/p&gt;
-&lt;p&gt;o	    Private                      9.62            9.62&lt;/p&gt;
-&lt;p&gt;o	    &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    Total                       11.77           11.77&lt;/p&gt;
-&lt;p&gt;o	-s：Lists the largest memory consumers in descending order&lt;/p&gt;
-&lt;p&gt;o	$ numastat -s&lt;/p&gt;
-&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
-&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
-&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    Numa_Hit                 1514.71         1514.71&lt;/p&gt;
-&lt;p&gt;o	    Local_Node               1514.71         1514.71&lt;/p&gt;
-&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
-&lt;p&gt;o	    Numa_Foreign                0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Numa_Miss                   0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
-&lt;p&gt;o: -v This displays the details&lt;/p&gt;
-&lt;p&gt;o: -s The value 0 is ignored&lt;/p&gt;
-&lt;p&gt;o	$ numastat -z&lt;/p&gt;
-&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
-&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
-&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
-&lt;p&gt;o	    Numa_Hit                 1535.98         1535.98&lt;/p&gt;
-&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
-&lt;p&gt;o	    Local_Node               1535.98         1535.98&lt;/p&gt;
-&lt;p&gt;pcm-memory command to collect the bandwidth from hardware counters.&lt;/p&gt;
-&lt;h1 id=&#34;numa&#34;&gt;Numa&lt;/h1&gt;
-&lt;p&gt;NUMA (Non Uniform Memory Access Architecture) technology enables many servers to operate as a single system, while retaining the advantages of small systems that are easy to program and manage. Non-uniform Memory Access (NUMA) is a kind of computer memory design for multiprocessor. The memory access time depends on the memory location of the processor. Under NUMA, a processor can access its own local memory faster than non-local memory (the place of the memory to the processor or memory shared between another processor).&lt;/p&gt;
-&lt;h1 id=&#34;optane&#34;&gt;Optane&lt;/h1&gt;
-&lt;p&gt;Chinese name &amp;ldquo;Aoteng&amp;rdquo;, is a new ultra-high speed memory technology, compatible with NVMe storage protocol. Optane is compatible with the NVMe (Non-volatile memory) storage protocol, which Apple already uses in some of its Macbooks.&lt;/p&gt;
-</description>
+        <description>numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
       
     </item>
     
@@ -257,28 +98,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
       
       <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       
-        <description>&lt;p&gt;curl cip.cc&lt;/p&gt;
-&lt;p&gt;MAC下载homebrew失败卡在了head ……..，&lt;/p&gt;
-&lt;p&gt;首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。&lt;/p&gt;
-&lt;p&gt;设置终端全局代理命令：&lt;/p&gt;
-&lt;p&gt;export http_proxy=http://127.0.0.1:1087;&lt;/p&gt;
-&lt;p&gt;export https_proxy=http://127.0.0.1:1087;&lt;/p&gt;
-&lt;p&gt;取消代理访问命令：&lt;/p&gt;
-&lt;p&gt;unset http_proxy&lt;/p&gt;
-&lt;p&gt;unset https_proxy&lt;/p&gt;
-&lt;p&gt;单独为git设置全局代理：&lt;/p&gt;
-&lt;p&gt;git config &amp;ndash;global http.proxy 127.0.0.1:1088&lt;/p&gt;
-&lt;p&gt;查看代理：&lt;/p&gt;
-&lt;p&gt;git config &amp;ndash;get http.proxy&lt;/p&gt;
-&lt;p&gt;git代理清除&lt;/p&gt;
-&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset http.proxy&lt;/p&gt;
-&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/p&gt;
-&lt;p&gt;安装完成后有警告Warning: /usr/local/bin is not in your PATH.&lt;/p&gt;
-&lt;p&gt;修改环境变量配置文件&lt;/p&gt;
-&lt;p&gt;open ~/.bash_profile&lt;/p&gt;
-&lt;p&gt;文件中写： export PATH=/usr/local/bin:$PATH&lt;/p&gt;
-&lt;p&gt;source ~/.bash_profile #更新配置后的环境变量&lt;/p&gt;
-</description>
+        <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
       
     </item>
     
@@ -289,9 +109,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
       
       <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/GIS11.pdf&#34; alt=&#34;Compilation of qgis2.14.11 &amp;amp;mdash;-WIN10+QT4+VS2010&#34;&gt;&lt;/p&gt;
-</description>
+        <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
       
     </item>
     
@@ -302,9 +120,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
       
       <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/GIS12.pdf&#34; alt=&#34;GIS prototype system based on QGIS&#34;&gt;&lt;/p&gt;
-</description>
+        <description>GIS prototype system based on QGIS </description>
       
     </item>
     
@@ -315,9 +131,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
       
       <guid>http://Braveoneone.github.io/post/javacc/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C compiler&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C compiler&#34;&gt;&lt;/p&gt;
-</description>
+        <description>C compiler </description>
       
     </item>
     
@@ -328,9 +142,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
       
       <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       
-        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation&lt;/a&gt;
-&lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;Multi-cycle pipelined CPU hardware simulation&#34;&gt;&lt;/p&gt;
-</description>
+        <description>Multi-cycle pipelined CPU hardware simulation </description>
       
     </item>
     
