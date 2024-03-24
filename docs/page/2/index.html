@@ -277,7 +277,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/post20200930/">NUMA</a>
+      <a class="post-link" href="/post/post20200930/">NUMA documents</a>
     </h1>
     
     <div class="post-meta">
@@ -297,7 +297,12 @@
   <div class="post-content">
     
     <div class="post-summary">
-      numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期
+      numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node
     </div>
     <div class="read-more">
       <a href="/post/post20200930/" class="read-more-link">Read more</a>
@@ -311,7 +316,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/post20200922/">MacOS判断终端是否走代理</a>
+      <a class="post-link" href="/post/post20200922/">How to judge if the terminal is proxying on MacOS[Chinese Version]</a>
     </h1>
     
     <div class="post-meta">

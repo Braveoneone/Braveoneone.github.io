@@ -38,41 +38,41 @@
     </item>
     
     <item>
-      <title>Github Page 搭建个人主页</title>
+      <title>Github Page set Personal Website</title>
       <link>http://Braveoneone.github.io/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       
-        <description>&lt;p&gt;GitHub Pages 是一个静态站点托管服务，直接将个人、组织或项目的页面托管于 GitHub 库或仓库 (repository) 中。
-Hugo 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配置性进行了优化，快速灵活。&lt;/p&gt;
-&lt;h2 id=&#34;error大集合&#34;&gt;error大集合&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;error: 源引用规格 master 没有匹配&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;error: 推送一些引用到 &amp;lsquo;github.com:‘&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;解决：&lt;/p&gt;
+        <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.
+Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;
+&lt;h2 id=&#34;error-i-met&#34;&gt;error I met&lt;/h2&gt;
+&lt;p&gt;*error: Source reference spec master does not match *&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;error: Push some references to &amp;lsquo;github.com: &amp;lsquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;solution:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;You&amp;rsquo;ve added another git repository inside your current repository.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;解决：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git rm -r --cached log  //删除对log的track
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git rm -r --cached log  //Delete the track for log
 
-git submodule add url //添加log到子目录
+git submodule add url //Add log to the subdirectory
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;我这里是 git submodule add &amp;ndash;depth=1 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane.git&#34;&gt;https://github.com/xianmin/hugo-theme-jane.git&lt;/a&gt; themes/jane   &amp;ndash;depth&lt;/p&gt;
+&lt;p&gt;git submodule add &amp;ndash;depth=1 &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane.git&#34;&gt;https://github.com/xianmin/hugo-theme-jane.git&lt;/a&gt; themes/jane   &amp;ndash;depth&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;error: build and deploy all jobs have failed&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;解决：生成编译文件&lt;/p&gt;
+&lt;p&gt;solution:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;hugo -d docs
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;再在仓库的setting中选择docs&lt;/p&gt;
-&lt;p&gt;该方式的优点是将源文件与编译文件分开&lt;/p&gt;
+&lt;p&gt;Then select docs in the Settings section of the repository&lt;/p&gt;
+&lt;p&gt;This approach has the advantage of separating the source files from the compiled files&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;fatal: unable to access &amp;ldquo;&amp;hellip;github&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;解决：用SSH方式连接，不要用HTTP。&lt;/p&gt;
-&lt;p&gt;同时注意SSH是否已经与另一个账号连接，若有则需要删除。&lt;/p&gt;
-&lt;h1 id=&#34;其他命令&#34;&gt;其他命令&lt;/h1&gt;
+&lt;p&gt;solution: Use SSH, not HTTP.&lt;/p&gt;
+&lt;p&gt;Also note if SSH is already connected to another account.If so, remove it.&lt;/p&gt;
+&lt;h1 id=&#34;other-command&#34;&gt;Other command&lt;/h1&gt;
 &lt;p&gt;git command&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git remote -v //查看远程仓库
+&lt;pre&gt;&lt;code&gt;git remote -v //remote repo
 
-git init //初始化仓库
+git init //initiate repo
 
 git clean
 
@@ -85,19 +85,19 @@ git push origin master
 &lt;p&gt;hugo command&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;hugo new site site_name
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;可得到如下目录结构&lt;/p&gt;
+&lt;p&gt;directory structure&lt;/p&gt;
 &lt;p&gt;personal-site&lt;/p&gt;
 &lt;p&gt;├── archetypes&lt;/p&gt;
-&lt;p&gt;├── config.toml   //Hugo的配置文档&lt;/p&gt;
-&lt;p&gt;├── content       //存放所有Markdown格式的文章&lt;/p&gt;
+&lt;p&gt;├── config.toml   //Hugo configuration doc&lt;/p&gt;
+&lt;p&gt;├── content       //store the Markdown journals&lt;/p&gt;
 &lt;p&gt;├── data&lt;/p&gt;
 &lt;p&gt;├── layouts&lt;/p&gt;
 &lt;p&gt;├── static&lt;/p&gt;
-&lt;p&gt;└── themes        //存放下载的主题&lt;/p&gt;
-&lt;p&gt;编译网站&lt;/p&gt;
+&lt;p&gt;└── themes        //themes downloads&lt;/p&gt;
+&lt;p&gt;compiler the website&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;hugo -d
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;会在/public中生成网页文件&lt;/p&gt;
+&lt;p&gt;Will generate the web file in /public&lt;/p&gt;
 </description>
       
     </item>
@@ -141,14 +141,14 @@ mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
     </item>
     
     <item>
-      <title>NUMA</title>
+      <title>NUMA documents</title>
       <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       
         <description>&lt;p&gt;numastat to collect the memory consumption&lt;/p&gt;
-&lt;h1 id=&#34;显示每个numanon-uniform-memory-architecture节点的内存统计信息&#34;&gt;显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息&lt;/h1&gt;
+&lt;h1 id=&#34;displays-memory-statistics-for-each-numanon-uniform-memory-architecture-node&#34;&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/h1&gt;
 &lt;p&gt;$ numastat&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;                           node0
 
@@ -164,15 +164,15 @@ local_node               2419687
 
 other_node                     0
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;输出项&lt;/p&gt;
-&lt;p&gt;numa_hit:    预期的内存在这个节点上成功分配&lt;/p&gt;
-&lt;p&gt;numa_miss:    在这个节点上分配内存，但进程使用了不同的节点。每个numa_miss在另一个节点上有一个numa_foreign&lt;/p&gt;
-&lt;p&gt;numa_foreign: 为改节点准备的内存实际被分配到了别的节点上，每个numa_foreign在另一个节点上有一个numa_miss&lt;/p&gt;
-&lt;p&gt;interleave_hit: 预期的这个节点上成功交错分配的内存&lt;/p&gt;
-&lt;p&gt;local_node: 当一个进程在节点上运行的时候，在这个节点上分配的内存&lt;/p&gt;
-&lt;p&gt;other_node: 当一个进程运行在其它节点上，在这个节点分配的内存&lt;/p&gt;
-&lt;p&gt;参数项&lt;/p&gt;
-&lt;p&gt;o	-c： 基于数据内容当台收缩列的宽度，内存被四舍五入为MB，对更密集显示多个NUMA节点的系统有帮助&lt;/p&gt;
+&lt;p&gt;Output items&lt;/p&gt;
+&lt;p&gt;numa_hit: The expected memory was successfully allocated on this node&lt;/p&gt;
+&lt;p&gt;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&lt;/p&gt;
+&lt;p&gt;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node&lt;/p&gt;
+&lt;p&gt;interleave_hit: Memory that is expected to be successfully interleaved on this node&lt;/p&gt;
+&lt;p&gt;local_node: The memory allocated on a node when a process is running on the node&lt;/p&gt;
+&lt;p&gt;other_node: The memory allocated when a process is running on another node&lt;/p&gt;
+&lt;p&gt;Parameters&lt;/p&gt;
+&lt;p&gt;o	-c： Based on the data content when the table shrinks the width of the column, the memory is rounded to megabytes, which is helpful for systems that display multiple NUMA nodes more densely&lt;/p&gt;
 &lt;p&gt;o	$ numastat -c&lt;/p&gt;
 &lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	                    Node 0 Total&lt;/p&gt;
@@ -183,7 +183,7 @@ other_node                     0
 &lt;p&gt;o	    Interleave_Hit      67    67&lt;/p&gt;
 &lt;p&gt;o	    Local_Node        1462  1462&lt;/p&gt;
 &lt;p&gt;o	    Other_Node           0     0&lt;/p&gt;
-&lt;p&gt;o	-m： 生成每个节点的内存使用信息&lt;/p&gt;
+&lt;p&gt;o	-m： Memory usage information is generated for each node&lt;/p&gt;
 &lt;p&gt;o	$ numastat -m&lt;/p&gt;
 &lt;p&gt;o	    Per-node system memory usage (in MBs):&lt;/p&gt;
 &lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
@@ -199,7 +199,7 @@ other_node                     0
 &lt;p&gt;o	    Inactive(file)            187.18          187.18&lt;/p&gt;
 &lt;p&gt;o	    Unevictable                 0.00            0.00&lt;/p&gt;
 &lt;p&gt;o	    &amp;hellip;&lt;/p&gt;
-&lt;p&gt;o	-n：显示原始数据统计信息&lt;/p&gt;
+&lt;p&gt;o	-n：Display raw data statistics&lt;/p&gt;
 &lt;p&gt;o	$ numastat -n
 o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
@@ -210,7 +210,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
 &lt;p&gt;o	    Local_Node               1492.13         1492.13&lt;/p&gt;
 &lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	-p：为指定进程显示每个节点的内存分配信息&lt;/p&gt;
+&lt;p&gt;o	-p：Displays memory allocation information for each node for the specified process&lt;/p&gt;
 &lt;p&gt;o	$ sudo numastat -p 1264&lt;/p&gt;
 &lt;p&gt;o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)&lt;/p&gt;
 &lt;p&gt;o	                               Node 0           Total&lt;/p&gt;
@@ -221,7 +221,7 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	    Private                      9.62            9.62&lt;/p&gt;
 &lt;p&gt;o	    &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
 &lt;p&gt;o	    Total                       11.77           11.77&lt;/p&gt;
-&lt;p&gt;o	-s：以降序排序，列出最大内存消费者&lt;/p&gt;
+&lt;p&gt;o	-s：Lists the largest memory consumers in descending order&lt;/p&gt;
 &lt;p&gt;o	$ numastat -s&lt;/p&gt;
 &lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
@@ -232,8 +232,8 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	    Numa_Foreign                0.00            0.00&lt;/p&gt;
 &lt;p&gt;o	    Numa_Miss                   0.00            0.00&lt;/p&gt;
 &lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
-&lt;p&gt;o	-v：显示详细信息&lt;/p&gt;
-&lt;p&gt;o	-s：忽略值为0的项&lt;/p&gt;
+&lt;p&gt;o: -v This displays the details&lt;/p&gt;
+&lt;p&gt;o: -s The value 0 is ignored&lt;/p&gt;
 &lt;p&gt;o	$ numastat -z&lt;/p&gt;
 &lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
@@ -243,15 +243,15 @@ o	    Per-node numastat info (in MBs):&lt;/p&gt;
 &lt;p&gt;o	    Local_Node               1535.98         1535.98&lt;/p&gt;
 &lt;p&gt;pcm-memory command to collect the bandwidth from hardware counters.&lt;/p&gt;
 &lt;h1 id=&#34;numa&#34;&gt;Numa&lt;/h1&gt;
-&lt;p&gt;NUMA（Non Uniform Memory Access Architecture）技术可以使众多服务器像单一系统那样运转，同时保留小系统便于编程和管理的优点。非统一内存访问（NUMA）是一种用于多处理器的电脑记忆体设计，内存访问时间取决于处理器的内存位置。 在NUMA下，处理器访问它自己的本地存储器的速度比非本地存储器（存储器的地方到另一个处理器之间共享的处理器或存储器）快一些。&lt;/p&gt;
+&lt;p&gt;NUMA (Non Uniform Memory Access Architecture) technology enables many servers to operate as a single system, while retaining the advantages of small systems that are easy to program and manage. Non-uniform Memory Access (NUMA) is a kind of computer memory design for multiprocessor. The memory access time depends on the memory location of the processor. Under NUMA, a processor can access its own local memory faster than non-local memory (the place of the memory to the processor or memory shared between another processor).&lt;/p&gt;
 &lt;h1 id=&#34;optane&#34;&gt;Optane&lt;/h1&gt;
-&lt;p&gt;中文名称”傲腾“，是一种超高速内存新技术，兼容NVMe存储协议。Optane兼容NVMe存储协议，苹果已经在其MacBook部分机型中使用了NVMe（非易失性存储器）存储协议。&lt;/p&gt;
+&lt;p&gt;Chinese name &amp;ldquo;Aoteng&amp;rdquo;, is a new ultra-high speed memory technology, compatible with NVMe storage protocol. Optane is compatible with the NVMe (Non-volatile memory) storage protocol, which Apple already uses in some of its Macbooks.&lt;/p&gt;
 </description>
       
     </item>
     
     <item>
-      <title>MacOS判断终端是否走代理</title>
+      <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       

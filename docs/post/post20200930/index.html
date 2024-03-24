@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>NUMA - Yiyi&#39;s blog</title>
+  <title>NUMA documents - Yiyi&#39;s blog</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,12 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Yiyi" />
-  <meta name="description" content="numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期" />
+  <meta name="description" content="numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node" />
 
 
 
@@ -60,20 +65,35 @@
 
 
 
-<meta property="og:title" content="NUMA" />
-<meta property="og:description" content="numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期" />
+<meta property="og:title" content="NUMA documents" />
+<meta property="og:description" content="numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://Braveoneone.github.io/post/post20200930/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-09-30T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-09-30T00:00:00+00:00" />
 
-<meta itemprop="name" content="NUMA">
-<meta itemprop="description" content="numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期"><meta itemprop="datePublished" content="2020-09-30T00:00:00+00:00" />
+<meta itemprop="name" content="NUMA documents">
+<meta itemprop="description" content="numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node"><meta itemprop="datePublished" content="2020-09-30T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-09-30T00:00:00+00:00" />
-<meta itemprop="wordCount" content="944">
+<meta itemprop="wordCount" content="597">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="NUMA"/>
-<meta name="twitter:description" content="numastat to collect the memory consumption 显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息 $ numastat node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 输出项 numa_hit: 预期"/>
+<meta name="twitter:title" content="NUMA documents"/>
+<meta name="twitter:description" content="numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -275,7 +295,7 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">NUMA</h1>
+      <h1 class="post-title">NUMA documents</h1>
       
       <div class="post-meta">
         <time datetime="2020-09-30" class="post-time">
@@ -307,7 +327,7 @@
     
     <div class="post-content">
       <p>numastat to collect the memory consumption</p>
-<h1 id="显示每个numanon-uniform-memory-architecture节点的内存统计信息">显示每个NUMA(Non-Uniform Memory Architecture)节点的内存统计信息</h1>
+<h1 id="displays-memory-statistics-for-each-numanon-uniform-memory-architecture-node">Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node</h1>
 <p>$ numastat</p>
 <pre><code>                           node0
 
@@ -323,15 +343,15 @@ local_node               2419687
 
 other_node                     0
 </code></pre>
-<p>输出项</p>
-<p>numa_hit:    预期的内存在这个节点上成功分配</p>
-<p>numa_miss:    在这个节点上分配内存，但进程使用了不同的节点。每个numa_miss在另一个节点上有一个numa_foreign</p>
-<p>numa_foreign: 为改节点准备的内存实际被分配到了别的节点上，每个numa_foreign在另一个节点上有一个numa_miss</p>
-<p>interleave_hit: 预期的这个节点上成功交错分配的内存</p>
-<p>local_node: 当一个进程在节点上运行的时候，在这个节点上分配的内存</p>
-<p>other_node: 当一个进程运行在其它节点上，在这个节点分配的内存</p>
-<p>参数项</p>
-<p>o	-c： 基于数据内容当台收缩列的宽度，内存被四舍五入为MB，对更密集显示多个NUMA节点的系统有帮助</p>
+<p>Output items</p>
+<p>numa_hit: The expected memory was successfully allocated on this node</p>
+<p>numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node</p>
+<p>numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</p>
+<p>interleave_hit: Memory that is expected to be successfully interleaved on this node</p>
+<p>local_node: The memory allocated on a node when a process is running on the node</p>
+<p>other_node: The memory allocated when a process is running on another node</p>
+<p>Parameters</p>
+<p>o	-c： Based on the data content when the table shrinks the width of the column, the memory is rounded to megabytes, which is helpful for systems that display multiple NUMA nodes more densely</p>
 <p>o	$ numastat -c</p>
 <p>o	    Per-node numastat info (in MBs):</p>
 <p>o	                    Node 0 Total</p>
@@ -342,7 +362,7 @@ other_node                     0
 <p>o	    Interleave_Hit      67    67</p>
 <p>o	    Local_Node        1462  1462</p>
 <p>o	    Other_Node           0     0</p>
-<p>o	-m： 生成每个节点的内存使用信息</p>
+<p>o	-m： Memory usage information is generated for each node</p>
 <p>o	$ numastat -m</p>
 <p>o	    Per-node system memory usage (in MBs):</p>
 <p>o	                              Node 0           Total</p>
@@ -358,7 +378,7 @@ other_node                     0
 <p>o	    Inactive(file)            187.18          187.18</p>
 <p>o	    Unevictable                 0.00            0.00</p>
 <p>o	    &hellip;</p>
-<p>o	-n：显示原始数据统计信息</p>
+<p>o	-n：Display raw data statistics</p>
 <p>o	$ numastat -n
 o	    Per-node numastat info (in MBs):</p>
 <p>o	                              Node 0           Total</p>
@@ -369,7 +389,7 @@ o	    Per-node numastat info (in MBs):</p>
 <p>o	    Interleave_Hit             67.20           67.20</p>
 <p>o	    Local_Node               1492.13         1492.13</p>
 <p>o	    Other_Node                  0.00            0.00</p>
-<p>o	-p：为指定进程显示每个节点的内存分配信息</p>
+<p>o	-p：Displays memory allocation information for each node for the specified process</p>
 <p>o	$ sudo numastat -p 1264</p>
 <p>o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)</p>
 <p>o	                               Node 0           Total</p>
@@ -380,7 +400,7 @@ o	    Per-node numastat info (in MBs):</p>
 <p>o	    Private                      9.62            9.62</p>
 <p>o	    &mdash;&mdash;&mdash;&mdash;&mdash;-  &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
 <p>o	    Total                       11.77           11.77</p>
-<p>o	-s：以降序排序，列出最大内存消费者</p>
+<p>o	-s：Lists the largest memory consumers in descending order</p>
 <p>o	$ numastat -s</p>
 <p>o	    Per-node numastat info (in MBs):</p>
 <p>o	                              Node 0           Total</p>
@@ -391,8 +411,8 @@ o	    Per-node numastat info (in MBs):</p>
 <p>o	    Numa_Foreign                0.00            0.00</p>
 <p>o	    Numa_Miss                   0.00            0.00</p>
 <p>o	    Other_Node                  0.00            0.00</p>
-<p>o	-v：显示详细信息</p>
-<p>o	-s：忽略值为0的项</p>
+<p>o: -v This displays the details</p>
+<p>o: -s The value 0 is ignored</p>
 <p>o	$ numastat -z</p>
 <p>o	    Per-node numastat info (in MBs):</p>
 <p>o	                              Node 0           Total</p>
@@ -402,9 +422,9 @@ o	    Per-node numastat info (in MBs):</p>
 <p>o	    Local_Node               1535.98         1535.98</p>
 <p>pcm-memory command to collect the bandwidth from hardware counters.</p>
 <h1 id="numa">Numa</h1>
-<p>NUMA（Non Uniform Memory Access Architecture）技术可以使众多服务器像单一系统那样运转，同时保留小系统便于编程和管理的优点。非统一内存访问（NUMA）是一种用于多处理器的电脑记忆体设计，内存访问时间取决于处理器的内存位置。 在NUMA下，处理器访问它自己的本地存储器的速度比非本地存储器（存储器的地方到另一个处理器之间共享的处理器或存储器）快一些。</p>
+<p>NUMA (Non Uniform Memory Access Architecture) technology enables many servers to operate as a single system, while retaining the advantages of small systems that are easy to program and manage. Non-uniform Memory Access (NUMA) is a kind of computer memory design for multiprocessor. The memory access time depends on the memory location of the processor. Under NUMA, a processor can access its own local memory faster than non-local memory (the place of the memory to the processor or memory shared between another processor).</p>
 <h1 id="optane">Optane</h1>
-<p>中文名称”傲腾“，是一种超高速内存新技术，兼容NVMe存储协议。Optane兼容NVMe存储协议，苹果已经在其MacBook部分机型中使用了NVMe（非易失性存储器）存储协议。</p>
+<p>Chinese name &ldquo;Aoteng&rdquo;, is a new ultra-high speed memory technology, compatible with NVMe storage protocol. Optane is compatible with the NVMe (Non-volatile memory) storage protocol, which Apple already uses in some of its Macbooks.</p>
 
     </div>
 
@@ -436,7 +456,7 @@ o	    Per-node numastat info (in MBs):</p>
           </a>
         
           <a class="next" href="/post/post20200922/">
-            <span class="next-text nav-default">MacOS判断终端是否走代理</span>
+            <span class="next-text nav-default">How to judge if the terminal is proxying on MacOS[Chinese Version]</span>
             <span class="prev-text nav-mobile">Next</span>
             
             <i class="iconfont">
