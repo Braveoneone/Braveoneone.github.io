@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yiyi&#39;s blog</title>
-    <link>http://Braveoneone.github.io/</link>
+    <link>http://Braveoneone.github.io/about/</link>
     <description>Recent content on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://Braveoneone.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://Braveoneone.github.io/about/</link>
+      <link>http://Braveoneone.github.io/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/about/</guid>
+      <guid>http://Braveoneone.github.io/about/about/</guid>
       
         <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
 Email: guswanyie [AT] student dot gu dot se</description>
@@ -25,10 +25,10 @@ Email: guswanyie [AT] student dot gu dot se</description>
     
     <item>
       <title>About Me</title>
-      <link>http://Braveoneone.github.io/post/aboutme/</link>
+      <link>http://Braveoneone.github.io/about/post/aboutme/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
+      <guid>http://Braveoneone.github.io/about/post/aboutme/</guid>
       
         <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
 Email: guswanyie [AT] student [dot] gu [dot] se</description>
@@ -37,10 +37,10 @@ Email: guswanyie [AT] student [dot] gu [dot] se</description>
     
     <item>
       <title>Github Page set Personal Website</title>
-      <link>http://Braveoneone.github.io/post/github-hugo/</link>
+      <link>http://Braveoneone.github.io/about/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
+      <guid>http://Braveoneone.github.io/about/post/github-hugo/</guid>
       
         <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
 error I met *error: Source reference spec master does not match *
@@ -52,10 +52,10 @@ git commit -m &amp;quot;&amp;quot; You&amp;rsquo;ve added another git repository
     
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://Braveoneone.github.io/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/about/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/about/post/post20200619/</guid>
       
         <description>K-means in Spark realization task plan
 K-means algorithm is provided by Spark
@@ -77,10 +77,10 @@ Data Size:</description>
     
     <item>
       <title>NUMA documents</title>
-      <link>http://Braveoneone.github.io/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/about/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/about/post/post20200930/</guid>
       
         <description>numastat to collect the memory consumption
 Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
@@ -93,10 +93,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
-      <link>http://Braveoneone.github.io/post/post20200922/</link>
+      <link>http://Braveoneone.github.io/about/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
+      <guid>http://Braveoneone.github.io/about/post/post20200922/</guid>
       
         <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
       
@@ -104,10 +104,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>http://Braveoneone.github.io/post/-gis1.1/</link>
+      <link>http://Braveoneone.github.io/about/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
+      <guid>http://Braveoneone.github.io/about/post/-gis1.1/</guid>
       
         <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
       
@@ -115,10 +115,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>GIS prototype system based on QGIS</title>
-      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
+      <link>http://Braveoneone.github.io/about/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
+      <guid>http://Braveoneone.github.io/about/post/-gis1.2/</guid>
       
         <description>GIS prototype system based on QGIS </description>
       
@@ -126,10 +126,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>C compiler</title>
-      <link>http://Braveoneone.github.io/post/javacc/</link>
+      <link>http://Braveoneone.github.io/about/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/javacc/</guid>
+      <guid>http://Braveoneone.github.io/about/post/javacc/</guid>
       
         <description>C compiler </description>
       
@@ -137,10 +137,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
-      <link>http://Braveoneone.github.io/post/mutilcpu/</link>
+      <link>http://Braveoneone.github.io/about/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
+      <guid>http://Braveoneone.github.io/about/post/mutilcpu/</guid>
       
         <description>Multi-cycle pipelined CPU hardware simulation </description>
       
