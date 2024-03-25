@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 date: 
 lastmod:  
 menu: "main"
