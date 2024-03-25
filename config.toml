@@ -81,7 +81,7 @@ defaultContentLanguage = "en"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    #a-email = "mailto:yiyiw96@outlook.com"
+    a-email = "mailto:yiyiw96@outlook.com"
     # b-stack-overflow = "http://localhost:1313"
     # c-twitter = "http://localhost:1313"
     # d-facebook = "http://localhost:1313"
