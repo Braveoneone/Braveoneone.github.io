@@ -1,7 +1,7 @@
 ---
 author: "Yiyi"
 date: 2022-09-06
-title: "Github Page set Personal Website"
+title: "Github Page build Personal Website"
 tags: [
  
 ]
@@ -15,9 +15,6 @@ Hugo is a static site generator written in Go that is optimized for speed, ease 
 
 ## error I met
 
-
-*error: Source reference spec master does not match *
-
 *error: Push some references to 'github.com: '*
 
 solution: 
@@ -25,7 +22,7 @@ solution:
     git commit -m ""
 
 
-*You've added another git repository inside your current repository.*
+*error: You've added another git repository inside your current repository.*
 
 solution:  
 
@@ -33,7 +30,7 @@ solution:
 
     git submodule add url //Add log to the subdirectory
 
-git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
+    git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
 
 
 
@@ -43,19 +40,27 @@ solution:
 
     hugo -d docs
 
-Then select docs in the Settings section of the repository
+    Then select docs in the Settings section of the repository
 
-This approach has the advantage of separating the source files from the compiled files
+    This approach has the advantage of separating the source files from the compiled files
 
 
 
 *fatal: unable to access "...github"*
 
-solution: Use SSH, not HTTP.
+solution: 
+    Use SSH, not HTTP.
 
-Also note if SSH is already connected to another account.If so, remove it.
+    Also note if SSH is already connected to another account.If so, remove it.
 
 
+*TOCSS: failed to transform "/sass/jane.scss" (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to 'libsass'.: this feature is not available in your current Hugo version, see https://goo.gl/YMrWcn for more information *
+solution: 
+    brew install //the right one
+    conda install
+    pip install
+    There are three methods to download source on MacOS so we need to figure out 
+    the right version.
 
 # Other command
 git command
@@ -71,8 +76,6 @@ git command
     git commit -m "doc"
     
     git push origin master
-
-
 
 hugo command
 
@@ -98,7 +101,8 @@ personal-site
 
 compiler the website
 
-    hugo -d
+    hugo -d 
+    hugo -d public //new version of hugo 0.125.2
 
 Will generate the web file in /public
 
