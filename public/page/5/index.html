@@ -4,7 +4,7 @@
   itemscope
   itemtype="http://schema.org/WebPage"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51136&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
@@ -38,7 +38,7 @@
 <meta name="generator" content="Hugo 0.125.2" />
 
 
-<link rel="canonical" href="http://Braveoneone.github.io/" />
+<link rel="canonical" href="http://localhost:51136/" />
 <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Yiyi&#39;s blog" />
 
 
@@ -64,7 +64,7 @@
 
 
 
-<meta property="og:url" content="http://Braveoneone.github.io/">
+<meta property="og:url" content="http://localhost:51136/">
   <meta property="og:site_name" content="Yiyi&#39;s blog">
   <meta property="og:title" content="Yiyi&#39;s blog">
   <meta property="og:locale" content="en">
@@ -106,28 +106,21 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
         
       </li>
@@ -217,7 +210,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
 
         
@@ -228,7 +221,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
 
         
@@ -239,18 +232,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
 
         
@@ -281,7 +263,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/-gis1.1/">Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</a>
+      <a class="post-link" href="/post/post20200922/">How to judge if the terminal is proxying on MacOS[Chinese Version]</a>
     </h1>
     
 
@@ -293,8 +275,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2018-12-01">
-      2018-12-01
+    <time datetime="2020-09-22">
+      2020-09-22
     </time>
   </div>
 
@@ -305,7 +287,7 @@
     
 
     <div class="post-meta-category">
-        <a href="http://Braveoneone.github.io/categories/projects/"> projects </a>
+        <a href="http://localhost:51136/categories/notes/"> notes </a>
           
       </div>
 
@@ -324,8 +306,27 @@
   <div class="post-content">
     
       <div class="post-summary">
-        <p><a href="https://braveoneone.github.io/GIS11.pdf">Compilation of qgis2.14.11 &mdash;-WIN10+QT4+VS2010</a>
-<img alt="Compilation of qgis2.14.11 &mdash;-WIN10+QT4+VS2010" src="https://braveoneone.github.io/GIS11.pdf"></p>
+        <p>curl cip.cc</p>
+<p>MAC下载homebrew失败卡在了head ……..，</p>
+<p>首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。</p>
+<p>设置终端全局代理命令：</p>
+<p>export http_proxy=http://127.0.0.1:1087;</p>
+<p>export https_proxy=http://127.0.0.1:1087;</p>
+<p>取消代理访问命令：</p>
+<p>unset http_proxy</p>
+<p>unset https_proxy</p>
+<p>单独为git设置全局代理：</p>
+<p>git config &ndash;global http.proxy 127.0.0.1:1088</p>
+<p>查看代理：</p>
+<p>git config &ndash;get http.proxy</p>
+<p>git代理清除</p>
+<p>git config &ndash;global &ndash;unset http.proxy</p>
+<p>git config &ndash;global &ndash;unset https.proxy</p>
+<p>安装完成后有警告Warning: /usr/local/bin is not in your PATH.</p>
+<p>修改环境变量配置文件</p>
+<p>open ~/.bash_profile</p>
+<p>文件中写： export PATH=/usr/local/bin:$PATH</p>
+<p>source ~/.bash_profile #更新配置后的环境变量</p>
 
       </div>
     
@@ -390,6 +391,10 @@
         <a href="/page/8/">8</a>
       </li>
       
+      <li >
+        <a href="/page/9/">9</a>
+      </li>
+      
     </ul>
   </nav>
 
@@ -440,7 +445,7 @@
     </a>
 
 
-<a href="http://Braveoneone.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+<a href="http://localhost:51136/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
     class="iconfont" title="rss" target="_blank">
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

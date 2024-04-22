@@ -4,7 +4,7 @@
   itemscope
   itemtype="http://schema.org/WebPage"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51136&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
@@ -38,7 +38,7 @@
 <meta name="generator" content="Hugo 0.125.2" />
 
 
-<link rel="canonical" href="http://Braveoneone.github.io/" />
+<link rel="canonical" href="http://localhost:51136/" />
 <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Yiyi&#39;s blog" />
 
 
@@ -64,7 +64,7 @@
 
 
 
-<meta property="og:url" content="http://Braveoneone.github.io/">
+<meta property="og:url" content="http://localhost:51136/">
   <meta property="og:site_name" content="Yiyi&#39;s blog">
   <meta property="og:title" content="Yiyi&#39;s blog">
   <meta property="og:locale" content="en">
@@ -106,28 +106,21 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
         
       </li>
@@ -217,7 +210,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
 
         
@@ -228,7 +221,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
 
         
@@ -239,18 +232,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
 
         
@@ -281,7 +263,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/post20200930/">NUMA documents</a>
+      <a class="post-link" href="/post/post20200619/">K-means in Spark realization task plan </a>
     </h1>
     
 
@@ -293,8 +275,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2020-09-30">
-      2020-09-30
+    <time datetime="2021-06-19">
+      2021-06-19
     </time>
   </div>
 
@@ -305,7 +287,7 @@
     
 
     <div class="post-meta-category">
-        <a href="http://Braveoneone.github.io/categories/research/"> research </a>
+        <a href="http://localhost:51136/categories/research/"> research </a>
           
       </div>
 
@@ -324,105 +306,33 @@
   <div class="post-content">
     
       <div class="post-summary">
-        <p>numastat to collect the memory consumption</p>
-<h1 id="displays-memory-statistics-for-each-numanon-uniform-memory-architecture-node">Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node</h1>
-<p>$ numastat</p>
-<pre><code>                           node0
+        <p>K-means in Spark realization task plan</p>
+<p>K-means algorithm is provided by Spark</p>
+<p>(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)</p>
+<p>DRAM: 192GB (12x 16GB DDR4 2666)</p>
+<p>Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)</p>
+<ol>
+<li>Optane configuration:</li>
+</ol>
+<p>(1)	AppDirect Mode</p>
+<p>Optane configuration:</p>
+<p>ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved</p>
+<p>Expose persistent memory to application:</p>
+<p>ipmctl create -namesapce (Fsdax mode)</p>
+<p>mkdir /mnt/pmemdir</p>
+<pre><code>mkfs.ext4 /dev/pmem{X.Y}
 
-numa_hit                 2419687
-
-numa_miss                      0
-
-numa_foreign                   0
-
-interleave_hit             17197
-
-local_node               2419687
-
-other_node                     0
+mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
 </code></pre>
-<p>Output items</p>
-<p>numa_hit: The expected memory was successfully allocated on this node</p>
-<p>numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node</p>
-<p>numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</p>
-<p>interleave_hit: Memory that is expected to be successfully interleaved on this node</p>
-<p>local_node: The memory allocated on a node when a process is running on the node</p>
-<p>other_node: The memory allocated when a process is running on another node</p>
-<p>Parameters</p>
-<p>o	-c： Based on the data content when the table shrinks the width of the column, the memory is rounded to megabytes, which is helpful for systems that display multiple NUMA nodes more densely</p>
-<p>o	$ numastat -c</p>
-<p>o	    Per-node numastat info (in MBs):</p>
-<p>o	                    Node 0 Total</p>
-<p>o	                    &mdash;&mdash; &mdash;&ndash;</p>
-<p>o	    Numa_Hit          1462  1462</p>
-<p>o	    Numa_Miss            0     0</p>
-<p>o	    Numa_Foreign         0     0</p>
-<p>o	    Interleave_Hit      67    67</p>
-<p>o	    Local_Node        1462  1462</p>
-<p>o	    Other_Node           0     0</p>
-<p>o	-m： Memory usage information is generated for each node</p>
-<p>o	$ numastat -m</p>
-<p>o	    Per-node system memory usage (in MBs):</p>
-<p>o	                              Node 0           Total</p>
-<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    MemTotal                 1992.20         1992.20</p>
-<p>o	    MemFree                  1503.52         1503.52</p>
-<p>o	    MemUsed                   488.67          488.67</p>
-<p>o	    Active                    201.73          201.73</p>
-<p>o	    Inactive                  193.01          193.01</p>
-<p>o	    Active(anon)              111.65          111.65</p>
-<p>o	    Inactive(anon)              5.83            5.83</p>
-<p>o	    Active(file)               90.08           90.08</p>
-<p>o	    Inactive(file)            187.18          187.18</p>
-<p>o	    Unevictable                 0.00            0.00</p>
-<p>o	    &hellip;</p>
-<p>o	-n：Display raw data statistics</p>
-<p>o	$ numastat -n
-o	    Per-node numastat info (in MBs):</p>
-<p>o	                              Node 0           Total</p>
-<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    Numa_Hit                 1492.13         1492.13</p>
-<p>o	    Numa_Miss                   0.00            0.00</p>
-<p>o	    Numa_Foreign                0.00            0.00</p>
-<p>o	    Interleave_Hit             67.20           67.20</p>
-<p>o	    Local_Node               1492.13         1492.13</p>
-<p>o	    Other_Node                  0.00            0.00</p>
-<p>o	-p：Displays memory allocation information for each node for the specified process</p>
-<p>o	$ sudo numastat -p 1264</p>
-<p>o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)</p>
-<p>o	                               Node 0           Total</p>
-<p>o	                      &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    Huge                         0.00            0.00</p>
-<p>o	    Heap                         0.00            0.00</p>
-<p>o	    Stack                        2.14            2.14</p>
-<p>o	    Private                      9.62            9.62</p>
-<p>o	    &mdash;&mdash;&mdash;&mdash;&mdash;-  &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    Total                       11.77           11.77</p>
-<p>o	-s：Lists the largest memory consumers in descending order</p>
-<p>o	$ numastat -s</p>
-<p>o	    Per-node numastat info (in MBs):</p>
-<p>o	                              Node 0           Total</p>
-<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    Numa_Hit                 1514.71         1514.71</p>
-<p>o	    Local_Node               1514.71         1514.71</p>
-<p>o	    Interleave_Hit             67.20           67.20</p>
-<p>o	    Numa_Foreign                0.00            0.00</p>
-<p>o	    Numa_Miss                   0.00            0.00</p>
-<p>o	    Other_Node                  0.00            0.00</p>
-<p>o: -v This displays the details</p>
-<p>o: -s The value 0 is ignored</p>
-<p>o	$ numastat -z</p>
-<p>o	    Per-node numastat info (in MBs):</p>
-<p>o	                              Node 0           Total</p>
-<p>o	                     &mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;</p>
-<p>o	    Numa_Hit                 1535.98         1535.98</p>
-<p>o	    Interleave_Hit             67.20           67.20</p>
-<p>o	    Local_Node               1535.98         1535.98</p>
-<p>pcm-memory command to collect the bandwidth from hardware counters.</p>
-<h1 id="numa">Numa</h1>
-<p>NUMA (Non Uniform Memory Access Architecture) technology enables many servers to operate as a single system, while retaining the advantages of small systems that are easy to program and manage. Non-uniform Memory Access (NUMA) is a kind of computer memory design for multiprocessor. The memory access time depends on the memory location of the processor. Under NUMA, a processor can access its own local memory faster than non-local memory (the place of the memory to the processor or memory shared between another processor).</p>
-<h1 id="optane">Optane</h1>
-<p>Chinese name &ldquo;Aoteng&rdquo;, is a new ultra-high speed memory technology, compatible with NVMe storage protocol. Optane is compatible with the NVMe (Non-volatile memory) storage protocol, which Apple already uses in some of its Macbooks.</p>
+<p>(2)	DRAM-Only</p>
+<p>Optane configuration: ipmctl create -goal MemoryMode=100</p>
+<ol start="2">
+<li>Spark configuration</li>
+</ol>
+<p>Workload:</p>
+<p>Data Size:</p>
+<p>K-means(Iteration times):</p>
+<p>K-means(K value):</p>
 
       </div>
     
@@ -487,6 +397,10 @@ o	    Per-node numastat info (in MBs):</p>
         <a href="/page/8/">8</a>
       </li>
       
+      <li >
+        <a href="/page/9/">9</a>
+      </li>
+      
     </ul>
   </nav>
 
@@ -537,7 +451,7 @@ o	    Per-node numastat info (in MBs):</p>
     </a>
 
 
-<a href="http://Braveoneone.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+<a href="http://localhost:51136/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
     class="iconfont" title="rss" target="_blank">
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

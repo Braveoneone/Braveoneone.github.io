@@ -4,7 +4,7 @@
   itemscope
   itemtype="http://schema.org/WebPage"
 >
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51136&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
@@ -43,7 +43,7 @@ git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git rep
 <meta name="generator" content="Hugo 0.125.2" />
 
 
-<link rel="canonical" href="http://Braveoneone.github.io/post/github-hugo/" />
+<link rel="canonical" href="http://localhost:51136/post/github-hugo/" />
 
 
 
@@ -69,7 +69,7 @@ git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git rep
 
 
 
-<meta property="og:url" content="http://Braveoneone.github.io/post/github-hugo/">
+<meta property="og:url" content="http://localhost:51136/post/github-hugo/">
   <meta property="og:site_name" content="Yiyi&#39;s blog">
   <meta property="og:title" content="Github Page build Personal Website">
   <meta property="og:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
@@ -89,7 +89,7 @@ solution:
 git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
   <meta itemprop="datePublished" content="2022-09-06T00:00:00+00:00">
   <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="302">
+  <meta itemprop="wordCount" content="349">
   <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github Page build Personal Website">
 <meta name="twitter:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
 error I met error: Push some references to &lsquo;github.com: &lsquo;
@@ -128,28 +128,21 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
         
       </li>
@@ -239,7 +232,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme">About me</a>
           
 
         
@@ -250,7 +243,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">posts</a>
+            <a class="menu-item-link" href="http://localhost:51136/categories/">Projects&amp;&amp;Notes</a>
           
 
         
@@ -261,18 +254,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/categories/">categories</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
+            <a class="menu-item-link" href="http://localhost:51136/post/aboutme/"></a>
           
 
         
@@ -319,7 +301,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
     
 
     <div class="post-meta-category">
-        <a href="http://Braveoneone.github.io/categories/notes/"> notes </a>
+        <a href="http://localhost:51136/categories/notes/"> notes </a>
           
       </div>
 
@@ -369,6 +351,17 @@ pip install
 There are three methods to download source on MacOS so we need to figure out 
 the right version.
 </code></pre>
+<p>*Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas *</p>
+<p>solution:</p>
+<pre><code>plz not change the submodule from another github user.
+git submodule deinit -f themes/SimpleIntro/
+rm -rf .git/modules/themes/SimpleIntro/
+git rm -rf themes/SimpleIntro/
+git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
+git add -A
+git commit -m &quot;Fix submodule&quot;
+git push
+</code></pre>
 <h2 id="other-command">Other command</h2>
 <p>git command</p>
 <pre><code>git remote -v //remote repo
@@ -413,6 +406,19 @@ Will generate the web file in /docs</p>
           
           <nav class="post-nav">
             
+              <a class="prev" href="/post/aboutme/">
+                
+                <i class="iconfont">
+                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+                </i>
+                <span class="prev-text nav-default"></span>
+                <span class="prev-text nav-mobile">Prev</span>
+              </a>
             
               <a class="next" href="/post/post20200619/">
                 <span class="next-text nav-default">K-means in Spark realization task plan </span>
@@ -514,7 +520,7 @@ Will generate the web file in /docs</p>
     </a>
 
 
-<a href="http://Braveoneone.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+<a href="http://localhost:51136/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
     class="iconfont" title="rss" target="_blank">
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

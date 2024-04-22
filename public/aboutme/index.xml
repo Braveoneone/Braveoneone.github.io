@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aboutmes on Yiyi&#39;s blog</title>
-    <link>http://Braveoneone.github.io/aboutme/</link>
-    <description>Recent content in Aboutmes on Yiyi&#39;s blog</description>
+    <title>AboutMes on Yiyi&#39;s blog</title>
+    <link>http://localhost:50977/aboutme/</link>
+    <description>Recent content in AboutMes on Yiyi&#39;s blog</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
-    <atom:link href="http://Braveoneone.github.io/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50977/aboutme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://Braveoneone.github.io/aboutme/mememe/</link>
+      <link>http://localhost:50977/aboutme/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://Braveoneone.github.io/aboutme/mememe/</guid>
+      <guid>http://localhost:50977/aboutme/aboutme/</guid>
       <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University. Email: guswanyie [AT] student dot gu dot se&#xA;My GitHub. My Linkdin </description>
     </item>
   </channel>
