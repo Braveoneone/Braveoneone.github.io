@@ -6,7 +6,7 @@
     <description>Recent content on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Sep 2222 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2099 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,9 +32,8 @@ My GitHub. My Linkdin. </description>
       <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       
         <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
-solution:
-git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
+error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo; solution: git commit -m &amp;quot;&amp;quot;
+error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
       
     </item>
     
