@@ -1,0 +1,126 @@
+<?xml-stylesheet type="text/xsl" href="http://Braveoneone.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/aboutme/mememe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/about/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/categories/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/github-hugo/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/categories/notes/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/post20200619/</loc>
+    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/categories/research/</loc>
+    <lastmod>2021-06-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/post20200930/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/post20200922/</loc>
+    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/-gis1.1/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/-gis1.2/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/categories/projects/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/javacc/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/post/mutilcpu/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/aboutme/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/en/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>

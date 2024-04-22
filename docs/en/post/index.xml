@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yiyi&#39;s blog</title>
+    <link>http://Braveoneone.github.io/en/post/</link>
+    <description>Recent content in Posts on Yiyi&#39;s blog</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://Braveoneone.github.io/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Page build Personal Website</title>
+      <link>http://Braveoneone.github.io/en/post/github-hugo/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/github-hugo/</guid>
+      <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&#xA;error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;&#xA;solution:&#xA;git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
+    </item>
+    <item>
+      <title>K-means in Spark realization task plan </title>
+      <link>http://Braveoneone.github.io/en/post/post20200619/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/post20200619/</guid>
+      <description>K-means in Spark realization task plan&#xA;K-means algorithm is provided by Spark&#xA;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&#xA;DRAM: 192GB (12x 16GB DDR4 2666)&#xA;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&#xA;Optane configuration: (1)&#x9;AppDirect Mode&#xA;Optane configuration:&#xA;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&#xA;Expose persistent memory to application:&#xA;ipmctl create -namesapce (Fsdax mode)&#xA;mkdir /mnt/pmemdir&#xA;mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)&#x9;DRAM-Only&#xA;Optane configuration: ipmctl create -goal MemoryMode=100&#xA;Spark configuration Workload:&#xA;Data Size:</description>
+    </item>
+    <item>
+      <title>NUMA documents</title>
+      <link>http://Braveoneone.github.io/en/post/post20200930/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/post20200930/</guid>
+      <description>numastat to collect the memory consumption&#xA;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat&#xA;node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items&#xA;numa_hit: The expected memory was successfully allocated on this node&#xA;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&#xA;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
+    </item>
+    <item>
+      <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
+      <link>http://Braveoneone.github.io/en/post/post20200922/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/post20200922/</guid>
+      <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
+    </item>
+    <item>
+      <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
+      <link>http://Braveoneone.github.io/en/post/-gis1.1/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/-gis1.1/</guid>
+      <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
+    </item>
+    <item>
+      <title>GIS prototype system based on QGIS</title>
+      <link>http://Braveoneone.github.io/en/post/-gis1.2/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/-gis1.2/</guid>
+      <description>GIS prototype system based on QGIS </description>
+    </item>
+    <item>
+      <title>C compiler</title>
+      <link>http://Braveoneone.github.io/en/post/javacc/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/javacc/</guid>
+      <description>C compiler </description>
+    </item>
+    <item>
+      <title>Multi-cycle pipelined CPU hardware simulation</title>
+      <link>http://Braveoneone.github.io/en/post/mutilcpu/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/en/post/mutilcpu/</guid>
+      <description>Multi-cycle pipelined CPU hardware simulation </description>
+    </item>
+  </channel>
+</rss>
