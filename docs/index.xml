@@ -6,16 +6,17 @@
     <description>Recent content on Yiyi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>http://Braveoneone.github.io/post/</link>
+      <link>http://Braveoneone.github.io/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/</guid>
+      <guid>http://Braveoneone.github.io/aboutme/</guid>
       
         <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University. Email: guswanyie [AT] student dot gu dot se
 My GitHub. My Linkdin </description>
@@ -32,6 +33,116 @@ My GitHub. My Linkdin </description>
         <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
 Email: guswanyie [AT] student dot gu dot se
 My GitHub. My Linkdin. </description>
+      
+    </item>
+    
+    <item>
+      <title>Github Page build Personal Website</title>
+      <link>http://Braveoneone.github.io/post/github-hugo/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
+      
+        <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
+error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
+solution:
+git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
+      
+    </item>
+    
+    <item>
+      <title>K-means in Spark realization task plan </title>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
+      
+        <description>K-means in Spark realization task plan
+K-means algorithm is provided by Spark
+(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
+DRAM: 192GB (12x 16GB DDR4 2666)
+Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)
+Optane configuration: (1)	AppDirect Mode
+Optane configuration:
+ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved
+Expose persistent memory to application:
+ipmctl create -namesapce (Fsdax mode)
+mkdir /mnt/pmemdir
+mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)	DRAM-Only
+Optane configuration: ipmctl create -goal MemoryMode=100
+Spark configuration Workload:
+Data Size:</description>
+      
+    </item>
+    
+    <item>
+      <title>NUMA documents</title>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
+      
+        <description>numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
+      
+    </item>
+    
+    <item>
+      <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
+      
+        <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
+      
+    </item>
+    
+    <item>
+      <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
+      <link>http://Braveoneone.github.io/post/-gis1.1/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
+      
+        <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
+      
+    </item>
+    
+    <item>
+      <title>GIS prototype system based on QGIS</title>
+      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
+      
+        <description>GIS prototype system based on QGIS </description>
+      
+    </item>
+    
+    <item>
+      <title>C compiler</title>
+      <link>http://Braveoneone.github.io/post/javacc/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/javacc/</guid>
+      
+        <description>C compiler </description>
+      
+    </item>
+    
+    <item>
+      <title>Multi-cycle pipelined CPU hardware simulation</title>
+      <link>http://Braveoneone.github.io/post/mutilcpu/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
+      
+        <description>Multi-cycle pipelined CPU hardware simulation </description>
       
     </item>
     
