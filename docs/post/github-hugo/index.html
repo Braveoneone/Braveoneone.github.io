@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          Github Page set Personal Website - Yiyi&#39;s blog
+          Github Page build Personal Website - Yiyi&#39;s blog
         </title>
     
 
@@ -30,10 +30,9 @@
 
 <meta name="author" content="Yiyi" />
   <meta name="description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met *error: Source reference spec master does not match *
-error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
+error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
 solution:
-git commit -m &amp;quot;&amp;quot; You&amp;rsquo;ve added another git repository inside your current repository." />
+git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository." />
 
 
 
@@ -72,33 +71,30 @@ git commit -m &amp;quot;&amp;quot; You&amp;rsquo;ve added another git repository
 
 <meta property="og:url" content="http://Braveoneone.github.io/post/github-hugo/">
   <meta property="og:site_name" content="Yiyi&#39;s blog">
-  <meta property="og:title" content="Github Page set Personal Website">
+  <meta property="og:title" content="Github Page build Personal Website">
   <meta property="og:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met *error: Source reference spec master does not match *
-error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
+error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
 solution:
-git commit -m &amp;quot;&amp;quot; You&amp;rsquo;ve added another git repository inside your current repository.">
+git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
   <meta property="article:section" content="post">
     <meta property="article:published_time" content="2022-09-06T00:00:00+00:00">
     <meta property="article:modified_time" content="2022-09-06T00:00:00+00:00">
 
-  <meta itemprop="name" content="Github Page set Personal Website">
+  <meta itemprop="name" content="Github Page build Personal Website">
   <meta itemprop="description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
-error I met *error: Source reference spec master does not match *
-error: Push some references to &lsquo;github.com: &lsquo;
+error I met error: Push some references to &lsquo;github.com: &lsquo;
 solution:
-git commit -m &quot;&quot; You&rsquo;ve added another git repository inside your current repository.">
+git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
   <meta itemprop="datePublished" content="2022-09-06T00:00:00+00:00">
   <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="235">
-  <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github Page set Personal Website">
+  <meta itemprop="wordCount" content="302">
+  <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github Page build Personal Website">
 <meta name="twitter:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
-error I met *error: Source reference spec master does not match *
-error: Push some references to &lsquo;github.com: &lsquo;
+error I met error: Push some references to &lsquo;github.com: &lsquo;
 solution:
-git commit -m &quot;&quot; You&rsquo;ve added another git repository inside your current repository.">
+git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -300,7 +296,7 @@ git commit -m &quot;&quot; You&rsquo;ve added another git repository inside your
       <article class="post">
         
         <header class="post-header">
-          <h1 class="post-title">Github Page set Personal Website</h1>
+          <h1 class="post-title">Github Page build Personal Website</h1>
           
 
           <div class="post-meta">
@@ -344,27 +340,38 @@ git commit -m &quot;&quot; You&rsquo;ve added another git repository inside your
           <p>GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository.
 Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible</p>
 <h2 id="error-i-met">error I met</h2>
-<p>*error: Source reference spec master does not match *</p>
 <p><em>error: Push some references to &lsquo;github.com: &lsquo;</em></p>
 <p>solution:</p>
 <pre><code>git commit -m &quot;&quot;
 </code></pre>
-<p><em>You&rsquo;ve added another git repository inside your current repository.</em></p>
+<p><em>error: You&rsquo;ve added another git repository inside your current repository.</em></p>
 <p>solution:</p>
 <pre><code>git rm -r --cached log  //Delete the track for log
 
 git submodule add url //Add log to the subdirectory
+
+git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
 </code></pre>
-<p>git submodule add &ndash;depth=1 <a href="https://github.com/xianmin/hugo-theme-jane.git">https://github.com/xianmin/hugo-theme-jane.git</a> themes/jane   &ndash;depth</p>
 <p><em>error: build and deploy all jobs have failed</em></p>
 <p>solution:</p>
 <pre><code>hugo -d docs
+
+Then select docs in the Settings section of the repository
+
+This approach has the advantage of separating the source files from the compiled files
 </code></pre>
-<p>Then select docs in the Settings section of the repository</p>
-<p>This approach has the advantage of separating the source files from the compiled files</p>
 <p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
-<p>solution: Use SSH, not HTTP.</p>
-<p>Also note if SSH is already connected to another account.If so, remove it.</p>
+<p>solution:
+Use SSH, not HTTP.</p>
+<pre><code>Also note if SSH is already connected to another account.If so, remove it.
+</code></pre>
+<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *
+solution:
+brew install //the right one
+conda install
+pip install
+There are three methods to download source on MacOS so we need to figure out
+the right version.</p>
 <h1 id="other-command">Other command</h1>
 <p>git command</p>
 <pre><code>git remote -v //remote repo
@@ -392,7 +399,8 @@ git push origin master
 <p>├── static</p>
 <p>└── themes        //themes downloads</p>
 <p>compiler the website</p>
-<pre><code>hugo -d
+<pre><code>hugo -d 
+hugo -d docs //new version of hugo 0.125.2
 </code></pre>
 <p>Will generate the web file in /public</p>
 

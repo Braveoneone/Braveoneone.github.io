@@ -102,7 +102,7 @@ personal-site
 compiler the website
 
     hugo -d 
-    hugo -d public //new version of hugo 0.125.2
+    hugo -d docs //new version of hugo 0.125.2
 
 Will generate the web file in /public
 
