@@ -71,7 +71,7 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Yiyi&#39;s blog">
-  <meta itemprop="dateModified" content="2099-09-09T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
+  <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
 <meta name="twitter:description" content="">
 
 <!--[if lte IE 9]>
@@ -128,6 +128,13 @@
           
           
             <a class="menu-item-link" href="http://Braveoneone.github.io/about/">About Me</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/mememe/">About me</a>
           
         
       </li>
@@ -257,6 +264,17 @@
 
       </li>
     
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/mememe/">About me</a>
+          
+
+        
+
+      </li>
+    
 
     
     
@@ -324,12 +342,28 @@
   <div class="post-content">
     
       <div class="post-summary">
-        curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将
-      </div>
-      <div class="read-more">
-        <a href="/post/post20200922/" class="read-more-link"
-          >Read more</a
-        >
+        <p>curl cip.cc</p>
+<p>MAC下载homebrew失败卡在了head ……..，</p>
+<p>首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。</p>
+<p>设置终端全局代理命令：</p>
+<p>export http_proxy=http://127.0.0.1:1087;</p>
+<p>export https_proxy=http://127.0.0.1:1087;</p>
+<p>取消代理访问命令：</p>
+<p>unset http_proxy</p>
+<p>unset https_proxy</p>
+<p>单独为git设置全局代理：</p>
+<p>git config &ndash;global http.proxy 127.0.0.1:1088</p>
+<p>查看代理：</p>
+<p>git config &ndash;get http.proxy</p>
+<p>git代理清除</p>
+<p>git config &ndash;global &ndash;unset http.proxy</p>
+<p>git config &ndash;global &ndash;unset https.proxy</p>
+<p>安装完成后有警告Warning: /usr/local/bin is not in your PATH.</p>
+<p>修改环境变量配置文件</p>
+<p>open ~/.bash_profile</p>
+<p>文件中写： export PATH=/usr/local/bin:$PATH</p>
+<p>source ~/.bash_profile #更新配置后的环境变量</p>
+
       </div>
     
   </div>
