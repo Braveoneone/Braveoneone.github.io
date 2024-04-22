@@ -70,7 +70,8 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
-  <meta itemprop="name" content="Yiyi&#39;s blog"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
+  <meta itemprop="name" content="Yiyi&#39;s blog">
+  <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
 <meta name="twitter:description" content="">
 
 <!--[if lte IE 9]>
@@ -126,14 +127,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">About Me</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">About me</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
           
         
       </li>
@@ -256,18 +250,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">About Me</a>
-          
-
-        
-
-      </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="http://Braveoneone.github.io/post/">About me</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">About me</a>
           
 
         
@@ -294,6 +277,117 @@
   
   
   
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/github-hugo/">Github Page build Personal Website</a>
+    </h1>
+    
+
+    <div class="post-meta">
+  <div class="post-meta-author">
+    by
+      Yiyi
+    
+  </div>
+
+  <div class="post-meta-time">
+    <time datetime="2022-09-06">
+      2022-09-06
+    </time>
+  </div>
+
+  
+
+
+  <div class="post-meta__right">
+    
+
+    <div class="post-meta-category">
+        <a href="http://Braveoneone.github.io/categories/notes/"> notes </a>
+          
+      </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+  </header>
+  
+  <div class="post-content">
+    
+      <div class="post-summary">
+        <p>GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository.
+Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible</p>
+<h2 id="error-i-met">error I met</h2>
+<p><em>error: Push some references to &lsquo;github.com: &lsquo;</em></p>
+<p>solution:</p>
+<pre><code>git commit -m &quot;&quot;
+</code></pre>
+<p><em>error: You&rsquo;ve added another git repository inside your current repository.</em></p>
+<p>solution:</p>
+<pre><code>git rm -r --cached log  //Delete the track for log
+git submodule add url //Add log to the subdirectory
+git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
+</code></pre>
+<p><em>error: build and deploy all jobs have failed</em></p>
+<p>solution:</p>
+<pre><code>hugo -d docs
+Then select docs in the Settings section of the repository.
+This approach has the advantage of separating the source files from the compiled files.
+</code></pre>
+<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
+<p>solution:</p>
+<pre><code>Use SSH, not HTTP.
+Also note if SSH is already connected to another account.If so, remove it.
+</code></pre>
+<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *</p>
+<p>solution:</p>
+<pre><code>brew install //the right one
+conda install
+pip install
+There are three methods to download source on MacOS so we need to figure out 
+the right version.
+</code></pre>
+<h2 id="other-command">Other command</h2>
+<p>git command</p>
+<pre><code>git remote -v //remote repo
+git init //initiate repo
+git clean
+git add .
+git commit -m &quot;doc&quot;
+git push origin master
+</code></pre>
+<p>hugo command</p>
+<pre><code>hugo new site site_name
+</code></pre>
+<p>directory structure
+personal-site</p>
+<p>├── archetypes</p>
+<p>├── config.toml   //Hugo configuration doc</p>
+<p>├── content       //store the Markdown journals</p>
+<p>├── data</p>
+<p>├── layouts</p>
+<p>├── static</p>
+<p>└── themes        //themes downloads</p>
+<p>compiler the website
+hugo -d
+hugo -d docs //new version of hugo 0.125.2
+Will generate the web file in /docs</p>
+
+      </div>
+    
+  </div>
+</article>
+
+  
 </section>
 
 
@@ -313,6 +407,46 @@
 
   
   
+
+  
+  
+  <nav class="pagination">
+    <ul>
+      
+      <li  class="active" >
+        <a href="/">1</a>
+      </li>
+      
+      <li >
+        <a href="/page/2/">2</a>
+      </li>
+      
+      <li >
+        <a href="/page/3/">3</a>
+      </li>
+      
+      <li >
+        <a href="/page/4/">4</a>
+      </li>
+      
+      <li >
+        <a href="/page/5/">5</a>
+      </li>
+      
+      <li >
+        <a href="/page/6/">6</a>
+      </li>
+      
+      <li >
+        <a href="/page/7/">7</a>
+      </li>
+      
+      <li >
+        <a href="/page/8/">8</a>
+      </li>
+      
+    </ul>
+  </nav>
 
   
   
@@ -432,7 +566,7 @@
 
 
 
-<script type="text/javascript" src="/js/main.e2b955890bb05e725ec9928225ff3e84412242b70f8139ecd557645919fd1ada.js" integrity="sha256-4rlViQuwXnJeyZKCJf8&#43;hEEiQrcPgTns1VdkWRn9Gto=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.8c46eff13e061e8b8aa3228625481923c4205d0c552dd62241b5e32ff96c6e9a.js" integrity="sha256-jEbv8T4GHouKoyKGJUgZI8QgXQxVLdYiQbXjL/lsbpo=" crossorigin="anonymous"></script>
 
 
 
