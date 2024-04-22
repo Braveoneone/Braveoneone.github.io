@@ -34,7 +34,7 @@ defaultContentLanguage = "en"           # Default language to use
   name = "homepage"
   weight = 10
   identifier = "home"
-  url = "/about/"
+  url = "/aboutme/"
 [[menu.main]]
   name = "posts"
   weight = 20
