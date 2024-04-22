@@ -71,7 +71,7 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Yiyi&#39;s blog">
-  <meta itemprop="dateModified" content="2099-09-09T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
+  <meta itemprop="dateModified" content="2024-03-31T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
 <meta name="twitter:description" content="">
 
 <!--[if lte IE 9]>
@@ -281,7 +281,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/post20200922/">How to judge if the terminal is proxying on MacOS[Chinese Version]</a>
+      <a class="post-link" href="/post/post20200930/">NUMA documents</a>
     </h1>
     
 
@@ -293,8 +293,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2020-09-22">
-      2020-09-22
+    <time datetime="2020-09-30">
+      2020-09-30
     </time>
   </div>
 
@@ -305,7 +305,7 @@
     
 
     <div class="post-meta-category">
-        <a href="http://Braveoneone.github.io/categories/notes/"> notes </a>
+        <a href="http://Braveoneone.github.io/categories/research/"> research </a>
           
       </div>
 
@@ -324,10 +324,15 @@
   <div class="post-content">
     
       <div class="post-summary">
-        curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将
+        numastat to collect the memory consumption
+Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat
+node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
+numa_hit: The expected memory was successfully allocated on this node
+numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
+numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node
       </div>
       <div class="read-more">
-        <a href="/post/post20200922/" class="read-more-link"
+        <a href="/post/post20200930/" class="read-more-link"
           >Read more</a
         >
       </div>
@@ -391,6 +396,10 @@
       
       <li >
         <a href="/page/8/">8</a>
+      </li>
+      
+      <li >
+        <a href="/page/9/">9</a>
       </li>
       
     </ul>

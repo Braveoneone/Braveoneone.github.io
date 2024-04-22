@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Yiyi&#39;s blog</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://Braveoneone.github.io/post/mememe/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/post/mememe/</guid>
+      <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&#xA;Email: guswanyie [AT] student dot gu dot se&#xA;My GitHub. My Linkdin. </description>
+    </item>
     <item>
       <title>Github Page build Personal Website</title>
       <link>http://Braveoneone.github.io/post/github-hugo/</link>
