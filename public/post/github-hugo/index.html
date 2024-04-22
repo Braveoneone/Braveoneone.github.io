@@ -347,50 +347,42 @@ Hugo is a static site generator written in Go that is optimized for speed, ease 
 <p><em>error: You&rsquo;ve added another git repository inside your current repository.</em></p>
 <p>solution:</p>
 <pre><code>git rm -r --cached log  //Delete the track for log
-
 git submodule add url //Add log to the subdirectory
-
 git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
 </code></pre>
 <p><em>error: build and deploy all jobs have failed</em></p>
 <p>solution:</p>
 <pre><code>hugo -d docs
-
-Then select docs in the Settings section of the repository
-
-This approach has the advantage of separating the source files from the compiled files
+Then select docs in the Settings section of the repository.
+This approach has the advantage of separating the source files from the compiled files.
 </code></pre>
 <p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
-<p>solution:
-Use SSH, not HTTP.</p>
-<pre><code>Also note if SSH is already connected to another account.If so, remove it.
+<p>solution:</p>
+<pre><code>Use SSH, not HTTP.
+Also note if SSH is already connected to another account.If so, remove it.
 </code></pre>
-<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *
-solution:
-brew install //the right one
+<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *</p>
+<p>solution:</p>
+<pre><code>brew install //the right one
 conda install
 pip install
-There are three methods to download source on MacOS so we need to figure out
-the right version.</p>
-<h1 id="other-command">Other command</h1>
+There are three methods to download source on MacOS so we need to figure out 
+the right version.
+</code></pre>
+<h2 id="other-command">Other command</h2>
 <p>git command</p>
 <pre><code>git remote -v //remote repo
-
 git init //initiate repo
-
 git clean
-
 git add .
-
 git commit -m &quot;doc&quot;
-
 git push origin master
 </code></pre>
 <p>hugo command</p>
 <pre><code>hugo new site site_name
 </code></pre>
-<p>directory structure</p>
-<p>personal-site</p>
+<p>directory structure
+personal-site</p>
 <p>├── archetypes</p>
 <p>├── config.toml   //Hugo configuration doc</p>
 <p>├── content       //store the Markdown journals</p>
@@ -398,11 +390,10 @@ git push origin master
 <p>├── layouts</p>
 <p>├── static</p>
 <p>└── themes        //themes downloads</p>
-<p>compiler the website</p>
-<pre><code>hugo -d 
-hugo -d public //new version of hugo 0.125.2
-</code></pre>
-<p>Will generate the web file in /public</p>
+<p>compiler the website
+hugo -d
+hugo -d docs //new version of hugo 0.125.2
+Will generate the web file in /docs</p>
 
         </div>
 
@@ -475,6 +466,7 @@ hugo -d public //new version of hugo 0.125.2
       <nav id="TableOfContents">
   <ul>
     <li><a href="#error-i-met">error I met</a></li>
+    <li><a href="#other-command">Other command</a></li>
   </ul>
 </nav>
     </div>

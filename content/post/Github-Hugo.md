@@ -16,28 +16,38 @@ Hugo is a static site generator written in Go that is optimized for speed, ease 
 ## error I met
 
 *error: Push some references to 'github.com: '*
+
 solution: 
+
     git commit -m ""
 
 *error: You've added another git repository inside your current repository.*
+
 solution:  
+
     git rm -r --cached log  //Delete the track for log
     git submodule add url //Add log to the subdirectory
     git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
 
 *error: build and deploy all jobs have failed*
+
 solution: 
+
     hugo -d docs
     Then select docs in the Settings section of the repository.
     This approach has the advantage of separating the source files from the compiled files.
 
 *fatal: unable to access "...github"*
+
 solution: 
+
     Use SSH, not HTTP.
     Also note if SSH is already connected to another account.If so, remove it.
 
 *TOCSS: failed to transform "/sass/jane.scss" (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to 'libsass'.: this feature is not available in your current Hugo version, see https://goo.gl/YMrWcn for more information *
+
 solution: 
+
     brew install //the right one
     conda install
     pip install
