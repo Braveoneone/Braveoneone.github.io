@@ -54,6 +54,19 @@ solution:
     There are three methods to download source on MacOS so we need to figure out 
     the right version.
 
+*Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas *
+
+solution: 
+
+    plz not change the submodule from another github user.
+    git submodule deinit -f themes/SimpleIntro/
+    rm -rf .git/modules/themes/SimpleIntro/
+    git rm -rf themes/SimpleIntro/
+    git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
+    git add -A
+    git commit -m "Fix submodule"
+    git push
+
 ## Other command
 git command
     

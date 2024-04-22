@@ -89,7 +89,7 @@ solution:
 git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
   <meta itemprop="datePublished" content="2022-09-06T00:00:00+00:00">
   <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="302">
+  <meta itemprop="wordCount" content="349">
   <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github Page build Personal Website">
 <meta name="twitter:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
 error I met error: Push some references to &lsquo;github.com: &lsquo;
@@ -128,7 +128,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">homepage</a>
           
         
       </li><li class="mobile-menu-item">
@@ -239,7 +239,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">homepage</a>
           
 
         
@@ -368,6 +368,17 @@ conda install
 pip install
 There are three methods to download source on MacOS so we need to figure out 
 the right version.
+</code></pre>
+<p>*Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas *</p>
+<p>solution:</p>
+<pre><code>plz not change the submodule from another github user.
+git submodule deinit -f themes/SimpleIntro/
+rm -rf .git/modules/themes/SimpleIntro/
+git rm -rf themes/SimpleIntro/
+git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
+git add -A
+git commit -m &quot;Fix submodule&quot;
+git push
 </code></pre>
 <h2 id="other-command">Other command</h2>
 <p>git command</p>

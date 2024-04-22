@@ -106,7 +106,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">homepage</a>
           
         
       </li><li class="mobile-menu-item">
@@ -217,7 +217,7 @@
         
           
           
-            <a class="menu-item-link" href="http://Braveoneone.github.io/about/">homepage</a>
+            <a class="menu-item-link" href="http://Braveoneone.github.io/aboutme/">homepage</a>
           
 
         
@@ -355,6 +355,17 @@ conda install
 pip install
 There are three methods to download source on MacOS so we need to figure out 
 the right version.
+</code></pre>
+<p>*Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas *</p>
+<p>solution:</p>
+<pre><code>plz not change the submodule from another github user.
+git submodule deinit -f themes/SimpleIntro/
+rm -rf .git/modules/themes/SimpleIntro/
+git rm -rf themes/SimpleIntro/
+git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
+git add -A
+git commit -m &quot;Fix submodule&quot;
+git push
 </code></pre>
 <h2 id="other-command">Other command</h2>
 <p>git command</p>
