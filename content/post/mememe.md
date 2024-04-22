@@ -5,7 +5,7 @@ title: "About me"
 tags: [
  
 ]
-categories: [node
+categories: [me
 
 ]
 ---
