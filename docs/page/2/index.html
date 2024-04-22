@@ -71,7 +71,7 @@
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Yiyi&#39;s blog">
-  <meta itemprop="dateModified" content="2024-03-31T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
+  <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Yiyi&#39;s blog">
 <meta name="twitter:description" content="">
 
 <!--[if lte IE 9]>
@@ -281,7 +281,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/github-hugo/">Github Page build Personal Website</a>
+      <a class="post-link" href="/post/post20200619/">K-means in Spark realization task plan </a>
     </h1>
     
 
@@ -293,8 +293,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2022-09-06">
-      2022-09-06
+    <time datetime="2021-06-19">
+      2021-06-19
     </time>
   </div>
 
@@ -305,7 +305,7 @@
     
 
     <div class="post-meta-category">
-        <a href="http://Braveoneone.github.io/categories/notes/"> notes </a>
+        <a href="http://Braveoneone.github.io/categories/research/"> research </a>
           
       </div>
 
@@ -324,63 +324,33 @@
   <div class="post-content">
     
       <div class="post-summary">
-        <p>GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository.
-Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible</p>
-<h2 id="error-i-met">error I met</h2>
-<p><em>error: Push some references to &lsquo;github.com: &lsquo;</em></p>
-<p>solution:</p>
-<pre><code>git commit -m &quot;&quot;
+        <p>K-means in Spark realization task plan</p>
+<p>K-means algorithm is provided by Spark</p>
+<p>(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)</p>
+<p>DRAM: 192GB (12x 16GB DDR4 2666)</p>
+<p>Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)</p>
+<ol>
+<li>Optane configuration:</li>
+</ol>
+<p>(1)	AppDirect Mode</p>
+<p>Optane configuration:</p>
+<p>ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved</p>
+<p>Expose persistent memory to application:</p>
+<p>ipmctl create -namesapce (Fsdax mode)</p>
+<p>mkdir /mnt/pmemdir</p>
+<pre><code>mkfs.ext4 /dev/pmem{X.Y}
+
+mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
 </code></pre>
-<p><em>error: You&rsquo;ve added another git repository inside your current repository.</em></p>
-<p>solution:</p>
-<pre><code>git rm -r --cached log  //Delete the track for log
-git submodule add url //Add log to the subdirectory
-git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
-</code></pre>
-<p><em>error: build and deploy all jobs have failed</em></p>
-<p>solution:</p>
-<pre><code>hugo -d docs
-Then select docs in the Settings section of the repository.
-This approach has the advantage of separating the source files from the compiled files.
-</code></pre>
-<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
-<p>solution:</p>
-<pre><code>Use SSH, not HTTP.
-Also note if SSH is already connected to another account.If so, remove it.
-</code></pre>
-<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *</p>
-<p>solution:</p>
-<pre><code>brew install //the right one
-conda install
-pip install
-There are three methods to download source on MacOS so we need to figure out 
-the right version.
-</code></pre>
-<h2 id="other-command">Other command</h2>
-<p>git command</p>
-<pre><code>git remote -v //remote repo
-git init //initiate repo
-git clean
-git add .
-git commit -m &quot;doc&quot;
-git push origin master
-</code></pre>
-<p>hugo command</p>
-<pre><code>hugo new site site_name
-</code></pre>
-<p>directory structure
-personal-site</p>
-<p>├── archetypes</p>
-<p>├── config.toml   //Hugo configuration doc</p>
-<p>├── content       //store the Markdown journals</p>
-<p>├── data</p>
-<p>├── layouts</p>
-<p>├── static</p>
-<p>└── themes        //themes downloads</p>
-<p>compiler the website
-hugo -d
-hugo -d docs //new version of hugo 0.125.2
-Will generate the web file in /docs</p>
+<p>(2)	DRAM-Only</p>
+<p>Optane configuration: ipmctl create -goal MemoryMode=100</p>
+<ol start="2">
+<li>Spark configuration</li>
+</ol>
+<p>Workload:</p>
+<p>Data Size:</p>
+<p>K-means(Iteration times):</p>
+<p>K-means(K value):</p>
 
       </div>
     
@@ -443,10 +413,6 @@ Will generate the web file in /docs</p>
       
       <li >
         <a href="/page/8/">8</a>
-      </li>
-      
-      <li >
-        <a href="/page/9/">9</a>
       </li>
       
     </ul>
