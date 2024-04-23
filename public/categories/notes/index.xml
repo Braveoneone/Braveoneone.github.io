@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Yiyi&#39;s blog</title>
-    <link>http://localhost:51136/categories/notes/</link>
+    <link>http://Braveoneone.github.io/categories/notes/</link>
     <description>Recent content in Notes on Yiyi&#39;s blog</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51136/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://Braveoneone.github.io/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github Page build Personal Website</title>
-      <link>http://localhost:51136/post/github-hugo/</link>
+      <link>http://Braveoneone.github.io/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51136/post/github-hugo/</guid>
+      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&#xA;error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;&#xA;solution:&#xA;git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
     </item>
     <item>
       <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
-      <link>http://localhost:51136/post/post20200922/</link>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51136/post/post20200922/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
     </item>
   </channel>

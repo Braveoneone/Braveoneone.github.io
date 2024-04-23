@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Yiyi&#39;s blog</title>
-    <link>http://localhost:51136/categories/research/</link>
+    <link>http://Braveoneone.github.io/categories/research/</link>
     <description>Recent content in Research on Yiyi&#39;s blog</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51136/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://Braveoneone.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://localhost:51136/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51136/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       <description>K-means in Spark realization task plan&#xA;K-means algorithm is provided by Spark&#xA;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&#xA;DRAM: 192GB (12x 16GB DDR4 2666)&#xA;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&#xA;Optane configuration: (1)&#x9;AppDirect Mode&#xA;Optane configuration:&#xA;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&#xA;Expose persistent memory to application:&#xA;ipmctl create -namesapce (Fsdax mode)&#xA;mkdir /mnt/pmemdir&#xA;mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)&#x9;DRAM-Only&#xA;Optane configuration: ipmctl create -goal MemoryMode=100&#xA;Spark configuration Workload:&#xA;Data Size:</description>
     </item>
     <item>
       <title>NUMA documents</title>
-      <link>http://localhost:51136/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51136/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       <description>numastat to collect the memory consumption&#xA;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node $ numastat&#xA;node0 numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items&#xA;numa_hit: The expected memory was successfully allocated on this node&#xA;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&#xA;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
     </item>
   </channel>
