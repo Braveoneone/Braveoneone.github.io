@@ -12,13 +12,14 @@
     
     
     <item>
-      <title>About me</title>
-      <link>http://Braveoneone.github.io/aboutme/</link>
+      <title></title>
+      <link>http://Braveoneone.github.io/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/aboutme/</guid>
+      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
       
-        <description>Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University. Email: guswanyie [AT] student dot gu dot se
+        <description>About Me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
+Email: guswanyie [AT] student dot gu dot se
 My GitHub. My Linkdin </description>
       
     </item>
