@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          Github Page build Personal Website - Yiyi&#39;s blog
+          Github Page build Personal Website - Yiyi&#39;s personal website
         </title>
     
 
@@ -30,8 +30,7 @@
 
 <meta name="author" content="Yiyi" />
   <meta name="description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
-solution:
+error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:
 git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository." />
 
 
@@ -70,11 +69,10 @@ git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git rep
 
 
 <meta property="og:url" content="http://Braveoneone.github.io/post/github-hugo/">
-  <meta property="og:site_name" content="Yiyi&#39;s blog">
+  <meta property="og:site_name" content="Yiyi&#39;s personal website">
   <meta property="og:title" content="Github Page build Personal Website">
   <meta property="og:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
-solution:
+error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:
 git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -84,16 +82,14 @@ git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git rep
 
   <meta itemprop="name" content="Github Page build Personal Website">
   <meta itemprop="description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
-error I met error: Push some references to &lsquo;github.com: &lsquo;
-solution:
+error I met error: Push some references to &lsquo;github.com: &#39; solution:
 git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
   <meta itemprop="datePublished" content="2022-09-06T00:00:00+00:00">
   <meta itemprop="dateModified" content="2022-09-06T00:00:00+00:00">
-  <meta itemprop="wordCount" content="349">
+  <meta itemprop="wordCount" content="347">
   <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Github Page build Personal Website">
 <meta name="twitter:description" content="GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible
-error I met error: Push some references to &lsquo;github.com: &lsquo;
-solution:
+error I met error: Push some references to &lsquo;github.com: &#39; solution:
 git commit -m &quot;&quot; error: You&rsquo;ve added another git repository inside your current repository.">
 
 <!--[if lte IE 9]>
@@ -114,7 +110,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
 
     <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">Yiyi's Blog</a>
+    <a href="/" class="logo">Yiyi's personal website</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -219,7 +215,7 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
       <div class="logo-wrapper">
   <a href="/" class="logo">
     
-      Yiyi's Blog
+      Yiyi's personal website
     
   </a>
 </div>
@@ -322,28 +318,38 @@ git commit -m &quot;&quot; error: You&rsquo;ve added another git repository insi
           <p>GitHub Pages is a static site hosting service that hosts a person, organization, or project&rsquo;s pages directly in a GitHub repository or repository.
 Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&rsquo;s fast and flexible</p>
 <h2 id="error-i-met">error I met</h2>
-<p><em>error: Push some references to &lsquo;github.com: &lsquo;</em></p>
+<ul>
+<li>error: Push some references to &lsquo;github.com: '</li>
+</ul>
 <p>solution:</p>
 <pre><code>git commit -m &quot;&quot;
 </code></pre>
-<p><em>error: You&rsquo;ve added another git repository inside your current repository.</em></p>
+<ul>
+<li>error: You&rsquo;ve added another git repository inside your current repository.</li>
+</ul>
 <p>solution:</p>
 <pre><code>git rm -r --cached log  //Delete the track for log
 git submodule add url //Add log to the subdirectory
 git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
 </code></pre>
-<p><em>error: build and deploy all jobs have failed</em></p>
+<ul>
+<li>error: build and deploy all jobs have failed</li>
+</ul>
 <p>solution:</p>
 <pre><code>hugo -d docs
 Then select docs in the Settings section of the repository.
 This approach has the advantage of separating the source files from the compiled files.
 </code></pre>
-<p><em>fatal: unable to access &ldquo;&hellip;github&rdquo;</em></p>
+<ul>
+<li>fatal: unable to access &ldquo;&hellip;github&rdquo;</li>
+</ul>
 <p>solution:</p>
 <pre><code>Use SSH, not HTTP.
 Also note if SSH is already connected to another account.If so, remove it.
 </code></pre>
-<p>*TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information *</p>
+<ul>
+<li>TOCSS: failed to transform &ldquo;/sass/jane.scss&rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &rsquo;libsass&rsquo;.: this feature is not available in your current Hugo version, see <a href="https://goo.gl/YMrWcn">https://goo.gl/YMrWcn</a> for more information</li>
+</ul>
 <p>solution:</p>
 <pre><code>brew install //the right one
 conda install
@@ -351,7 +357,9 @@ pip install
 There are three methods to download source on MacOS so we need to figure out 
 the right version.
 </code></pre>
-<p>*Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas *</p>
+<ul>
+<li>Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas</li>
+</ul>
 <p>solution:</p>
 <pre><code>plz not change the submodule from another github user.
 git submodule deinit -f themes/SimpleIntro/
@@ -363,19 +371,25 @@ git commit -m &quot;Fix submodule&quot;
 git push
 </code></pre>
 <h2 id="other-command">Other command</h2>
+<ul>
+<li>
 <p>git command</p>
-<pre><code>git remote -v //remote repo
+<p>git remote -v //remote repo
 git init //initiate repo
 git clean
 git add .
-git commit -m &quot;doc&quot;
-git push origin master
-</code></pre>
+git commit -m &ldquo;doc&rdquo;
+git push origin master</p>
+</li>
+<li>
 <p>hugo command</p>
-<pre><code>hugo new site site_name
-</code></pre>
+<p>hugo new site site_name</p>
+</li>
+<li>
 <p>directory structure
 personal-site</p>
+</li>
+</ul>
 <p>├── archetypes</p>
 <p>├── config.toml   //Hugo configuration doc</p>
 <p>├── content       //store the Markdown journals</p>
@@ -406,7 +420,7 @@ Will generate the web file in /docs</p>
           
           <nav class="post-nav">
             
-              <a class="prev" href="/post/aboutme/">
+              <a class="prev" href="/post/pythonimport/">
                 
                 <i class="iconfont">
                   <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -416,7 +430,7 @@ Will generate the web file in /docs</p>
 </svg>
 
                 </i>
-                <span class="prev-text nav-default"></span>
+                <span class="prev-text nav-default">MacOS: brew, pip, conda</span>
                 <span class="prev-text nav-mobile">Prev</span>
               </a>
             

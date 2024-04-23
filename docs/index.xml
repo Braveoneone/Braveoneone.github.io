@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yiyi&#39;s blog</title>
+    <title>Yiyi&#39;s personal website</title>
     <link>http://Braveoneone.github.io/</link>
-    <description>Recent content on Yiyi&#39;s blog</description>
+    <description>Recent content on Yiyi&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,6 +25,20 @@ My GitHub. My Linkdin </description>
     </item>
     
     <item>
+      <title>MacOS: brew, pip, conda</title>
+      <link>http://Braveoneone.github.io/post/pythonimport/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://Braveoneone.github.io/post/pythonimport/</guid>
+      
+        <description>Some error I met when running python file in python environment Can‘t find model ‘en_core_web_sm‘. python -m spacy download en_core_web_sm
+AttributeError: module ‘numpy‘ has no attribute ‘int‘ pip3 install numpy
+For brew, pip, conda The same thing is that they are all the package manager. The difference is that homebrew is a general package manager, so you can install many packages using it.
+Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.</description>
+      
+    </item>
+    
+    <item>
       <title>Github Page build Personal Website</title>
       <link>http://Braveoneone.github.io/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
@@ -32,8 +46,7 @@ My GitHub. My Linkdin </description>
       <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       
         <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met error: Push some references to &amp;lsquo;github.com: &amp;lsquo;
-solution:
+error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:
 git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
       
     </item>
