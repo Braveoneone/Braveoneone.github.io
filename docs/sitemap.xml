@@ -43,6 +43,20 @@
   </url>
   
   <url>
+    <loc>http://Braveoneone.github.io/post/lintcode/</loc>
+    <lastmod>2022-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://Braveoneone.github.io/categories/projects/</loc>
+    <lastmod>2022-11-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://Braveoneone.github.io/post/github-hugo/</loc>
     <lastmod>2022-09-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,13 +100,6 @@
   
   <url>
     <loc>http://Braveoneone.github.io/post/-gis1.2/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://Braveoneone.github.io/categories/projects/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -6,7 +6,6 @@ tags: [
  
 ]
 categories: [notes
-
 ]
 ---
 # Some error I met when running python file in python environment
