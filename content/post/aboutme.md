@@ -13,23 +13,23 @@ Email: guswanyie [AT] student dot gu dot se
 * [My GitHub](https://github.com/Braveoneone).
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
 
-Projects:
-Multi-cycle pipelined CPU hardware simulation using Verilog HDL
+* Projects:
+* Multi-cycle pipelined CPU hardware simulation using Verilog HDL
 [Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf)
-![Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf)
-Compilation of qgis2.14.11 ----WIN10+QT4+VS2010 
+<!-- ![Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf) -->
+* Compilation of qgis2.14.11 ----WIN10+QT4+VS2010 
 [Compilation of qgis2.14.11 ----WIN10+QT4+VS2010](https://braveoneone.github.io/GIS11.pdf)
-![Compilation of qgis2.14.11 ----WIN10+QT4+VS2010](https://braveoneone.github.io/GIS11.pdf)
-GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio
+<!-- ![Compilation of qgis2.14.11 ----WIN10+QT4+VS2010](https://braveoneone.github.io/GIS11.pdf) -->
+* GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio
 [GIS prototype system based on QGIS](https://braveoneone.github.io/GIS12.pdf)
-![GIS prototype system based on QGIS](https://braveoneone.github.io/GIS12.pdf)
-C programming language compiler(subset) using JavaCC
+<!-- ![GIS prototype system based on QGIS](https://braveoneone.github.io/GIS12.pdf) -->
+* C programming language compiler(subset) using JavaCC
 [C compiler](https://braveoneone.github.io/javacc.pdf)
-![C compiler](https://braveoneone.github.io/javacc.pdf)
-LintCustomisation Generator using Java
+<!-- ![C compiler](https://braveoneone.github.io/javacc.pdf) -->
+* LintCustomisation Generator using Java
 [LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main)
-![LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main)
+<!-- ![LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main) -->
 
-Some useful notes on how to build and publish a personal website
+* Some useful notes on how to build and publish a personal website
 [Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
-![Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
+
