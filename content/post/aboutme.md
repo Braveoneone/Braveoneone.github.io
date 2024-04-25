@@ -13,7 +13,7 @@ Email: guswanyie [AT] student dot gu dot se
 * [My GitHub](https://github.com/Braveoneone).
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
 
-* Projects:
+## Projects:
 * Multi-cycle pipelined CPU hardware simulation using Verilog HDL
 [Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf)
 <!-- ![Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf) -->
@@ -30,6 +30,6 @@ Email: guswanyie [AT] student dot gu dot se
 [LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main)
 <!-- ![LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main) -->
 
-* Some useful notes on how to build and publish a personal website
+# Some useful notes on how to build and publish a personal website
 [Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
 
