@@ -7,7 +7,12 @@ date: false
 author: false
 ---
 ## About Me
-Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in computer system and natural language processing. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University. 
+Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in computer system and natural language processing. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University. For the operator system, I especially love Linux system whether used in a virtual machine or dual system and I am skillful at Linux, MacOS and Windows.
+### My Skills
+* Operation System: Windows, Linux, MacOS.
+* Programming language: C, Java, C++, Python, Sql, Shell, Matlab, Html, Javascript, CSS, Php
+* IDEA: Android Studio, IntelliJ IDEA, QT Creator, Eclipse, Visual Studio, Vscode, Jupyter Notebook
+* Other Skills: SVN, PgAdmin, Tomcat, Node.js, Cmake, Git, Anaconda, Ubuntu, RedHat, CentOS
 
 Email: guswanyie [AT] student dot gu dot se
 * [My GitHub](https://github.com/Braveoneone).
