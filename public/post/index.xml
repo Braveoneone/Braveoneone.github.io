@@ -13,7 +13,7 @@
       <link>http://Braveoneone.github.io/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/aboutme/</guid>
-      <description>About Me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.&#xA;Email: guswanyie [AT] student dot gu dot se&#xA;My GitHub. My Linkdin </description>
+      <description>About Me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.&#xA;Email: guswanyie [AT] student dot gu dot se&#xA;My GitHub. My Linkdin </description>
     </item>
     <item>
       <title>MacOS: brew, pip, conda</title>
@@ -51,11 +51,11 @@
       <description>numastat to collect the memory consumption Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&#xA;$ numastat node0&#xA;numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items&#xA;numa_hit: The expected memory was successfully allocated on this node&#xA;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&#xA;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
     </item>
     <item>
-      <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
+      <title>How to judge if the terminal is proxying on MacOS</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/post20200922/</guid>
-      <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
+      <description>curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy</description>
     </item>
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>

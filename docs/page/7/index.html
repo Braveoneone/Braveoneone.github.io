@@ -263,7 +263,7 @@
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/post/post20200922/">How to judge if the terminal is proxying on MacOS[Chinese Version]</a>
+      <a class="post-link" href="/post/post20200922/">How to judge if the terminal is proxying on MacOS</a>
     </h1>
     
 
@@ -307,26 +307,28 @@
     
       <div class="post-summary">
         <p>curl cip.cc</p>
-<p>MAC下载homebrew失败卡在了head ……..，</p>
-<p>首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。</p>
-<p>设置终端全局代理命令：</p>
+<p>MAC homebrew download failed and stuck in head&hellip; .. ,</p>
+<p>First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent.</p>
+<p>Set up the terminal global agent command:</p>
 <p>export http_proxy=http://127.0.0.1:1087;</p>
 <p>export https_proxy=http://127.0.0.1:1087;</p>
-<p>取消代理访问命令：</p>
+<p>Cancel the proxy access command:</p>
 <p>unset http_proxy</p>
 <p>unset https_proxy</p>
-<p>单独为git设置全局代理：</p>
+<p>Set up a separate global proxy for git:</p>
 <p>git config &ndash;global http.proxy 127.0.0.1:1088</p>
-<p>查看代理：</p>
+<p>View the proxy:</p>
 <p>git config &ndash;get http.proxy</p>
-<p>git代理清除</p>
+<p>git agent clearance</p>
 <p>git config &ndash;global &ndash;unset http.proxy</p>
 <p>git config &ndash;global &ndash;unset https.proxy</p>
-<p>安装完成后有警告Warning: /usr/local/bin is not in your PATH.</p>
-<p>修改环境变量配置文件</p>
+<p>Warning: /usr/local/bin is not in your PATH.</p>
+<p>Modify the environment variable configuration file</p>
 <p>open ~/.bash_profile</p>
-<p>文件中写： export PATH=/usr/local/bin:$PATH</p>
-<p>source ~/.bash_profile #更新配置后的环境变量</p>
+<p>export PATH=/usr/local/bin:$PATH</p>
+<p>source ~/.bash_profile # updates the configured environment variables</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
       </div>
     

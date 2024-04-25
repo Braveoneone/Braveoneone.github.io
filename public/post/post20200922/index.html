@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          How to judge if the terminal is proxying on MacOS[Chinese Version] - Yiyi&#39;s personal website
+          How to judge if the terminal is proxying on MacOS - Yiyi&#39;s personal website
         </title>
     
 
@@ -29,7 +29,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Yiyi" />
-  <meta name="description" content="curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将" />
+  <meta name="description" content="curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy" />
 
 
 
@@ -68,21 +68,21 @@
 
 <meta property="og:url" content="http://Braveoneone.github.io/post/post20200922/">
   <meta property="og:site_name" content="Yiyi&#39;s personal website">
-  <meta property="og:title" content="How to judge if the terminal is proxying on MacOS[Chinese Version]">
-  <meta property="og:description" content="curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将">
+  <meta property="og:title" content="How to judge if the terminal is proxying on MacOS">
+  <meta property="og:description" content="curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
   <meta property="article:section" content="post">
     <meta property="article:published_time" content="2020-09-22T00:00:00+00:00">
     <meta property="article:modified_time" content="2020-09-22T00:00:00+00:00">
 
-  <meta itemprop="name" content="How to judge if the terminal is proxying on MacOS[Chinese Version]">
-  <meta itemprop="description" content="curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将">
+  <meta itemprop="name" content="How to judge if the terminal is proxying on MacOS">
+  <meta itemprop="description" content="curl cip.cc MAC homebrew download failed and stuck in head&hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy">
   <meta itemprop="datePublished" content="2020-09-22T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-09-22T00:00:00+00:00">
-  <meta itemprop="wordCount" content="236">
-  <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="How to judge if the terminal is proxying on MacOS[Chinese Version]">
-<meta name="twitter:description" content="curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将">
+  <meta itemprop="wordCount" content="130">
+  <meta itemprop="keywords" content="Notes"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="How to judge if the terminal is proxying on MacOS">
+<meta name="twitter:description" content="curl cip.cc MAC homebrew download failed and stuck in head&hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy">
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -266,7 +266,7 @@
       <article class="post">
         
         <header class="post-header">
-          <h1 class="post-title">How to judge if the terminal is proxying on MacOS[Chinese Version]</h1>
+          <h1 class="post-title">How to judge if the terminal is proxying on MacOS</h1>
           
 
           <div class="post-meta">
@@ -308,26 +308,28 @@
         
         <div class="post-content">
           <p>curl cip.cc</p>
-<p>MAC下载homebrew失败卡在了head ……..，</p>
-<p>首先common shit g进入到usr/local中发现存在home-brew文件夹，将文件夹删除后，再使用下载命令。下载发现速度非常慢，因为没有把终端设置为全局代理。</p>
-<p>设置终端全局代理命令：</p>
+<p>MAC homebrew download failed and stuck in head&hellip; .. ,</p>
+<p>First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent.</p>
+<p>Set up the terminal global agent command:</p>
 <p>export http_proxy=http://127.0.0.1:1087;</p>
 <p>export https_proxy=http://127.0.0.1:1087;</p>
-<p>取消代理访问命令：</p>
+<p>Cancel the proxy access command:</p>
 <p>unset http_proxy</p>
 <p>unset https_proxy</p>
-<p>单独为git设置全局代理：</p>
+<p>Set up a separate global proxy for git:</p>
 <p>git config &ndash;global http.proxy 127.0.0.1:1088</p>
-<p>查看代理：</p>
+<p>View the proxy:</p>
 <p>git config &ndash;get http.proxy</p>
-<p>git代理清除</p>
+<p>git agent clearance</p>
 <p>git config &ndash;global &ndash;unset http.proxy</p>
 <p>git config &ndash;global &ndash;unset https.proxy</p>
-<p>安装完成后有警告Warning: /usr/local/bin is not in your PATH.</p>
-<p>修改环境变量配置文件</p>
+<p>Warning: /usr/local/bin is not in your PATH.</p>
+<p>Modify the environment variable configuration file</p>
 <p>open ~/.bash_profile</p>
-<p>文件中写： export PATH=/usr/local/bin:$PATH</p>
-<p>source ~/.bash_profile #更新配置后的环境变量</p>
+<p>export PATH=/usr/local/bin:$PATH</p>
+<p>source ~/.bash_profile # updates the configured environment variables</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
         </div>
 

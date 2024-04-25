@@ -18,7 +18,7 @@
       
       <guid>http://Braveoneone.github.io/post/aboutme/</guid>
       
-        <description>About Me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science at School of Computer Science, Wuhan University.
+        <description>About Me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in computer system and natural language processing. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
 Email: guswanyie [AT] student dot gu dot se
 My GitHub. My Linkdin </description>
       
@@ -108,13 +108,13 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     </item>
     
     <item>
-      <title>How to judge if the terminal is proxying on MacOS[Chinese Version]</title>
+      <title>How to judge if the terminal is proxying on MacOS</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       
-        <description>curl cip.cc MAC下载homebrew失败卡在了head ……..， 首先common shit g进入到usr/local中发现存在home-brew文件夹，将</description>
+        <description>curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy</description>
       
     </item>
     
