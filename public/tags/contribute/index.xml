@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribute on Yiyi&#39;s personal website</title>
+    <link>http://localhost:1313/braveoneone/jane/tags/contribute/</link>
+    <description>Recent content in Contribute on Yiyi&#39;s personal website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/braveoneone/jane/tags/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute</title>
+      <link>http://localhost:1313/braveoneone/jane/post/docs/how-to-contribute/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/braveoneone/jane/post/docs/how-to-contribute/</guid>
+      <description>&lt;h2 id=&#34;contributing-to-jane&#34;&gt;Contributing to Jane&lt;/h2&gt;&#xA;&lt;p&gt;There are many ways to contribute to the Jane theme: submitting pull requests, reporting issues, providing new translations, and creating suggestions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;build-and-run&#34;&gt;Build and Run&lt;/h2&gt;&#xA;&lt;p&gt;If you want to understand how Jane works, you&amp;rsquo;ll want to get the source, build it, and run locally.&lt;/p&gt;&#xA;&lt;h3 id=&#34;getting-the-sources&#34;&gt;Getting the sources&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight-container&#34;&gt;&#xA;&#xA;  &lt;button class=&#34;copy-code-btn outline&#34;&gt;Copy&lt;/button&gt;&#xA;&#xA;  &#xA;  &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/xianmin/hugo-theme-jane.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;&#xA;&lt;p&gt;You need install the &lt;code&gt;Hugo_extended&lt;/code&gt; version to use &lt;a href=&#34;https://gohugo.io/hugo-pipes/&#34;&gt;Hugo Pipes&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We recommend that you use VSCode. And if you edit &lt;code&gt;.html&lt;/code&gt; files, recommend you install prettier and &lt;a href=&#34;https://github.com/NiklasPor/prettier-plugin-go-template&#34;&gt;prettier-plugin-go-template&lt;/a&gt; &lt;strong&gt;globally&lt;/strong&gt; . And open &lt;code&gt;Prettier: Resolve Global Modules&lt;/code&gt; in your VSCode Settings.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,163 +1,429 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yiyi&#39;s personal website</title>
-    <link>https://github.com/braveoneone/jane/</link>
-    <description>Recent content on Yiyi&#39;s personal website</description>
+    <title>Yiyi Wang</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Yiyi Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>yiyiw96@outlook.com (Yiyi)</managingEditor>
+    <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://github.com/braveoneone/jane/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://github.com/braveoneone/jane/post/aboutme/</link>
+      <link>http://localhost:1313/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/aboutme/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/aboutme/</guid>
-      
-        <description>About me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
-My Skills Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL Programming language - Conversationally fluent: Matlab, Html, Javascript, CSS, PHP Operation System: Windows, Linux, MacOS.</description>
+        <description>&lt;h4 id=&#34;about-me&#34;&gt;About me&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;  Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.&lt;/p&gt;
+&lt;h4 id=&#34;my-skills&#34;&gt;My Skills&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL&lt;/li&gt;
+&lt;li&gt;Programming language - Conversationally fluent:  Matlab, Html, Javascript, CSS, PHP&lt;/li&gt;
+&lt;li&gt;Operation System: Windows, Linux, MacOS.&lt;/li&gt;
+&lt;li&gt;IDEA: Android Studio, IntelliJ IDEA, QT Creator, Eclipse, Visual Studio, Vscode, Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Other Skills: SVN, PgAdmin, Tomcat, Node.js, Cmake, Git, Gitlab, Azure, Xstate, Flutter, Google Cloud&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone&#34;&gt;My GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/yiyi-wang-0551b7179/&#34;&gt;My Linkdin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;work-project&#34;&gt;Work Project:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34;&gt;LintCustomisation Generator using Java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;master-projects&#34;&gt;Master Projects:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md&#34;&gt;Travel recommendation application based on Microsoft Azure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/Machine-learning-for-statistical-NLP-Advanced-LT2326-LT2926/blob/main/Report%20LTR%20Yiyi%20Wang.pdf&#34;&gt;Spams detection in traditional machine learning algorithms and LLMs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/computational_syntax&#34;&gt;Multilingual generation and translation scripts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;undergraduate-projects&#34;&gt;Undergraduate Projects:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation using Verilog HDL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;WIN10+QT4+VS2010 using Cmake&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C programming language compiler(subset) using JavaCC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       
     </item>
     
     <item>
       <title>MacOS: brew, pip, conda</title>
-      <link>https://github.com/braveoneone/jane/post/pythonimport/</link>
+      <link>http://localhost:1313/post/pythonimport/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/pythonimport/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/pythonimport/</guid>
-      
-        <description>Some error I met when running python file in python environment Can‘t find model ‘en_core_web_sm‘. python -m spacy download en_core_web_sm
-AttributeError: module ‘numpy‘ has no attribute ‘int‘ pip3 install numpy
-For brew, pip, conda The same thing is that they are all the package manager. The difference is that homebrew is a general package manager, so you can install many packages using it.
-Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.</description>
+        <description>&lt;h1 id=&#34;some-error-i-met-when-running-python-file-in-python-environment&#34;&gt;Some error I met when running python file in python environment&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Can‘t find model ‘en_core_web_sm‘.
+python -m spacy download en_core_web_sm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AttributeError: module ‘numpy‘ has no attribute ‘int‘
+pip3 install numpy&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;for-brew-pip-conda&#34;&gt;For brew, pip, conda&lt;/h1&gt;
+&lt;p&gt;The same thing is that they are all the package manager.
+The difference is that homebrew is a general package manager, so you can install many packages using it.&lt;/p&gt;
+&lt;p&gt;Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.&lt;/p&gt;
+&lt;p&gt;Conda is a packaging tool and installer that aims to do more than what pip does; handle library dependencies outside of the Python packages as well as the Python packages themselves. Conda also creates a virtual environment, like virtualenv does. As such, Conda should be compared to Buildout perhaps, another tool that lets you handle both Python and non-Python installation tasks. Because Conda introduces a new packaging format, you cannot use pip and Conda interchangeably;  pip cannot install the Conda package format. You can use the two tools side by side but they do not interoperate either.&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>LintCustomisation Generator</title>
-      <link>https://github.com/braveoneone/jane/post/lintcode/</link>
+      <link>http://localhost:1313/post/lintcode/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/lintcode/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/lintcode/</guid>
-      
-        <description>Implement the Lint Detector Generator by myself build.gradle: regarding how to write your build.gradle in Android Studio
-CreatCodeDetector.java: implement generating the Method Detector automatically.
-ExampleMethodDetector.java: an example of Detector generated by CreatCodeDetector.java.
-CreatRegistry.java: implement generating the Issue Registry automatically.
-CodeReTemp.java: a custom code which modify the format of your detected java files. Make it easier to get the java files in project and generate the code. Depends on what kind of names of your java files.</description>
+        <description>&lt;h1 id=&#34;implement-the-lint-detector-generator-by-myself&#34;&gt;Implement the Lint Detector Generator by myself&lt;/h1&gt;
+&lt;p&gt;build.gradle: regarding how to write your build.gradle in Android Studio&lt;/p&gt;
+&lt;p&gt;CreatCodeDetector.java: implement generating the Method Detector automatically.&lt;/p&gt;
+&lt;p&gt;ExampleMethodDetector.java: an example of Detector generated by CreatCodeDetector.java.&lt;/p&gt;
+&lt;p&gt;CreatRegistry.java: implement generating the Issue Registry automatically.&lt;/p&gt;
+&lt;p&gt;CodeReTemp.java: a custom code which modify the format of your detected java files. Make it easier to get the java files in project and generate the code. Depends on what kind of names of your java files.
+&lt;a href=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34;&gt;LintCustomisation Generator&lt;/a&gt;
+&lt;img src=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34; alt=&#34;LintCustomisation Generator&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>Github Page build Personal Website</title>
-      <link>https://github.com/braveoneone/jane/post/github-hugo/</link>
+      <link>http://localhost:1313/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/github-hugo/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/github-hugo/</guid>
-      
-        <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
-error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:
-git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
+        <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.
+Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;
+&lt;h2 id=&#34;error-i-met&#34;&gt;error I met&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;error: Push some references to &amp;lsquo;github.com: &#39;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;error: You&amp;rsquo;ve added another git repository inside your current repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git rm -r --cached log  //Delete the track for log
+git submodule add url //Add log to the subdirectory
+git submodule add --depth=1 https://github.com/xianmin/hugo-theme-jane.git themes/jane   --depth 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;error: build and deploy all jobs have failed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo -d docs
+Then select docs in the Settings section of the repository.
+This approach has the advantage of separating the source files from the compiled files.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;fatal: unable to access &amp;ldquo;&amp;hellip;github&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Use SSH, not HTTP.
+Also note if SSH is already connected to another account.If so, remove it.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;TOCSS: failed to transform &amp;ldquo;/sass/jane.scss&amp;rdquo; (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS with transpiler set to &amp;rsquo;libsass&amp;rsquo;.: this feature is not available in your current Hugo version, see &lt;a href=&#34;https://goo.gl/YMrWcn&#34;&gt;https://goo.gl/YMrWcn&lt;/a&gt; for more information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install //the right one
+conda install
+pip install
+There are three methods to download source on MacOS so we need to figure out 
+the right version.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Error: fatal: remote error: upload-pack: not our ref 124sfsdafsdfasfasdfas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;plz not change the submodule from another github user.
+git submodule deinit -f themes/SimpleIntro/
+rm -rf .git/modules/themes/SimpleIntro/
+git rm -rf themes/SimpleIntro/
+git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
+git add -A
+git commit -m &amp;quot;Fix submodule&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;other-command&#34;&gt;Other command&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;git command&lt;/p&gt;
+&lt;p&gt;git remote -v //remote repo
+git init //initiate repo
+git clean
+git add .
+git commit -m &amp;ldquo;doc&amp;rdquo;
+git push origin master&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo command&lt;/p&gt;
+&lt;p&gt;hugo new site site_name&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;directory structure
+personal-site&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;├── archetypes&lt;/p&gt;
+&lt;p&gt;├── config.toml   //Hugo configuration doc&lt;/p&gt;
+&lt;p&gt;├── content       //store the Markdown journals&lt;/p&gt;
+&lt;p&gt;├── data&lt;/p&gt;
+&lt;p&gt;├── layouts&lt;/p&gt;
+&lt;p&gt;├── static&lt;/p&gt;
+&lt;p&gt;└── themes        //themes downloads&lt;/p&gt;
+&lt;p&gt;compiler the website
+hugo -d
+hugo -d docs //new version of hugo 0.125.2
+Will generate the web file in /docs&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>https://github.com/braveoneone/jane/post/post20200619/</link>
+      <link>http://localhost:1313/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/post20200619/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/post20200619/</guid>
-      
-        <description>K-means in Spark realization task plan
-K-means algorithm is provided by Spark
-(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)
-DRAM: 192GB (12x 16GB DDR4 2666)
-Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)
-Optane configuration: (1)	AppDirect Mode
-Optane configuration:
-ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved
-Expose persistent memory to application:
-ipmctl create -namesapce (Fsdax mode)
-mkdir /mnt/pmemdir
-mkfs.ext4 /dev/pmem{X.Y} mount -o dax /dev/pmem{X.Y} /mnt/pmemdir (2)	DRAM-Only
-Optane configuration: ipmctl create -goal MemoryMode=100
-Spark configuration Workload:
-Data Size:</description>
+        <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;
+&lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;
+&lt;p&gt;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&lt;/p&gt;
+&lt;p&gt;DRAM: 192GB (12x 16GB DDR4 2666)&lt;/p&gt;
+&lt;p&gt;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Optane configuration:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(1)	AppDirect Mode&lt;/p&gt;
+&lt;p&gt;Optane configuration:&lt;/p&gt;
+&lt;p&gt;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&lt;/p&gt;
+&lt;p&gt;Expose persistent memory to application:&lt;/p&gt;
+&lt;p&gt;ipmctl create -namesapce (Fsdax mode)&lt;/p&gt;
+&lt;p&gt;mkdir /mnt/pmemdir&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkfs.ext4 /dev/pmem{X.Y}
+
+mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(2)	DRAM-Only&lt;/p&gt;
+&lt;p&gt;Optane configuration: ipmctl create -goal MemoryMode=100&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Spark configuration&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Workload:&lt;/p&gt;
+&lt;p&gt;Data Size:&lt;/p&gt;
+&lt;p&gt;K-means(Iteration times):&lt;/p&gt;
+&lt;p&gt;K-means(K value):&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>NUMA Tutorial</title>
-      <link>https://github.com/braveoneone/jane/post/post20200930/</link>
+      <link>http://localhost:1313/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/post20200930/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/post20200930/</guid>
-      
-        <description>numastat to collect the memory consumption Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node
-$ numastat node0
-numa_hit 2419687 numa_miss 0 numa_foreign 0 interleave_hit 17197 local_node 2419687 other_node 0 Output items
-numa_hit: The expected memory was successfully allocated on this node
-numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node
-numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node</description>
+        <description>&lt;h2 id=&#34;numastat-to-collect-the-memory-consumption&#34;&gt;numastat to collect the memory consumption&lt;/h2&gt;
+&lt;p&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/p&gt;
+&lt;p&gt;$ numastat
+node0&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;numa_hit                 2419687
+
+numa_miss                      0
+
+numa_foreign                   0
+
+interleave_hit             17197
+
+local_node               2419687
+
+other_node                     0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Output items&lt;/p&gt;
+&lt;p&gt;numa_hit: The expected memory was successfully allocated on this node&lt;/p&gt;
+&lt;p&gt;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&lt;/p&gt;
+&lt;p&gt;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node&lt;/p&gt;
+&lt;p&gt;interleave_hit: Memory that is expected to be successfully interleaved on this node&lt;/p&gt;
+&lt;p&gt;local_node: The memory allocated on a node when a process is running on the node&lt;/p&gt;
+&lt;p&gt;other_node: The memory allocated when a process is running on another node&lt;/p&gt;
+&lt;p&gt;Parameters&lt;/p&gt;
+&lt;p&gt;-c： Based on the data content when the table shrinks the width of the column, the memory is rounded to megabytes, which is helpful for systems that display multiple NUMA nodes more densely&lt;/p&gt;
+&lt;p&gt;$ numastat -c&lt;/p&gt;
+&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
+&lt;p&gt;o	                    Node 0 Total&lt;/p&gt;
+&lt;p&gt;o	                    &amp;mdash;&amp;mdash; &amp;mdash;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;o	    Numa_Hit          1462  1462&lt;/p&gt;
+&lt;p&gt;o	    Numa_Miss            0     0&lt;/p&gt;
+&lt;p&gt;o	    Numa_Foreign         0     0&lt;/p&gt;
+&lt;p&gt;o	    Interleave_Hit      67    67&lt;/p&gt;
+&lt;p&gt;o	    Local_Node        1462  1462&lt;/p&gt;
+&lt;p&gt;o	    Other_Node           0     0&lt;/p&gt;
+&lt;p&gt;-m： Memory usage information is generated for each node&lt;/p&gt;
+&lt;p&gt;$ numastat -m&lt;/p&gt;
+&lt;p&gt;o	    Per-node system memory usage (in MBs):&lt;/p&gt;
+&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
+&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    MemTotal                 1992.20         1992.20&lt;/p&gt;
+&lt;p&gt;o	    MemFree                  1503.52         1503.52&lt;/p&gt;
+&lt;p&gt;o	    MemUsed                   488.67          488.67&lt;/p&gt;
+&lt;p&gt;o	    Active                    201.73          201.73&lt;/p&gt;
+&lt;p&gt;o	    Inactive                  193.01          193.01&lt;/p&gt;
+&lt;p&gt;o	    Active(anon)              111.65          111.65&lt;/p&gt;
+&lt;p&gt;o	    Inactive(anon)              5.83            5.83&lt;/p&gt;
+&lt;p&gt;o	    Active(file)               90.08           90.08&lt;/p&gt;
+&lt;p&gt;o	    Inactive(file)            187.18          187.18&lt;/p&gt;
+&lt;p&gt;o	    Unevictable                 0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    &amp;hellip;&lt;/p&gt;
+&lt;p&gt;-n：Display raw data statistics&lt;/p&gt;
+&lt;p&gt;$ numastat -n
+o	    Per-node numastat info (in MBs):&lt;/p&gt;
+&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
+&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    Numa_Hit                 1492.13         1492.13&lt;/p&gt;
+&lt;p&gt;o	    Numa_Miss                   0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Numa_Foreign                0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
+&lt;p&gt;o	    Local_Node               1492.13         1492.13&lt;/p&gt;
+&lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
+&lt;p&gt;-p：Displays memory allocation information for each node for the specified process&lt;/p&gt;
+&lt;p&gt;$ sudo numastat -p 1264&lt;/p&gt;
+&lt;p&gt;o	    Per-node process memory usage (in MBs) for PID 1264 (docker-containe)&lt;/p&gt;
+&lt;p&gt;o	                               Node 0           Total&lt;/p&gt;
+&lt;p&gt;o	                      &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    Huge                         0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Heap                         0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Stack                        2.14            2.14&lt;/p&gt;
+&lt;p&gt;o	    Private                      9.62            9.62&lt;/p&gt;
+&lt;p&gt;o	    &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-  &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    Total                       11.77           11.77&lt;/p&gt;
+&lt;p&gt;-s：Lists the largest memory consumers in descending order&lt;/p&gt;
+&lt;p&gt;o	$ numastat -s&lt;/p&gt;
+&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
+&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
+&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    Numa_Hit                 1514.71         1514.71&lt;/p&gt;
+&lt;p&gt;o	    Local_Node               1514.71         1514.71&lt;/p&gt;
+&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
+&lt;p&gt;o	    Numa_Foreign                0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Numa_Miss                   0.00            0.00&lt;/p&gt;
+&lt;p&gt;o	    Other_Node                  0.00            0.00&lt;/p&gt;
+&lt;p&gt;-v This displays the details&lt;/p&gt;
+&lt;p&gt;-s The value 0 is ignored&lt;/p&gt;
+&lt;p&gt;$ numastat -z&lt;/p&gt;
+&lt;p&gt;o	    Per-node numastat info (in MBs):&lt;/p&gt;
+&lt;p&gt;o	                              Node 0           Total&lt;/p&gt;
+&lt;p&gt;o	                     &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/p&gt;
+&lt;p&gt;o	    Numa_Hit                 1535.98         1535.98&lt;/p&gt;
+&lt;p&gt;o	    Interleave_Hit             67.20           67.20&lt;/p&gt;
+&lt;p&gt;o	    Local_Node               1535.98         1535.98&lt;/p&gt;
+&lt;p&gt;pcm-memory command to collect the bandwidth from hardware counters.&lt;/p&gt;
+&lt;h1 id=&#34;numa&#34;&gt;Numa&lt;/h1&gt;
+&lt;p&gt;NUMA (Non Uniform Memory Access Architecture) technology enables many servers to operate as a single system, while retaining the advantages of small systems that are easy to program and manage. Non-uniform Memory Access (NUMA) is a kind of computer memory design for multiprocessor. The memory access time depends on the memory location of the processor. Under NUMA, a processor can access its own local memory faster than non-local memory (the place of the memory to the processor or memory shared between another processor).&lt;/p&gt;
+&lt;h1 id=&#34;optane&#34;&gt;Optane&lt;/h1&gt;
+&lt;p&gt;Chinese name &amp;ldquo;Aoteng&amp;rdquo;, is a new ultra-high speed memory technology, compatible with NVMe storage protocol. Optane is compatible with the NVMe (Non-volatile memory) storage protocol, which Apple already uses in some of its Macbooks.&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
-      <link>https://github.com/braveoneone/jane/post/post20200922/</link>
+      <link>http://localhost:1313/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/post20200922/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/post20200922/</guid>
-      
-        <description>curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy</description>
+        <description>&lt;p&gt;curl cip.cc&lt;/p&gt;
+&lt;p&gt;MAC homebrew download failed and stuck in head&amp;hellip; .. ,&lt;/p&gt;
+&lt;p&gt;First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent.&lt;/p&gt;
+&lt;p&gt;Set up the terminal global agent command:&lt;/p&gt;
+&lt;p&gt;export http_proxy=http://127.0.0.1:1087;&lt;/p&gt;
+&lt;p&gt;export https_proxy=http://127.0.0.1:1087;&lt;/p&gt;
+&lt;p&gt;Cancel the proxy access command:&lt;/p&gt;
+&lt;p&gt;unset http_proxy&lt;/p&gt;
+&lt;p&gt;unset https_proxy&lt;/p&gt;
+&lt;p&gt;Set up a separate global proxy for git:&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global http.proxy 127.0.0.1:1088&lt;/p&gt;
+&lt;p&gt;View the proxy:&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;get http.proxy&lt;/p&gt;
+&lt;p&gt;git agent clearance&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset http.proxy&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/p&gt;
+&lt;p&gt;Warning: /usr/local/bin is not in your PATH.&lt;/p&gt;
+&lt;p&gt;Modify the environment variable configuration file&lt;/p&gt;
+&lt;p&gt;open ~/.bash_profile&lt;/p&gt;
+&lt;p&gt;export PATH=/usr/local/bin:$PATH&lt;/p&gt;
+&lt;p&gt;source ~/.bash_profile # updates the configured environment variables&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>https://github.com/braveoneone/jane/post/-gis1.1/</link>
+      <link>http://localhost:1313/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/-gis1.1/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/-gis1.1/</guid>
-      
-        <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/GIS11.pdf&#34; alt=&#34;Compilation of qgis2.14.11 —-WIN10&amp;#43;QT4&amp;#43;VS2010&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>GIS prototype system based on QGIS</title>
-      <link>https://github.com/braveoneone/jane/post/-gis1.2/</link>
+      <link>http://localhost:1313/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/-gis1.2/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/-gis1.2/</guid>
-      
-        <description>GIS prototype system based on QGIS </description>
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/GIS12.pdf&#34; alt=&#34;GIS prototype system based on QGIS&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>C compiler</title>
-      <link>https://github.com/braveoneone/jane/post/javacc/</link>
+      <link>http://localhost:1313/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/javacc/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/javacc/</guid>
-      
-        <description>C compiler </description>
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C compiler&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C compiler&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
-      <link>https://github.com/braveoneone/jane/post/mutilcpu/</link>
+      <link>http://localhost:1313/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <author>yiyiw96@outlook.com (Yiyi)</author>
+      <guid>http://localhost:1313/post/mutilcpu/</guid>
       
-      <guid>https://github.com/braveoneone/jane/post/mutilcpu/</guid>
-      
-        <description>Multi-cycle pipelined CPU hardware simulation </description>
+        <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation&lt;/a&gt;
+&lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;Multi-cycle pipelined CPU hardware simulation&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     

@@ -1,126 +1,126 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:51638/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/aboutme/</loc>
+    <loc>http://localhost:1313/post/aboutme/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/pythonimport/</loc>
+    <loc>http://localhost:1313/post/pythonimport/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/categories/notes/</loc>
+    <loc>http://localhost:1313/categories/notes/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/lintcode/</loc>
+    <loc>http://localhost:1313/post/lintcode/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/categories/projects/</loc>
+    <loc>http://localhost:1313/categories/projects/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/github-hugo/</loc>
+    <loc>http://localhost:1313/post/github-hugo/</loc>
     <lastmod>2022-09-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/post20200619/</loc>
+    <loc>http://localhost:1313/post/post20200619/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/categories/research/</loc>
+    <loc>http://localhost:1313/categories/research/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/post20200930/</loc>
+    <loc>http://localhost:1313/post/post20200930/</loc>
     <lastmod>2020-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/post20200922/</loc>
+    <loc>http://localhost:1313/post/post20200922/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/-gis1.1/</loc>
+    <loc>http://localhost:1313/post/-gis1.1/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/-gis1.2/</loc>
+    <loc>http://localhost:1313/post/-gis1.2/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/javacc/</loc>
+    <loc>http://localhost:1313/post/javacc/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/post/mutilcpu/</loc>
+    <loc>http://localhost:1313/post/mutilcpu/</loc>
     <lastmod>2017-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:51638/braveoneone/jane/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
