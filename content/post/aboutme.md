@@ -8,7 +8,10 @@ author: false
 ---
 ### About Me
 Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
-![Alt](https://braveoneone.github.io/me.jpeg#pic_center =400x400)
+<img src="https://braveoneone.github.io/me.jpeg"  align = "right"  width="400" />
+
+
+<!-- ![Alt](#pic_center =400x400) -->
 ### My Skills
 * Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL
 * Programming language - Conversationally fluent:  Matlab, Html, Javascript, CSS, PHP
