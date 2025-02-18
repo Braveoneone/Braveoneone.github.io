@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Yiyi Wang</title>
-    <link>yiyiwang.me/categories/research/</link>
+    <link>http://Braveoneone.github.io/categories/research/</link>
     <description>Recent content in Research on Yiyi Wang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>yiyiw96@outlook.com (Yiyi)</managingEditor>
     <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Sat, 19 Jun 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="yiyiwang.me/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://Braveoneone.github.io/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>yiyiwang.me/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>yiyiwang.me/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;&#xA;&lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;&#xA;&lt;p&gt;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&lt;/p&gt;&#xA;&lt;p&gt;DRAM: 192GB (12x 16GB DDR4 2666)&lt;/p&gt;&#xA;&lt;p&gt;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Optane configuration:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;(1)&#x9;AppDirect Mode&lt;/p&gt;&#xA;&lt;p&gt;Optane configuration:&lt;/p&gt;&#xA;&lt;p&gt;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&lt;/p&gt;&#xA;&lt;p&gt;Expose persistent memory to application:&lt;/p&gt;&#xA;&lt;p&gt;ipmctl create -namesapce (Fsdax mode)&lt;/p&gt;&#xA;&lt;p&gt;mkdir /mnt/pmemdir&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;mkfs.ext4 /dev/pmem{X.Y}&#xA;&#xA;mount -o dax /dev/pmem{X.Y} /mnt/pmemdir&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;(2)&#x9;DRAM-Only&lt;/p&gt;&#xA;&lt;p&gt;Optane configuration: ipmctl create -goal MemoryMode=100&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Spark configuration&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Workload:&lt;/p&gt;</description>
     </item>
     <item>
       <title>NUMA Tutorial</title>
-      <link>yiyiwang.me/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>yiyiwang.me/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       <description>&lt;h2 id=&#34;numastat-to-collect-the-memory-consumption&#34;&gt;numastat to collect the memory consumption&lt;/h2&gt;&#xA;&lt;p&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/p&gt;&#xA;&lt;p&gt;$ numastat&#xA;node0&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;numa_hit                 2419687&#xA;&#xA;numa_miss                      0&#xA;&#xA;numa_foreign                   0&#xA;&#xA;interleave_hit             17197&#xA;&#xA;local_node               2419687&#xA;&#xA;other_node                     0&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Output items&lt;/p&gt;&#xA;&lt;p&gt;numa_hit: The expected memory was successfully allocated on this node&lt;/p&gt;&#xA;&lt;p&gt;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&lt;/p&gt;&#xA;&lt;p&gt;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node&lt;/p&gt;</description>
     </item>
   </channel>

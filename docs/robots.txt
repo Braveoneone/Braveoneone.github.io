@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: yiyiwang.me/sitemap.xml
+Sitemap: http://Braveoneone.github.io/sitemap.xml

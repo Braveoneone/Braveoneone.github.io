@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yiyi Wang</title>
-    <link>http://localhost:52236/</link>
+    <link>http://Braveoneone.github.io/</link>
     <description>Recent content on Yiyi Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,15 +10,15 @@
     <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:52236/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:52236/post/aboutme/</link>
+      <link>http://Braveoneone.github.io/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/aboutme/</guid>
+      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
       
         <description>&lt;h4 id=&#34;about-me&#34;&gt;About me&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;  Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.&lt;/p&gt;
@@ -54,10 +54,10 @@
     
     <item>
       <title>MacOS: brew, pip, conda</title>
-      <link>http://localhost:52236/post/pythonimport/</link>
+      <link>http://Braveoneone.github.io/post/pythonimport/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/pythonimport/</guid>
+      <guid>http://Braveoneone.github.io/post/pythonimport/</guid>
       
         <description>&lt;h1 id=&#34;some-error-i-met-when-running-python-file-in-python-environment&#34;&gt;Some error I met when running python file in python environment&lt;/h1&gt;
 &lt;ul&gt;
@@ -79,10 +79,10 @@ The difference is that homebrew is a general package manager, so you can install
     
     <item>
       <title>LintCustomisation Generator</title>
-      <link>http://localhost:52236/post/lintcode/</link>
+      <link>http://Braveoneone.github.io/post/lintcode/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/lintcode/</guid>
+      <guid>http://Braveoneone.github.io/post/lintcode/</guid>
       
         <description>&lt;h1 id=&#34;implement-the-lint-detector-generator-by-myself&#34;&gt;Implement the Lint Detector Generator by myself&lt;/h1&gt;
 &lt;p&gt;build.gradle: regarding how to write your build.gradle in Android Studio&lt;/p&gt;
@@ -97,10 +97,10 @@ The difference is that homebrew is a general package manager, so you can install
     
     <item>
       <title>Github Page build Personal Website</title>
-      <link>http://localhost:52236/post/github-hugo/</link>
+      <link>http://Braveoneone.github.io/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/github-hugo/</guid>
+      <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       
         <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.
 Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;
@@ -120,10 +120,10 @@ Hugo is a static site generator written in Go that is optimized for speed, ease 
     
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://localhost:52236/post/post20200619/</link>
+      <link>http://Braveoneone.github.io/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/post20200619/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       
         <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;
 &lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;
@@ -154,10 +154,10 @@ mount -o dax /dev/pmem{X.Y} /mnt/pmemdir
     
     <item>
       <title>NUMA Tutorial</title>
-      <link>http://localhost:52236/post/post20200930/</link>
+      <link>http://Braveoneone.github.io/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/post20200930/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       
         <description>&lt;h2 id=&#34;numastat-to-collect-the-memory-consumption&#34;&gt;numastat to collect the memory consumption&lt;/h2&gt;
 &lt;p&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/p&gt;
@@ -184,10 +184,10 @@ other_node                     0
     
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
-      <link>http://localhost:52236/post/post20200922/</link>
+      <link>http://Braveoneone.github.io/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/post20200922/</guid>
+      <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       
         <description>&lt;p&gt;curl cip.cc&lt;/p&gt;
 &lt;p&gt;MAC homebrew download failed and stuck in head&amp;hellip; .. ,&lt;/p&gt;
@@ -203,10 +203,10 @@ other_node                     0
     
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>http://localhost:52236/post/-gis1.1/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/-gis1.1/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010&lt;/a&gt;
 &lt;img src=&#34;https://braveoneone.github.io/GIS11.pdf&#34; alt=&#34;Compilation of qgis2.14.11 —-WIN10&amp;#43;QT4&amp;#43;VS2010&#34;&gt;&lt;/p&gt;</description>
@@ -215,10 +215,10 @@ other_node                     0
     
     <item>
       <title>GIS prototype system based on QGIS</title>
-      <link>http://localhost:52236/post/-gis1.2/</link>
+      <link>http://Braveoneone.github.io/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/-gis1.2/</guid>
+      <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS&lt;/a&gt;
 &lt;img src=&#34;https://braveoneone.github.io/GIS12.pdf&#34; alt=&#34;GIS prototype system based on QGIS&#34;&gt;&lt;/p&gt;</description>
@@ -227,10 +227,10 @@ other_node                     0
     
     <item>
       <title>C compiler</title>
-      <link>http://localhost:52236/post/javacc/</link>
+      <link>http://Braveoneone.github.io/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/javacc/</guid>
+      <guid>http://Braveoneone.github.io/post/javacc/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C compiler&lt;/a&gt;
 &lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C compiler&#34;&gt;&lt;/p&gt;</description>
@@ -239,10 +239,10 @@ other_node                     0
     
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
-      <link>http://localhost:52236/post/mutilcpu/</link>
+      <link>http://Braveoneone.github.io/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       <author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52236/post/mutilcpu/</guid>
+      <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation&lt;/a&gt;
 &lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;Multi-cycle pipelined CPU hardware simulation&#34;&gt;&lt;/p&gt;</description>
