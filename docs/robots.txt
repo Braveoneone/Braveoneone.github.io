@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://github.com/braveoneone/jane/sitemap.xml
+Sitemap: yiyiwang.me/sitemap.xml
