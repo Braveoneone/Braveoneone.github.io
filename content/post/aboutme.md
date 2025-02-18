@@ -10,6 +10,7 @@ Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at 
 
 <img src="https://braveoneone.github.io/me.jpeg" alt="头像" style="width:50px; height:50px; float:right; border-radius:50%;">
 
+![头像](https://braveoneone.github.io/me.jpeg){ width=50 height=50 style="float:right; border-radius:50%;" }
 <!-- ![Alt](#pic_center =400x400) -->
 ### My Skills
 * Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL
