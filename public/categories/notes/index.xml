@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Yiyi Wang</title>
-    <link>http://localhost:52086/categories/notes/</link>
+    <link>http://localhost:52236/categories/notes/</link>
     <description>Recent content in Notes on Yiyi Wang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>yiyiw96@outlook.com (Yiyi)</managingEditor>
     <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52086/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:52236/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacOS: brew, pip, conda</title>
-      <link>http://localhost:52086/post/pythonimport/</link>
+      <link>http://localhost:52236/post/pythonimport/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52086/post/pythonimport/</guid>
+      <guid>http://localhost:52236/post/pythonimport/</guid>
       <description>&lt;h1 id=&#34;some-error-i-met-when-running-python-file-in-python-environment&#34;&gt;Some error I met when running python file in python environment&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Can‘t find model ‘en_core_web_sm‘.&#xA;python -m spacy download en_core_web_sm&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AttributeError: module ‘numpy‘ has no attribute ‘int‘&#xA;pip3 install numpy&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;for-brew-pip-conda&#34;&gt;For brew, pip, conda&lt;/h1&gt;&#xA;&lt;p&gt;The same thing is that they are all the package manager.&#xA;The difference is that homebrew is a general package manager, so you can install many packages using it.&lt;/p&gt;&#xA;&lt;p&gt;Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github Page build Personal Website</title>
-      <link>http://localhost:52086/post/github-hugo/</link>
+      <link>http://localhost:52236/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52086/post/github-hugo/</guid>
+      <guid>http://localhost:52236/post/github-hugo/</guid>
       <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.&#xA;Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;&#xA;&lt;h2 id=&#34;error-i-met&#34;&gt;error I met&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;error: Push some references to &amp;lsquo;github.com: &#39;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;solution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;error: You&amp;rsquo;ve added another git repository inside your current repository.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;solution:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
-      <link>http://localhost:52086/post/post20200922/</link>
+      <link>http://localhost:52236/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:52086/post/post20200922/</guid>
+      <guid>http://localhost:52236/post/post20200922/</guid>
       <description>&lt;p&gt;curl cip.cc&lt;/p&gt;&#xA;&lt;p&gt;MAC homebrew download failed and stuck in head&amp;hellip; .. ,&lt;/p&gt;&#xA;&lt;p&gt;First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent.&lt;/p&gt;&#xA;&lt;p&gt;Set up the terminal global agent command:&lt;/p&gt;&#xA;&lt;p&gt;export http_proxy=http://127.0.0.1:1087;&lt;/p&gt;&#xA;&lt;p&gt;export https_proxy=http://127.0.0.1:1087;&lt;/p&gt;&#xA;&lt;p&gt;Cancel the proxy access command:&lt;/p&gt;&#xA;&lt;p&gt;unset http_proxy&lt;/p&gt;&#xA;&lt;p&gt;unset https_proxy&lt;/p&gt;</description>
     </item>
   </channel>
