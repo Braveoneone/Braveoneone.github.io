@@ -8,7 +8,7 @@ author: false
 ---
 ### About Me
 Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
-![avatar](https://braveoneone.github.io/me.jpeg = 400x400)
+![Alt](https://braveoneone.github.io/me.jpeg#pic_center =400x400)
 ### My Skills
 * Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL
 * Programming language - Conversationally fluent:  Matlab, Html, Javascript, CSS, PHP
@@ -29,13 +29,9 @@ Email: guswanyie [AT] student dot gu dot se
 * [Multilingual generation and translation scripts](https://github.com/Braveoneone/computational_syntax)
 ### Undergraduate Projects:
 * [Multi-cycle pipelined CPU hardware simulation using Verilog HDL:](https://braveoneone.github.io/cpuVHDL.pdf)
-<!-- ![Multi-cycle pipelined CPU hardware simulation](https://braveoneone.github.io/cpuVHDL.pdf) -->
 * [Compilation of qgis2.14.11 ----WIN10+QT4+VS2010 using Cmake:](https://braveoneone.github.io/GIS11.pdf)
-<!-- ![Compilation of qgis2.14.11 ----WIN10+QT4+VS2010](https://braveoneone.github.io/GIS11.pdf) -->
 * [GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio:](https://braveoneone.github.io/GIS12.pdf)
-<!-- ![GIS prototype system based on QGIS](https://braveoneone.github.io/GIS12.pdf) -->
 * [C programming language compiler(subset) using JavaCC:](https://braveoneone.github.io/javacc.pdf)
-<!-- ![C compiler](https://braveoneone.github.io/javacc.pdf) -->
 ### Some useful notes on how to build and publish a personal website
-[Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
+* [Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
 
