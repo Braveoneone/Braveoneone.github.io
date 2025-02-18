@@ -5,14 +5,14 @@ comment: true
 mathjax: false
 ---
 
-### About me
+#### About me
 Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
 
 <img src="https://braveoneone.github.io/me.jpeg" alt="头像" style="width:50px; height:50px; float:right; border-radius:50%;">
 
 ![头像](https://braveoneone.github.io/me.jpeg){ width=50 height=50 style="float:right; border-radius:50%;" }
 <!-- ![Alt](#pic_center =400x400) -->
-### My Skills
+#### My Skills
 * Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL
 * Programming language - Conversationally fluent:  Matlab, Html, Javascript, CSS, PHP
 * Operation System: Windows, Linux, MacOS.
@@ -21,13 +21,13 @@ Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at 
 * [My GitHub](https://github.com/Braveoneone).
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
 
-### Work Project:
+#### Work Project:
 * [LintCustomisation Generator using Java](https://github.com/Braveoneone/LintCustomisation/tree/main)
-### Master Projects:
+#### Master Projects:
 * [Travel recommendation application based on Microsoft Azure](https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md)
 * [Spams detection in traditional machine learning algorithms and LLMs](https://github.com/Braveoneone/Machine-learning-for-statistical-NLP-Advanced-LT2326-LT2926/blob/main/Report%20LTR%20Yiyi%20Wang.pdf)
 * [Multilingual generation and translation scripts](https://github.com/Braveoneone/computational_syntax)
-### Undergraduate Projects:
+#### Undergraduate Projects:
 * [Multi-cycle pipelined CPU hardware simulation using Verilog HDL](https://braveoneone.github.io/cpuVHDL.pdf)
 * [Compilation of qgis2.14.11 ---WIN10+QT4+VS2010 using Cmake](https://braveoneone.github.io/GIS11.pdf)
 * [GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio](https://braveoneone.github.io/GIS12.pdf)
