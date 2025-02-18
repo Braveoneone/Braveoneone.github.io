@@ -3,8 +3,6 @@ weight: 50
 menu: "main"
 comment: true
 mathjax: false
-date: false
-author: false
 ---
 
 ### About me
