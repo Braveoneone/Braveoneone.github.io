@@ -21,17 +21,17 @@ Email: guswanyie [AT] student dot gu dot se
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
 
 ## Work Experience:
-* [LintCustomisation Generator using Java:](https://github.com/Braveoneone/LintCustomisation/tree/main)
+* [LintCustomisation Generator using Java](https://github.com/Braveoneone/LintCustomisation/tree/main)
 <!-- ![LintCustomisation Generator](https://github.com/Braveoneone/LintCustomisation/tree/main) -->
 ### Master Projects:
 * [Travel recommendation application based on Microsoft Azure](https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md)
 * [Spams detection in traditional machine learning algorithms and LLMs](https://github.com/Braveoneone/Machine-learning-for-statistical-NLP-Advanced-LT2326-LT2926/blob/main/Report%20LTR%20Yiyi%20Wang.pdf)
 * [Multilingual generation and translation scripts](https://github.com/Braveoneone/computational_syntax)
 ### Undergraduate Projects:
-* [Multi-cycle pipelined CPU hardware simulation using Verilog HDL:](https://braveoneone.github.io/cpuVHDL.pdf)
-* [Compilation of qgis2.14.11 ----WIN10+QT4+VS2010 using Cmake:](https://braveoneone.github.io/GIS11.pdf)
-* [GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio:](https://braveoneone.github.io/GIS12.pdf)
-* [C programming language compiler(subset) using JavaCC:](https://braveoneone.github.io/javacc.pdf)
+* [Multi-cycle pipelined CPU hardware simulation using Verilog HDL](https://braveoneone.github.io/cpuVHDL.pdf)
+* [Compilation of qgis2.14.11 ----WIN10+QT4+VS2010 using Cmake](https://braveoneone.github.io/GIS11.pdf)
+* [GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio](https://braveoneone.github.io/GIS12.pdf)
+* [C programming language compiler(subset) using JavaCC](https://braveoneone.github.io/javacc.pdf)
 ### Some useful notes on how to build and publish a personal website
 * [Github Page build Personal Website](https://braveoneone.github.io/post/github-hugo/)
 
