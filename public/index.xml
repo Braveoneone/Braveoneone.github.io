@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yiyi&#39;s personal website</title>
-    <link>http://localhost:51439/</link>
+    <link>http://localhost:51638/braveoneone/jane/</link>
     <description>Recent content on Yiyi&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:51439/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:51638/braveoneone/jane/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:51439/post/aboutme/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/aboutme/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/aboutme/</guid>
       
         <description>About me Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.
 My Skills Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL Programming language - Conversationally fluent: Matlab, Html, Javascript, CSS, PHP Operation System: Windows, Linux, MacOS.</description>
@@ -25,10 +25,10 @@ My Skills Programming language - Natively fluent: C, Java, C++, Python, SQL, SHE
     
     <item>
       <title>MacOS: brew, pip, conda</title>
-      <link>http://localhost:51439/post/pythonimport/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/pythonimport/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/pythonimport/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/pythonimport/</guid>
       
         <description>Some error I met when running python file in python environment Can‘t find model ‘en_core_web_sm‘. python -m spacy download en_core_web_sm
 AttributeError: module ‘numpy‘ has no attribute ‘int‘ pip3 install numpy
@@ -39,10 +39,10 @@ Pip, on the other hand, installs packages related to the python environment and 
     
     <item>
       <title>LintCustomisation Generator</title>
-      <link>http://localhost:51439/post/lintcode/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/lintcode/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/lintcode/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/lintcode/</guid>
       
         <description>Implement the Lint Detector Generator by myself build.gradle: regarding how to write your build.gradle in Android Studio
 CreatCodeDetector.java: implement generating the Method Detector automatically.
@@ -54,10 +54,10 @@ CodeReTemp.java: a custom code which modify the format of your detected java fil
     
     <item>
       <title>Github Page build Personal Website</title>
-      <link>http://localhost:51439/post/github-hugo/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/github-hugo/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/github-hugo/</guid>
       
         <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible
 error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:
@@ -67,10 +67,10 @@ git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git rep
     
     <item>
       <title>K-means in Spark realization task plan </title>
-      <link>http://localhost:51439/post/post20200619/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/post20200619/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/post20200619/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/post20200619/</guid>
       
         <description>K-means in Spark realization task plan
 K-means algorithm is provided by Spark
@@ -92,10 +92,10 @@ Data Size:</description>
     
     <item>
       <title>NUMA Tutorial</title>
-      <link>http://localhost:51439/post/post20200930/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/post20200930/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/post20200930/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/post20200930/</guid>
       
         <description>numastat to collect the memory consumption Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node
 $ numastat node0
@@ -108,10 +108,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
-      <link>http://localhost:51439/post/post20200922/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/post20200922/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/post20200922/</guid>
       
         <description>curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy</description>
       
@@ -119,10 +119,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
-      <link>http://localhost:51439/post/-gis1.1/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/-gis1.1/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/-gis1.1/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/-gis1.1/</guid>
       
         <description>Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010 </description>
       
@@ -130,10 +130,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>GIS prototype system based on QGIS</title>
-      <link>http://localhost:51439/post/-gis1.2/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/-gis1.2/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/-gis1.2/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/-gis1.2/</guid>
       
         <description>GIS prototype system based on QGIS </description>
       
@@ -141,10 +141,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>C compiler</title>
-      <link>http://localhost:51439/post/javacc/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/javacc/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/javacc/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/javacc/</guid>
       
         <description>C compiler </description>
       
@@ -152,10 +152,10 @@ numa_foreign: The memory for the new node is actually allocated to other nodes, 
     
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
-      <link>http://localhost:51439/post/mutilcpu/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/mutilcpu/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:51439/post/mutilcpu/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/mutilcpu/</guid>
       
         <description>Multi-cycle pipelined CPU hardware simulation </description>
       

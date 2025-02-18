@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Yiyi&#39;s personal website</title>
-    <link>http://localhost:51439/categories/notes/</link>
+    <link>http://localhost:51638/braveoneone/jane/categories/notes/</link>
     <description>Recent content in Notes on Yiyi&#39;s personal website</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51439/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51638/braveoneone/jane/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacOS: brew, pip, conda</title>
-      <link>http://localhost:51439/post/pythonimport/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/pythonimport/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51439/post/pythonimport/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/pythonimport/</guid>
       <description>Some error I met when running python file in python environment Can‘t find model ‘en_core_web_sm‘. python -m spacy download en_core_web_sm&#xA;AttributeError: module ‘numpy‘ has no attribute ‘int‘ pip3 install numpy&#xA;For brew, pip, conda The same thing is that they are all the package manager. The difference is that homebrew is a general package manager, so you can install many packages using it.&#xA;Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.</description>
     </item>
     <item>
       <title>Github Page build Personal Website</title>
-      <link>http://localhost:51439/post/github-hugo/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/github-hugo/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51439/post/github-hugo/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/github-hugo/</guid>
       <description>GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository. Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&#xA;error I met error: Push some references to &amp;lsquo;github.com: &#39; solution:&#xA;git commit -m &amp;quot;&amp;quot; error: You&amp;rsquo;ve added another git repository inside your current repository.</description>
     </item>
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
-      <link>http://localhost:51439/post/post20200922/</link>
+      <link>http://localhost:51638/braveoneone/jane/post/post20200922/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51439/post/post20200922/</guid>
+      <guid>http://localhost:51638/braveoneone/jane/post/post20200922/</guid>
       <description>curl cip.cc MAC homebrew download failed and stuck in head&amp;hellip; .. , First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent. Set up the terminal global agent command: export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087; Cancel the proxy access command: unset http_proxy</description>
     </item>
   </channel>
