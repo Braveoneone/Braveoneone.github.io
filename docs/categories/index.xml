@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yiyi Wang</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://github.com/braveoneone/jane/categories/</link>
     <description>Recent content in Categories on Yiyi Wang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>yiyiw96@outlook.com (Yiyi)</managingEditor>
     <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/braveoneone/jane/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes</title>
-      <link>http://localhost:1313/categories/notes/</link>
+      <link>https://github.com/braveoneone/jane/categories/notes/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:1313/categories/notes/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/categories/projects/</link>
+      <link>https://github.com/braveoneone/jane/categories/projects/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:1313/categories/projects/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/categories/research/</link>
+      <link>https://github.com/braveoneone/jane/categories/research/</link>
       <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
-      <guid>http://localhost:1313/categories/research/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/research/</guid>
       <description></description>
     </item>
   </channel>
