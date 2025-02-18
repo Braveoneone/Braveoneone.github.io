@@ -17,8 +17,6 @@ Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at 
 * Operation System: Windows, Linux, MacOS.
 * IDEA: Android Studio, IntelliJ IDEA, QT Creator, Eclipse, Visual Studio, Vscode, Jupyter Notebook
 * Other Skills: SVN, PgAdmin, Tomcat, Node.js, Cmake, Git, Gitlab, Azure, Xstate, Flutter, Google Cloud
-
-Email: guswanyie [AT] student dot gu dot se
 * [My GitHub](https://github.com/Braveoneone).
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
 
