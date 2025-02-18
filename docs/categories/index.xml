@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yiyi&#39;s personal website</title>
-    <link>http://Braveoneone.github.io/categories/</link>
+    <link>https://github.com/braveoneone/jane/categories/</link>
     <description>Recent content in Categories on Yiyi&#39;s personal website</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://Braveoneone.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/braveoneone/jane/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes</title>
-      <link>http://Braveoneone.github.io/categories/notes/</link>
+      <link>https://github.com/braveoneone/jane/categories/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://Braveoneone.github.io/categories/notes/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://Braveoneone.github.io/categories/projects/</link>
+      <link>https://github.com/braveoneone/jane/categories/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://Braveoneone.github.io/categories/projects/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://Braveoneone.github.io/categories/research/</link>
+      <link>https://github.com/braveoneone/jane/categories/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://Braveoneone.github.io/categories/research/</guid>
+      <guid>https://github.com/braveoneone/jane/categories/research/</guid>
       <description></description>
     </item>
   </channel>

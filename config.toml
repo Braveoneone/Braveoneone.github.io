@@ -5,7 +5,7 @@
 
 #本地环境测试用
 #baseURL = "http://localhost:1313/"   
-baseURL = "http://Braveoneone.github.io/"   
+baseURL = "https://github.com/braveoneone/jane"   
 title = "Yiyi's personal website"
 enableRobotsTXT = true
 enableEmoji = true
