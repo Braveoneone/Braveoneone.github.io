@@ -1,12 +1,11 @@
 ---
 weight: 50
 menu: "main"
-comment: true
-mathjax: false
+hide_meta: true
 ---
 
 #### About me
-Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University. ![Avatar](https://braveoneone.github.io/me.jpeg)
+![Avatar](https://braveoneone.github.io/me.jpeg)  Hi everyone, I'm Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I'm interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University. 
 <!-- ![Alt](#pic_center =400x400) -->
 #### My Skills
 * Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL
