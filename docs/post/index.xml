@@ -6,84 +6,82 @@
     <description>Recent content in Posts on Yiyi Wang</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>yiyiw96@outlook.com (Yiyi)</managingEditor>
-    <webMaster>yiyiw96@outlook.com (Yiyi)</webMaster>
     <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://Braveoneone.github.io/post/aboutme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/aboutme/</guid>
-      <description>&lt;h4 id=&#34;about-me&#34;&gt;About me&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;  Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.&lt;/p&gt;&#xA;&lt;h4 id=&#34;my-skills&#34;&gt;My Skills&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programming language - Natively fluent: C, Java, C++, Python, SQL, SHELL&lt;/li&gt;&#xA;&lt;li&gt;Programming language - Conversationally fluent:  Matlab, Html, Javascript, CSS, PHP&lt;/li&gt;&#xA;&lt;li&gt;Operation System: Windows, Linux, MacOS.&lt;/li&gt;&#xA;&lt;li&gt;IDEA: Android Studio, IntelliJ IDEA, QT Creator, Eclipse, Visual Studio, Vscode, Jupyter Notebook&lt;/li&gt;&#xA;&lt;li&gt;Other Skills: SVN, PgAdmin, Tomcat, Node.js, Cmake, Git, Gitlab, Azure, Xstate, Flutter, Google Cloud&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone&#34;&gt;My GitHub&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/yiyi-wang-0551b7179/&#34;&gt;My Linkdin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;work-project&#34;&gt;Work Project:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34;&gt;LintCustomisation Generator using Java&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;master-projects&#34;&gt;Master Projects:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md&#34;&gt;Travel recommendation application based on Microsoft Azure&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/Machine-learning-for-statistical-NLP-Advanced-LT2326-LT2926/blob/main/Report%20LTR%20Yiyi%20Wang.pdf&#34;&gt;Spams detection in traditional machine learning algorithms and LLMs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/computational_syntax&#34;&gt;Multilingual generation and translation scripts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;undergraduate-projects&#34;&gt;Undergraduate Projects:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation using Verilog HDL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;WIN10+QT4+VS2010 using Cmake&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C programming language compiler(subset) using JavaCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h3 id=&#34;about-me&#34;&gt;About me&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;  Hi everyone, I&amp;rsquo;m Yiyi Wang, a master student majoring in Language Technology at University of Gothenburg. I&amp;rsquo;m interested in natural language processing especially on code generation from Large Language Models. I got my B.Eng in Computer Science and Technology at School of Computer Science, Wuhan University.&lt;/p&gt;&#xA;&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;&#xA;&lt;h6 id=&#34;beng-in-computer-science-and-technology-2019-wuhan-university&#34;&gt;B.Eng in Computer Science and Technology (2019) &amp;ndash;Wuhan University&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GPA: 3.73/4.0&lt;/li&gt;&#xA;&lt;li&gt;Honor: Outstanding Undergraduate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;ma-in-language-technology-2025-university-of-gothenburg&#34;&gt;MA in Language Technology (2025) &amp;ndash;University of Gothenburg&lt;/h6&gt;&#xA;&lt;h3 id=&#34;skills&#34;&gt;Skills&lt;/h3&gt;&#xA;&lt;h6 id=&#34;programming-language---natively-fluent&#34;&gt;Programming language - Natively fluent:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C, Java, C++, Python, SQL, SHELL&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;programming-language---conversationally-fluent&#34;&gt;Programming language - Conversationally fluent:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Typescript, Dart, Flutter, Matlab, Html, Javascript, CSS, PHP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;others&#34;&gt;Others:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Operation System: Windows, Linux, MacOS.&lt;/li&gt;&#xA;&lt;li&gt;IDEA: Android Studio, IntelliJ IDEA, QT Creator, Eclipse, Visual Studio, Vscode, Jupyter Notebook&lt;/li&gt;&#xA;&lt;li&gt;Other Skills: SVN, PgAdmin, Tomcat, Node.js, Cmake, Git, Gitlab, Azure, Xstate, Google Cloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;projects--click-the-title-directing-to-project-details&#34;&gt;Projects &amp;mdash; Click the title directing to project details&lt;/h3&gt;&#xA;&lt;h6 id=&#34;work-project&#34;&gt;Work Project:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34;&gt;LintCustomisation Generator using Java&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;master-projects&#34;&gt;Master Projects:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md&#34;&gt;Travel recommendation implemented with NLG and NLU based on Microsoft Azure&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/Machine-learning-for-statistical-NLP-Advanced-LT2326-LT2926/blob/main/Report%20LTR%20Yiyi%20Wang.pdf&#34;&gt;Spams detection in traditional machine learning algorithms and LLMs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone/computational_syntax&#34;&gt;Multilingual generation and translation scripts from Engish to Chinese&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;undergraduate-projects&#34;&gt;Undergraduate Projects:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation using Verilog HDL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;WIN10+QT4+VS2010 using Cmake&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS using C++, QT4, QGIS on visual studio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C programming language compiler(subset) using JavaCC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h6 id=&#34;links&#34;&gt;Links:&lt;/h6&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Braveoneone&#34;&gt;My GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/yiyi-wang-0551b7179/&#34;&gt;My Linkdin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>MacOS: brew, pip, conda</title>
       <link>http://Braveoneone.github.io/post/pythonimport/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/pythonimport/</guid>
       <description>&lt;h1 id=&#34;some-error-i-met-when-running-python-file-in-python-environment&#34;&gt;Some error I met when running python file in python environment&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Can‘t find model ‘en_core_web_sm‘.&#xA;python -m spacy download en_core_web_sm&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AttributeError: module ‘numpy‘ has no attribute ‘int‘&#xA;pip3 install numpy&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;for-brew-pip-conda&#34;&gt;For brew, pip, conda&lt;/h1&gt;&#xA;&lt;p&gt;The same thing is that they are all the package manager.&#xA;The difference is that homebrew is a general package manager, so you can install many packages using it.&lt;/p&gt;&#xA;&lt;p&gt;Pip, on the other hand, installs packages related to the python environment and provides a virtual python environment similar to virtualenv.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LintCustomisation Generator</title>
       <link>http://Braveoneone.github.io/post/lintcode/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/lintcode/</guid>
       <description>&lt;h1 id=&#34;implement-the-lint-detector-generator-by-myself&#34;&gt;Implement the Lint Detector Generator by myself&lt;/h1&gt;&#xA;&lt;p&gt;build.gradle: regarding how to write your build.gradle in Android Studio&lt;/p&gt;&#xA;&lt;p&gt;CreatCodeDetector.java: implement generating the Method Detector automatically.&lt;/p&gt;&#xA;&lt;p&gt;ExampleMethodDetector.java: an example of Detector generated by CreatCodeDetector.java.&lt;/p&gt;&#xA;&lt;p&gt;CreatRegistry.java: implement generating the Issue Registry automatically.&lt;/p&gt;&#xA;&lt;p&gt;CodeReTemp.java: a custom code which modify the format of your detected java files. Make it easier to get the java files in project and generate the code. Depends on what kind of names of your java files.&#xA;&lt;a href=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34;&gt;LintCustomisation Generator&lt;/a&gt;&#xA;&lt;img src=&#34;https://github.com/Braveoneone/LintCustomisation/tree/main&#34; alt=&#34;LintCustomisation Generator&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github Page build Personal Website</title>
       <link>http://Braveoneone.github.io/post/github-hugo/</link>
-      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/github-hugo/</guid>
       <description>&lt;p&gt;GitHub Pages is a static site hosting service that hosts a person, organization, or project&amp;rsquo;s pages directly in a GitHub repository or repository.&#xA;Hugo is a static site generator written in Go that is optimized for speed, ease of use, and configurability. It&amp;rsquo;s fast and flexible&lt;/p&gt;&#xA;&lt;h2 id=&#34;error-i-met&#34;&gt;error I met&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;error: Push some references to &amp;lsquo;github.com: &#39;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;solution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;error: You&amp;rsquo;ve added another git repository inside your current repository.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;solution:&lt;/p&gt;</description>
     </item>
     <item>
       <title>K-means in Spark realization task plan </title>
       <link>http://Braveoneone.github.io/post/post20200619/</link>
-      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/post20200619/</guid>
       <description>&lt;p&gt;K-means in Spark realization task plan&lt;/p&gt;&#xA;&lt;p&gt;K-means algorithm is provided by Spark&lt;/p&gt;&#xA;&lt;p&gt;(in examples/src/main/scala/org/apache/spark/examples/mllib/KMeanExample.scala)&lt;/p&gt;&#xA;&lt;p&gt;DRAM: 192GB (12x 16GB DDR4 2666)&lt;/p&gt;&#xA;&lt;p&gt;Intel Optane DC Persistent Memory: 1.4TB (12x 126GB)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Optane configuration:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;(1)&#x9;AppDirect Mode&lt;/p&gt;&#xA;&lt;p&gt;Optane configuration:&lt;/p&gt;&#xA;&lt;p&gt;ipmctl create -goal PersistentMemoryType=AppDirectNotInterleaved&lt;/p&gt;&#xA;&lt;p&gt;Expose persistent memory to application:&lt;/p&gt;&#xA;&lt;p&gt;ipmctl create -namesapce (Fsdax mode)&lt;/p&gt;&#xA;&lt;p&gt;mkdir /mnt/pmemdir&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;mkfs.ext4 /dev/pmem{X.Y}&#xA;&#xA;mount -o dax /dev/pmem{X.Y} /mnt/pmemdir&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;(2)&#x9;DRAM-Only&lt;/p&gt;&#xA;&lt;p&gt;Optane configuration: ipmctl create -goal MemoryMode=100&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Spark configuration&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Workload:&lt;/p&gt;</description>
     </item>
     <item>
       <title>NUMA Tutorial</title>
       <link>http://Braveoneone.github.io/post/post20200930/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/post20200930/</guid>
       <description>&lt;h2 id=&#34;numastat-to-collect-the-memory-consumption&#34;&gt;numastat to collect the memory consumption&lt;/h2&gt;&#xA;&lt;p&gt;Displays Memory statistics for each NUMA(Non-Uniform Memory Architecture) node&lt;/p&gt;&#xA;&lt;p&gt;$ numastat&#xA;node0&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;numa_hit                 2419687&#xA;&#xA;numa_miss                      0&#xA;&#xA;numa_foreign                   0&#xA;&#xA;interleave_hit             17197&#xA;&#xA;local_node               2419687&#xA;&#xA;other_node                     0&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Output items&lt;/p&gt;&#xA;&lt;p&gt;numa_hit: The expected memory was successfully allocated on this node&lt;/p&gt;&#xA;&lt;p&gt;numa_miss: Memory is allocated on this node, but the process uses a different node. Each numa_miss has a numa_foreign on another node&lt;/p&gt;&#xA;&lt;p&gt;numa_foreign: The memory for the new node is actually allocated to other nodes, and each numa_foreign has a numa_miss on another node&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to judge if the terminal is proxying on MacOS</title>
       <link>http://Braveoneone.github.io/post/post20200922/</link>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/post20200922/</guid>
       <description>&lt;p&gt;curl cip.cc&lt;/p&gt;&#xA;&lt;p&gt;MAC homebrew download failed and stuck in head&amp;hellip; .. ,&lt;/p&gt;&#xA;&lt;p&gt;First of all, common shit g enters usr/local and finds that there is a home-brew folder. After deleting the folder, use the download command. The download discovery is very slow because the terminal is not set as a global agent.&lt;/p&gt;&#xA;&lt;p&gt;Set up the terminal global agent command:&lt;/p&gt;&#xA;&lt;p&gt;export http_proxy=http://127.0.0.1:1087;&lt;/p&gt;&#xA;&lt;p&gt;export https_proxy=http://127.0.0.1:1087;&lt;/p&gt;&#xA;&lt;p&gt;Cancel the proxy access command:&lt;/p&gt;&#xA;&lt;p&gt;unset http_proxy&lt;/p&gt;&#xA;&lt;p&gt;unset https_proxy&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compilation of qgis2.14.11 ----WIN10&#43;QT4&#43;VS2010</title>
       <link>http://Braveoneone.github.io/post/-gis1.1/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/-gis1.1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS11.pdf&#34;&gt;Compilation of qgis2.14.11 &amp;mdash;-WIN10+QT4+VS2010&lt;/a&gt;&#xA;&lt;img src=&#34;https://braveoneone.github.io/GIS11.pdf&#34; alt=&#34;Compilation of qgis2.14.11 —-WIN10&amp;#43;QT4&amp;#43;VS2010&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>GIS prototype system based on QGIS</title>
       <link>http://Braveoneone.github.io/post/-gis1.2/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/-gis1.2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/GIS12.pdf&#34;&gt;GIS prototype system based on QGIS&lt;/a&gt;&#xA;&lt;img src=&#34;https://braveoneone.github.io/GIS12.pdf&#34; alt=&#34;GIS prototype system based on QGIS&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>C compiler</title>
       <link>http://Braveoneone.github.io/post/javacc/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/javacc/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/javacc.pdf&#34;&gt;C compiler&lt;/a&gt;&#xA;&lt;img src=&#34;https://braveoneone.github.io/javacc.pdf&#34; alt=&#34;C compiler&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multi-cycle pipelined CPU hardware simulation</title>
       <link>http://Braveoneone.github.io/post/mutilcpu/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate><author>yiyiw96@outlook.com (Yiyi)</author>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       <guid>http://Braveoneone.github.io/post/mutilcpu/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34;&gt;Multi-cycle pipelined CPU hardware simulation&lt;/a&gt;&#xA;&lt;img src=&#34;https://braveoneone.github.io/cpuVHDL.pdf&#34; alt=&#34;Multi-cycle pipelined CPU hardware simulation&#34;&gt;&lt;/p&gt;</description>
     </item>
