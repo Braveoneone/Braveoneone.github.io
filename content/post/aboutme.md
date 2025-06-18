@@ -1,5 +1,5 @@
 ---
-weight: 50
+weight: 10
 menu: "main"
 hide_meta: true
 ---

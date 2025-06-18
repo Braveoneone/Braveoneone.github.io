@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-
+# 20250619 取消了rss icon
 #本地环境测试用
 #baseURL = "http://localhost:1313/"   
 baseURL = "http://Braveoneone.github.io"   
