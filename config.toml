@@ -6,7 +6,7 @@
 #本地环境测试用
 #baseURL = "http://localhost:1313/"   
 baseURL = "http://Braveoneone.github.io"   
-title = "Yiyi's personal website"
+title = "Yiyi Wang"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -44,11 +44,11 @@ defaultContentLanguage = "en"           # Default language to use
 #   weight = 30
 #   identifier = "tags"
 #   url = "/tags/"
-[[menu.main]]
-  name = "Projects&&Notes"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
+# [[menu.main]]
+#   name = "Projects&&Notes"
+#   weight = 40
+#   identifier = "categories"
+#   url = "/categories/"
 # [[menu.main]]
 #   name = "external-link"
 #   weight = 50
@@ -60,7 +60,7 @@ defaultContentLanguage = "en"           # Default language to use
   homeFullContent = true   # if false, show post summaries on home page. Otherwise show full content.
   #rssFullContent = false     # if false, Rss feed instead of the summary
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Yiyi's personal website"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "Yiyi Wang"        # default: the title value    # 默认值: 上面设置的title值
   #keywords = ["Hugo", "theme","jane"]
   #description = "Hugo theme jane example site."
   
