@@ -5,7 +5,7 @@ hide_meta: true
 ---
 
 ### About me
-![Avatar](https://braveoneone.github.io/me.jpeg)  Hi everyone, I'm Yiyi Wang, a Ph.D. student in University of South Florida. Currently, I am in Pi Lab, under the supervision of Prof. [Jiajun Huang](https://jiajunhuang1999.github.io). I got my bachelor degree in Computer Science and Technology at School of Computing, Wuhan University. I got my master degree in Language Technology at University of Gothenburg.
+![Avatar](https://braveoneone.github.io/me.jpeg)  Hi everyone, I'm Yiyi Wang, a Ph.D. student in University of South Florida. Currently, I am in **Pi Lab**, under the supervision of Prof. [Jiajun Huang](https://jiajunhuang1999.github.io). I got my bachelor degree in Computer Science and Technology at School of Computing, Wuhan University. I got my master degree in Language Technology at University of Gothenburg.
 
 ### Education
 ###### B.Eng in Computer Science and Technology (2019) --Wuhan University
