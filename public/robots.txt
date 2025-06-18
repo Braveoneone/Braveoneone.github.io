@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://localhost:53444/sitemap.xml
+Sitemap: http://Braveoneone.github.io/sitemap.xml
