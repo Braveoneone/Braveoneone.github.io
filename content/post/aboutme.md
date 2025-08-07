@@ -18,9 +18,6 @@ Hi everyone, I'm Yiyi Wang, a Ph.D. student in Computer Science & Engineering at
 **Master Project --Independent**
 * [Travel recommendation implemented with NLG and NLU based on Microsoft Azure](https://github.com/Braveoneone/final-project-dialogue-system2/blob/main/README.md)
 
-**Undergraduate Project --Independent**
-* [Multi-cycle pipelined CPU hardware simulation using Verilog HDL](https://braveoneone.github.io/cpuVHDL.pdf)
-
 **Links**
 * [My GitHub](https://github.com/Braveoneone) 
 * [My Linkdin](https://www.linkedin.com/in/yiyi-wang-0551b7179/)
