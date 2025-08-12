@@ -13,7 +13,11 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 disqusShortname = ""      # disqus_shortname
 #googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
-
+# yijane 启用原生html
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [pagination]
   pagerSize = 1           # Number of articles displayed on the homepage  # 首页每页显示的文章数
 
