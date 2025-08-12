@@ -22,16 +22,16 @@ hide_meta: true
 <h3 style="font-family: Georgia, 'Times New Roman', serif; line-height: 1.5; color: #333;font-style: italic;"> Highlight Projects </h3>
 <h4 style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic;">Master Thesis (Independent)</h4>
 <p style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic">
-  --Student Intern in <a href="https://sinch.com">Sinch</a>
+Student Intern in <a href="https://sinch.com">Sinch</a>
 </p>
 <!-- --Student Intern in [Sinch](https://sinch.com) -->
-<p style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic">
-Prompt strategy on the code generation by LLMs (Master Thesis Pass with Distinction)
-</p>
+<ul style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic;">
+ <li>Prompt strategy on the code generation by LLMs (Master Thesis Pass with Distinction)</li>
+</ul> 
 
 <h4 style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic;">Work Project (Independent)</h4>
 <p style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic">
-  --Software Engineer
+Software Engineer
 </p>
 <ul style="font-family: Georgia, 'Times New Roman', serif; font-size: 1rem; line-height: 1.5; color: #333;font-style: italic;">
  <li><a href="https://github.com/Braveoneone/LintCustomisation/tree/main">LintCustomisation Generator using Java</a></li>
