@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yiyi Wang</title>
-    <link>http://Braveoneone.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Yiyi Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-        <atom:link href="http://Braveoneone.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://Braveoneone.github.io/post/aboutme/</link>
+      <link>http://localhost:1313/post/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
+      <guid>http://localhost:1313/post/aboutme/</guid>
       
         <description>&lt;h1 style=&#34;font-family: Georgia, &#39;Times New Roman&#39;, serif; line-height: 1.6; color: #ff6600;font-style: italic;&#34;&gt;About me&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;
