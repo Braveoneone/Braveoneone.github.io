@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yiyi Wang</title>
+    <link>http://Braveoneone.github.io/post/</link>
+    <description>Recent content in Posts on Yiyi Wang</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://Braveoneone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://Braveoneone.github.io/post/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://Braveoneone.github.io/post/aboutme/</guid>
+      <description>&lt;h1 style=&#34;font-family: Georgia, &#39;Times New Roman&#39;, serif; line-height: 1.6; color: #ff6600;font-style: italic;&#34;&gt;About me&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://braveoneone.github.io/me.jpeg&#34; alt=&#34;Avatar&#34;&gt;&#xA;&lt;!-- Hi everyone, I&#39;m Yiyi Wang, a Ph.D. student in Computer Science &amp; Engineering at University of South Florida. &#xA;Currently, I am in **Pi Lab**, under the supervision of Prof. &#xA;[Jiajun Huang](https://jiajunhuang1999.github.io).&#xA;I got my bachelor degree in Computer Science and Technology at Wuhan University. &#xA;I got my master degree in Language Technology at University of Gothenburg. --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
